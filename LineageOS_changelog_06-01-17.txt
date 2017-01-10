@@ -1,0 +1,118 @@
+
+project build/
+8022369 build: Replace pushd with cd
+d79ef4b lunch: Use cd - instead of popd
+382cef5 envsetup: Tweak nested executed commands
+557a76d envsetup: Combine nested else; if into elif in check_product()
+916c88c build: core: Rebrand CM_VERSION to LINEAGE_VERSION
+c26742d build: support lineage device trees
+4243fcc core: finish using PRIVATE_RECOVERY_OUT rather than hard-coding "RECOVERY"
+e8c5197 Revert "Revert "Revert "Add PRODUCT_BOOTANIMATION"""
+
+project device/asus/Z00ED/
+5fa0514 rebrand to Lineage
+7d0f454 remove cmupdater overlay
+
+project device/asus/Z00RD/
+c687943 rebrand to Lineage
+ddde732 overlay : update battery capacity
+
+project device/asus/Z010D/
+05473b4 rebrand to Lineage
+6e73274 remove cmupdater overlay
+947cc68 remove software base encryption
+1f70031 remove sensors & keylout leftover
+
+project device/asus/msm8916-common/
+6be0a5f don't build qcom keystore for now
+45c46a9 re-add keymaster symlink
+53576c6 import keymaster from CAF
+
+project external/zlib/
+b666691 Revert "Upgrade to zlib 1.2.10."
+b934bc0 Upgrade to zlib 1.2.10.
+
+project frameworks/base/
+541286d base: lineage adb icon
+fabef15 Telephony: Don't crash for too long baseband version
+
+project frameworks/opt/telephony/
+0663988 SubscriptionController: Make sure cis are not null
+
+project hardware/qcom/audio-caf/msm8916/
+3790d0e Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.10' into cm-14.1-caf-8916
+
+project hardware/qcom/display-caf/msm8916/
+eda3b27 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.10' into cm-14.1-caf-8916
+
+project hardware/qcom/display-caf/msm8996/
+12980ba hwc2: Only set display_width and display_height when equal to zero
+420f0a1 hwc2: Handle empty lists in AcceptDisplayChanges
+46ff2a6 msm8996: hwc2: check for null layers in layer map
+bb2d518 hwc2 : Fix layer updating flag
+db11764 gralloc: Return an error if the buffer was not mapped
+b6284a2 Revert "Revert "gralloc: Default to 601 color space""
+3a95498 hwc2: Workaround use after free by surfaceflinger
+b2ba26f hwc2: Update composition types on AcceptDisplayChanges
+8ad5b82 Revert "gralloc: Default to 601 color space"
+4845057 gralloc: Disable UBWC for writeback buffers
+f2225c8 hwc2: Initialize color mode to native
+6b50329 hwc2 : Allow only top most cursor layer
+57f81b6 Revert "gralloc: Return an error if the buffer was not mapped"
+7a794ad hwc2: Fix solid fill
+1cff9c5 sdm:hwc2: Store higher order mode id in case of clash
+4fddd51 gralloc: Return an error if the buffer was not mapped
+4c94a81 hwc2: Fix retire fences
+d0b819c hwc2: Always store a release fence if a layer is presented
+47fb16d hwc2: Use current frames retire fence only for the primary
+81b1d0b 8996/HWC2: Return this frame's retire fence
+c71ad4a hwc2: Remove default mode application at boot.
+74c49b7 hwc2: Support HWC2_CAPABILITY_SKIP_CLIENT_COLOR_TRANSFORM
+2b80b32 Merge tag 'LA.UM.5.5.r1-02200-8x96.0' of git://codeaurora.org/platform/hardware/qcom/display into caf
+
+project hardware/qcom/media-caf/msm8916/
+4c3361b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.10' into cm-14.1-caf-8916
+
+project kernel/asus/msm8916/
+e0eae93 config : simplified & build f2fs
+130a3e1 f2fs: introduce max_file_blocks in sbi
+6118cc7 f2fs: add a max block check for get_data_block_bmap
+1547e2b f2fs: Add a ioctl to disable garbage collection
+579cbee f2fs: set f2fs garbage collection thread as freezable
+fb7b396 Merge Motorola motorola-kernel f2fs driver
+9338095 staging/prima : update to caf/LA.BR.1.2.9_rb1.10
+
+project packages/apps/CMParts/
+39b775a CMParts: bugreport_in_power_menu lives in Global Settings
+ebd042e CMParts: Add UPDATE_POWER_MENU protected-broadcast
+20ae503 CMParts: remove unused weather toggle for statusbar
+a34d3e5 CMParts: Properly fix auto-power-save string format exception
+
+project packages/apps/Settings/
+1f4bc69 Settings: Set root access options appropriately
+
+project packages/apps/Snap/
+3f92dde Snap: Remove storage menu if no external storage available
+da58793 Add PREVENT_POWER_KEY to fix Crash when using 'Power Shutter'
+
+project packages/services/Telecomm/
+9d6a21f Telecomm: Fix error due to protected broadcast
+
+project packages/services/Telephony/
+0e904e4 Telephony: Further improve network selection
+be0e1a4 Telephony: Improve NetworkSelection
+
+project vendor/asus/
+b9fc24c use drm blob from themuppets/yu/lettuce
+edd127f Revert "Z00ED/Z00RD : use prebuilt keystore"
+
+project vendor/cm/
+ed8c248 envsetup: Fix check for deprecated CM device tree
+321dde5 cm: Rebrand CM_VERSION to LINEAGE_VERSION
+0a656b6 tools: getb64key - print the base64 version of a PEM public key file
+8d0369c vendor: Add a task for getting prebuilts via http
+2199e55 cm: Remove root access prop
+63ce74b cm: support lineage device trees
+63c9392 Revert "contributors: add LG V10"
+72313ad vendor: cm: Add some more BQ maintainers/devices
+5d8bdc3 cm: Switch to LineageOS privacy policy
