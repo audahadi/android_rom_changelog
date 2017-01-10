@@ -1,0 +1,115 @@
+
+project build/
+23de36b roomservice: Pick up lineage.dependencies
+0969669 core: finish using PRIVATE_RECOVERY_OUT rather than hard-coding "RECOVERY"
+
+project device/asus/Z00ED/
+5fa0514 rebrand to Lineage
+7d0f454 remove cmupdater overlay
+
+project device/asus/Z00RD/
+c687943 rebrand to Lineage
+ddde732 overlay : update battery capacity
+
+project device/asus/Z010D/
+05473b4 rebrand to Lineage
+6e73274 remove cmupdater overlay
+947cc68 remove software base encryption
+1f70031 remove sensors & keylout leftover
+
+project device/asus/msm8916-common/
+6be0a5f don't build qcom keystore for now
+45c46a9 re-add keymaster symlink
+53576c6 import keymaster from CAF
+
+project external/zlib/
+b666691 Revert "Upgrade to zlib 1.2.10."
+b934bc0 Upgrade to zlib 1.2.10.
+
+project frameworks/base/
+d2c6b13 base: lineage adb icon
+81cf63b Fw_base - AOKP logo on status bar (1/2)
+b6da6e8 Merge changes I845b3316,I7fa7e48c into nougat
+4a082f3 Fw_base - fix some ita strings
+1207ccf Telephony: Don't crash for too long baseband version
+5fb1d52 SystemUI: Recents: Allow closing empty view via tapping
+bae19cd Fw_base - fix num cpu check for CPU overlay
+
+project frameworks/opt/telephony/
+0663988 SubscriptionController: Make sure cis are not null
+
+project hardware/qcom/audio-caf/msm8937/
+95ccc85 policy_hal: Fix mismerges
+b24ef94 audio policy: fix capture indication to sound trigger service.
+3f05588 audio policy: fix media volume after ringtone
+1e29be0 Revert "hal: Add abstraction for soundtrigger session"
+8c2743e hal: Don't try to record using 3-mic unless we mean it
+a8490ea hal: Haxed header
+ab64a44 audio: Fix flac offload not working
+bd04719 hal: Fix build with HDMI disabled
+f4e5f48 audio: Fix complilation warnings under Clang
+1394524 msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled
+04ed235 audio: Extend platform parser to allow device name aliasing
+326d03c hal: post_proc: enabled / disable volume listener based on prop
+966b853 hal: Support the audio amplifier hook
+284d304 hal: Allow building hardware audio encoders
+7d10d9a audio: Use direct project pathmap
+
+project hardware/qcom/display-caf/msm8937/
+3dfb72a sdm: Always include kernel headers
+3c389e0 Fix duplicate copy file rules
+5ab047e display: Cleanup flags
+381813d Don't build lights module if vendor supplies it
+8908ec8 display: Use project pathmap
+
+project hardware/qcom/display-caf/msm8996/
+12980ba hwc2: Only set display_width and display_height when equal to zero
+
+project hardware/qcom/media-caf/msm8937/
+64e0fc1 mm-video: Disable proprietary extension
+becaa72 venc: Fix VQZip issue
+d322c9f vidc: Fix makefiles
+0e5dd32 media: Avoid collision with FFMPEG plugin
+671cbd6 media: Use project pathmap
+
+project kernel/asus/msm8916/
+e0eae93 config : simplified & build f2fs
+130a3e1 f2fs: introduce max_file_blocks in sbi
+6118cc7 f2fs: add a max block check for get_data_block_bmap
+1547e2b f2fs: Add a ioctl to disable garbage collection
+579cbee f2fs: set f2fs garbage collection thread as freezable
+fb7b396 Merge Motorola motorola-kernel f2fs driver
+9338095 staging/prima : update to caf/LA.BR.1.2.9_rb1.10
+
+project packages/apps/Browser/
+b565222 Search engines: Add DuckDuckGo FR
+
+project packages/apps/CMParts/
+7433fea CMParts: Properly fix auto-power-save string format exception
+cd49089 Merge "Another LineageOS rebrand" into nougat
+88292ea Another LineageOS rebrand
+a30cee3 CMParts - Fix the button's part
+
+project packages/apps/DUI/
+d43f5ca Automatic translation import
+
+project packages/apps/ROMControl/
+8a5fd53 ROMControl - Add Maintainers tab and Sean Hacker inside
+4179f8a ROMControl - AOKP logo on status bar (2/2)
+7a794ce ROMControl - fix some ita strings
+
+project packages/apps/Snap/
+3f92dde Snap: Remove storage menu if no external storage available
+da58793 Add PREVENT_POWER_KEY to fix Crash when using 'Power Shutter'
+
+project packages/services/Telecomm/
+9d6a21f Telecomm: Fix error due to protected broadcast
+
+project platform_manifest/
+0b08c42 devices: Add Moto E
+7e85dd3 Add Galaxy S4 Mini (Serrano) Family
+ffdf23f devices: add Moto G4 Play
+
+project vendor/asus/
+b9fc24c use drm blob from themuppets/yu/lettuce
+edd127f Revert "Z00ED/Z00RD : use prebuilt keystore"
