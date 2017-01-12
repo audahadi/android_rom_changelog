@@ -1,0 +1,139 @@
+
+project build/
+Dan Pasanen: core: move platform-specific helper macros to target makefiles - 4 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+Luca Stefani: build: Replace pushd with cd - 6 days ago
+project device/asus/Z00ED/
+audahadi: disable software base encryption - 3 days ago
+project device/asus/Z00RD/
+audahadi: remove software base encryption - 3 days ago
+audahadi: fix overlay path.. Z00ED --> Z00RD - 5 days ago
+project device/asus/msm8916-common/
+audahadi: remove keymaste firmware symlink - 32 hours ago
+audahadi: keymaster : remove TARGET_KEYMASTER_WAIT_FOR_QSEE flag - 2 days ago
+audahadi: use back prebuilt keystore - 2 days ago
+LuK1337: msm8916-common: Remove custom charger images - 2 days ago
+project device/qcom/common/
+Rashed Abdel-Tawab: extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm - 3 days ago
+Rashed Abdel-Tawab: extractors: Update msm8996 graphics blobs info - 3 days ago
+project external/icu/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project frameworks/av/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+Michael Bestas: Revert "Revert "Stagefright: Allow setting high-framerates in CameraSource"" - 4 days ago
+project frameworks/base/
+PMS22: [SQUASHED] Frameworks: Cleanup and remove duplicate sounds - 11 hours ago
+Benjamin Legrand: Tethering: Fix number of device connected - 3 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+Michael Bestas: SystemUI: Remove unused string - 4 days ago
+Michael Bestas: Remove leftover power menu profile resources - 4 days ago
+Michael Bestas: core: Fix camel case - 4 days ago
+Hendrik Hagendorn: SystemUI: remove 'hide clock' option from clock position tunable - 6 days ago
+project frameworks/native/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project hardware/qcom/audio-caf/msm8916/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 10 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 10 hours ago
+Christopher R. Palmer: hal: Dynamically load the correct path for HUAWEI_SOUND_PARAM_PATH - 5 days ago
+project hardware/qcom/audio-caf/msm8937/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 35 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 35 hours ago
+Luca Stefani: policy_hal: Fix mismerges - 6 days ago
+Eric Laurent: audio policy: fix capture indication to sound trigger service. - 6 days ago
+Eric Laurent: audio policy: fix media volume after ringtone - 6 days ago
+Steve Kondik: Revert "hal: Add abstraction for soundtrigger session" - 6 days ago
+Steve Kondik: hal: Don't try to record using 3-mic unless we mean it - 6 days ago
+Steve Kondik: hal: Haxed header - 6 days ago
+Keith Mok: audio: Fix flac offload not working - 6 days ago
+Steve Kondik: hal: Fix build with HDMI disabled - 6 days ago
+Steve Kondik: audio: Fix complilation warnings under Clang - 6 days ago
+Chao Chen: msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled - 6 days ago
+Ethan Chen: audio: Extend platform parser to allow device name aliasing - 6 days ago
+vivek mehta: hal: post_proc: enabled / disable volume listener based on prop - 6 days ago
+Daniel Hillenbrand: hal: Support the audio amplifier hook - 6 days ago
+Arne Coucheron: hal: Allow building hardware audio encoders - 6 days ago
+Ethan Chen: audio: Use direct project pathmap - 6 days ago
+project hardware/qcom/audio-caf/msm8952/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 35 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 35 hours ago
+project hardware/qcom/audio-caf/msm8960/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 35 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 35 hours ago
+Matt Mower: hal: Additional checks for dedicated VOIP input - 4 days ago
+project hardware/qcom/audio-caf/msm8974/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 35 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 35 hours ago
+Christopher R. Palmer: hal: Dynamically load the correct path for HUAWEI_SOUND_PARAM_PATH - 5 days ago
+project hardware/qcom/audio-caf/msm8994/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 35 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 35 hours ago
+project hardware/qcom/audio-caf/msm8996/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 35 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 35 hours ago
+project hardware/qcom/audio/default/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project hardware/qcom/display-caf/msm8937/
+Steve Kondik: sdm: Always include kernel headers - 6 days ago
+Dan Willemsen: Fix duplicate copy file rules - 6 days ago
+Rashed Abdel-Tawab: display: Cleanup flags - 6 days ago
+Steve Kondik: Don't build lights module if vendor supplies it - 6 days ago
+Ethan Chen: display: Use project pathmap - 6 days ago
+project hardware/qcom/keymaster/
+placiano: keymaster: add support for samsung 'skeymast' - 6 days ago
+project hardware/qcom/media-caf/msm8937/
+Steve Kondik: mm-video: Disable proprietary extension - 6 days ago
+Steve Kondik: venc: Fix VQZip issue - 6 days ago
+Steve Kondik: vidc: Fix makefiles - 6 days ago
+Steve Kondik: media: Avoid collision with FFMPEG plugin - 6 days ago
+Ethan Chen: media: Use project pathmap - 6 days ago
+project kernel/asus/msm8916/
+imoseyon: fs/namei.c: fix potential memory leak in path_lookupat - 4 days ago
+imoseyon: msm: camera: suppress excessive logging - boot faster - 4 days ago
+myfluxi: arm: irq: Tone down kernel logging - 4 days ago
+Francisco Franco: proc: much faster /proc/vmstat - 4 days ago
+Sultanxda: PM / devfreq: Add a governor white list - 4 days ago
+audahadi: ze500kg : config - enable wifi driver - 6 days ago
+project packages/apps/Browser/
+nailyk-fr: Search engines: Add DuckDuckGo FR - 6 days ago
+project packages/apps/CMParts/
+Michael W: CMParts: Fix expandable desktop - 35 hours ago
+Simon Shields: CMStats: use new server-side API - 4 days ago
+Hendrik Hagendorn: CMParts: remove 'hide clock' option from clock position tunable - 5 days ago
+Matt Mower: CMParts: Match pulse speed to frameworks default - 6 days ago
+Danny Baumann: Fix handling of auto power save summary. - 6 days ago
+project packages/apps/Calendar/
+Michael Bestas: Calendar: String improvements - 4 days ago
+project packages/apps/ContactsCommon/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project packages/apps/Dialer/
+PMS22: Move CAF strings to cm_strings and fix wrong line breaks. - 2 days ago
+project packages/apps/Messaging/
+Michael Bestas: Messaging: String improvements - 4 days ago
+project packages/apps/Settings/
+nijel8: Settings: Let's get to choose keyboard again in Settings. - 12 hours ago
+Michael W: Sim-Settings: Don't allow empty sim name - 3 days ago
+project packages/apps/SetupWizard/
+Joey Rizzoli: SetupWizard: rebrand to LineageOS - 3 days ago
+project packages/services/Telephony/
+Michael W: Telephony: Number of slot should start with 1 - 3 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project vendor/asus/
+audahadi: add keymaster firmware, change drm blob to (UL-ASUS_Z00E-WW-13.10.10.44-use - 32 hours ago
+audahadi: msm8916-common : add back prebuilt keystore - 2 days ago
+audahadi: Z010D : libOmxVdecHevc - already defined in msm8916-common - 4 days ago
+project vendor/cm/
+Brandon McAnsh: http_prebuilt: Implement archive of artifacts - 3 days ago
+Matt Mower: extract_utils: Introduce variable INITIAL_COPYRIGHT_YEAR - 3 days ago
+Dan Pasanen: build: core: include platform helper macros in target makefiles - 4 days ago
+Zhao Wei Liew: build: envsetup: Update CAF remote - 4 days ago
+Zhao Wei Liew: build: qcom_target: Define MSM_VIDC_TARGET_LIST - 4 days ago
+Zhao Wei Liew: build: qcom_target: Clean up QCOM_HARDWARE_VARIANT checks - 4 days ago
+Ethan Chen: envsetup: Fix indentation of eat function - 4 days ago
+Zhao Wei Liew: cm: common: Correct indentation - 5 days ago
+Tom Powell: build: include lineage releasekey in recovery - 5 days ago
+Tom Powell: build: remove deprecated recovery keys - 5 days ago
+Luca Stefani: extract_utils: Update smali/backsmali to v2.2b4 - 6 days ago
+Gabriele M: extract_utils: Update backsmali command - 6 days ago
+project vendor/cmsdk/
+Christian Morlok: cmsdk: fix update path for version 7 - 4 days ago
+Hendrik Hagendorn: cmsdk: remove 'hide clock' option from clock position tunable - 6 days ago
