@@ -1,0 +1,163 @@
+
+project build/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 2 days ago
+Luca Stefani: build: Replace pushd with cd - 6 days ago
+Stefano Mura [STELIX PippoX3]: Merge changes from topic 'LOS' into nougat - 6 days ago
+project device/asus/Z00ED/
+audahadi: disable software base encryption - 3 days ago
+project device/asus/Z00RD/
+audahadi: remove software base encryption - 3 days ago
+audahadi: fix overlay path.. Z00ED --> Z00RD - 6 days ago
+project device/asus/msm8916-common/
+audahadi: remove keymaste firmware symlink - 2 days ago
+audahadi: keymaster : remove TARGET_KEYMASTER_WAIT_FOR_QSEE flag - 2 days ago
+audahadi: use back prebuilt keystore - 3 days ago
+LuK1337: msm8916-common: Remove custom charger images - 3 days ago
+project external/icu/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project frameworks/av/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 3 days ago
+Michael Bestas: Revert "Revert "Stagefright: Allow setting high-framerates in CameraSource"" - 4 days ago
+project frameworks/base/
+Alex Cruz: Fw_base - Change Heads up QS tile longpress intent to notifications - 9 hours ago
+Michael Bestas: Fw_base - Add Heads up QS Tile - 9 hours ago
+LorDClockaN: Fw_base - App picker Tile - 9 hours ago
+Stefano Mura [STELIX PippoX3]: Merge "Themes: Expose manifest styles for themes" into nougat - 33 hours ago
+Stefano Mura [STELIX PippoX3]: Merge "SystemUI: Expose switch bar title" into nougat - 33 hours ago
+Abdulwahab Isam: Expose QS battery - 33 hours ago
+Benjamin Legrand: Tethering: Fix number of device connected - 33 hours ago
+Bryan Owens: Themes: Expose manifest styles for themes - 2 days ago
+daveyannihilation: SystemUI: Expose switch bar title - 2 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 3 days ago
+Michael Bestas: SystemUI: Remove unused string - 3 days ago
+Michael Bestas: Remove leftover power menu profile resources - 3 days ago
+Michael Bestas: core: Fix camel case - 4 days ago
+Stefano Mura [STELIX PippoX3]: Merge "OMS: Introduce MODIFY_OVERLAYS permission for user apps" into nougat - 6 days ago
+Stefano Mura [STELIX PippoX3]: Merge "Fw_base - Ambient display: Battery status (1/2)" into nougat - 6 days ago
+Stefano Mura [STELIX PippoX3]: Merge changes from topic 'AOKP' into nougat - 6 days ago
+XXMrHyde: Fw_base - Ambient display: Battery status (1/2) - 6 days ago
+project frameworks/native/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 3 days ago
+project hardware/qcom/audio-caf/msm8916/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 14 hours ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 14 hours ago
+Christopher R. Palmer: hal: Dynamically load the correct path for HUAWEI_SOUND_PARAM_PATH - 5 days ago
+project hardware/qcom/audio-caf/msm8937/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 2 days ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 2 days ago
+Luca Stefani: policy_hal: Fix mismerges - 6 days ago
+Eric Laurent: audio policy: fix capture indication to sound trigger service. - 6 days ago
+Eric Laurent: audio policy: fix media volume after ringtone - 6 days ago
+Steve Kondik: Revert "hal: Add abstraction for soundtrigger session" - 6 days ago
+Steve Kondik: hal: Don't try to record using 3-mic unless we mean it - 6 days ago
+Steve Kondik: hal: Haxed header - 6 days ago
+Keith Mok: audio: Fix flac offload not working - 6 days ago
+Steve Kondik: hal: Fix build with HDMI disabled - 6 days ago
+Steve Kondik: audio: Fix complilation warnings under Clang - 6 days ago
+Chao Chen: msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled - 6 days ago
+Ethan Chen: audio: Extend platform parser to allow device name aliasing - 6 days ago
+vivek mehta: hal: post_proc: enabled / disable volume listener based on prop - 6 days ago
+Daniel Hillenbrand: hal: Support the audio amplifier hook - 6 days ago
+Arne Coucheron: hal: Allow building hardware audio encoders - 6 days ago
+Ethan Chen: audio: Use direct project pathmap - 6 days ago
+project hardware/qcom/audio-caf/msm8952/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 2 days ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 2 days ago
+project hardware/qcom/audio-caf/msm8960/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 2 days ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 2 days ago
+Matt Mower: hal: Additional checks for dedicated VOIP input - 4 days ago
+project hardware/qcom/audio-caf/msm8974/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 2 days ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 2 days ago
+Christopher R. Palmer: hal: Dynamically load the correct path for HUAWEI_SOUND_PARAM_PATH - 5 days ago
+project hardware/qcom/audio-caf/msm8994/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 2 days ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 2 days ago
+project hardware/qcom/audio-caf/msm8996/
+rago: Fix security vulnerability: Equalizer command might allow negative indexes - 2 days ago
+rago: Fix security vulnerability: Effect command might allow negative indexes - 2 days ago
+project hardware/qcom/audio/default/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project hardware/qcom/display-caf/msm8937/
+Steve Kondik: sdm: Always include kernel headers - 6 days ago
+Dan Willemsen: Fix duplicate copy file rules - 6 days ago
+Rashed Abdel-Tawab: display: Cleanup flags - 6 days ago
+Steve Kondik: Don't build lights module if vendor supplies it - 6 days ago
+Ethan Chen: display: Use project pathmap - 6 days ago
+project hardware/qcom/keymaster/
+placiano: keymaster: add support for samsung 'skeymast' - 6 days ago
+project hardware/qcom/media-caf/msm8937/
+Steve Kondik: mm-video: Disable proprietary extension - 6 days ago
+Steve Kondik: venc: Fix VQZip issue - 6 days ago
+Steve Kondik: vidc: Fix makefiles - 6 days ago
+Steve Kondik: media: Avoid collision with FFMPEG plugin - 6 days ago
+Ethan Chen: media: Use project pathmap - 6 days ago
+project kernel/asus/msm8916/
+imoseyon: fs/namei.c: fix potential memory leak in path_lookupat - 5 days ago
+imoseyon: msm: camera: suppress excessive logging - boot faster - 5 days ago
+myfluxi: arm: irq: Tone down kernel logging - 5 days ago
+Francisco Franco: proc: much faster /proc/vmstat - 5 days ago
+Sultanxda: PM / devfreq: Add a governor white list - 5 days ago
+audahadi: ze500kg : config - enable wifi driver - 6 days ago
+project packages/apps/Browser/
+nailyk-fr: Search engines: Add DuckDuckGo FR - 6 days ago
+project packages/apps/CMParts/
+Michael W: CMParts: Fix expandable desktop - 2 days ago
+Matt Mower: CMParts: Match pulse speed to frameworks default - 6 days ago
+Danny Baumann: Fix handling of auto power save summary. - 6 days ago
+Stefano Mura [STELIX PippoX3]: Merge "Settings - Forward port Long press back to kill app + timeout (2/2)" into nougat - 6 days ago
+Danesh Mondegarian: Settings - Forward port Long press back to kill app + timeout (2/2) - 6 days ago
+project packages/apps/Calendar/
+Michael Bestas: Calendar: String improvements - 5 days ago
+project packages/apps/ContactsCommon/
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project packages/apps/Dialer/
+PMS22: Move CAF strings to cm_strings and fix wrong line breaks. - 3 days ago
+project packages/apps/Messaging/
+Michael Bestas: Messaging: String improvements - 5 days ago
+project packages/apps/ROMControl/
+entony80: ROMControl - Update Italian translation - 33 hours ago
+blackscorpion3: ROMControl - Add BlackScorpion3 to Maintainers - 33 hours ago
+varuniyer: ROMControl - varuniyer in Maintainers tab - 5 days ago
+Endre: ROMControl - csendre in Maintainers tab - 5 days ago
+RolanDroid: ROMControl - RolanDroid in Maintainers tab - 5 days ago
+Shreps: ROMControl - remove duplicate strings - 5 days ago
+neporood: ROMControl - Add Nepo to Maintainers - 5 days ago
+STELIX: ROMControl - Kevin in Maintainers tab - 5 days ago
+Shreps: ROMControl - Shreps in Maintainers tab - 5 days ago
+Jean-Pierre Rasquin: ROMControl - Option for date style/position, left-right of clock (2/2) - 5 days ago
+STELIX: ROMControl - move Quick Pulldown to Notifications drawer fragment - 5 days ago
+Lars Greiss: ROMControl - Return: Smart Pulldown [2/2] - 5 days ago
+BeansTown106: ROMControl - QS: Add toggle for fancy QS animation [2/2] - 5 days ago
+STELIX: ROMControl - adjust some ITA strings - 5 days ago
+STELIX: ROMControl - move 2 switches from Settings - 5 days ago
+STELIX: ROMControl - update SeekBarPreferenceCham - 5 days ago
+beanstown106: ROMControl - Max Lockscreen Notification count [2/2] - 5 days ago
+project packages/apps/Settings/
+Ivan Iskandar: Expose switchbar background color - 33 hours ago
+Ivan Iskandar: Expose dashboard category padding bottom - 33 hours ago
+Michael W: Sim-Settings: Don't allow empty sim name - 3 days ago
+Tom Marshall: Settings: Set root access options appropriately - 6 days ago
+Stefano Mura [STELIX PippoX3]: Merge changes from topic 'OMS' into nougat - 6 days ago
+XXMrHyde: Settings - Ambient display: Battery status (2/2) - 6 days ago
+project packages/services/Telephony/
+Michael W: Telephony: Number of slot should start with 1 - 3 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r9' into cm-14.1 - 4 days ago
+project platform_manifest/
+task650: manifest: android-7.1.1_r6 -> android-7.1.1_r9 - 2 days ago
+Stefano Mura [STELIX PippoX3]: Merge "Add Redmi 1S" into nougat - 3 days ago
+task650: devices: Add Moto E - 7 days ago
+mr-tweaker: Add Redmi 1S - 7 days ago
+project vendor/aokp/
+Matt Mower: extract_utils: Introduce variable INITIAL_COPYRIGHT_YEAR - 24 hours ago
+task650: Remove depricated CM legal - 3 days ago
+STELIX: AOKP Vendor: Add armani to device list - 5 days ago
+Dirk Rettschlag: add Motorola E LTE (2nd gen) - 5 days ago
+Luca Stefani: extract_utils: Update smali/backsmali to v2.2b4 - 6 days ago
+Gabriele M: extract_utils: Update backsmali command - 6 days ago
+neporood: AOKP Vendor: Add quark to device list - 7 days ago
+project vendor/asus/
+audahadi: add keymaster firmware, change drm blob to (UL-ASUS_Z00E-WW-13.10.10.44-use - 2 days ago
+audahadi: msm8916-common : add back prebuilt keystore - 3 days ago
+audahadi: Z010D : libOmxVdecHevc - already defined in msm8916-common - 4 days ago
