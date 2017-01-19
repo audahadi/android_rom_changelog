@@ -1,0 +1,198 @@
+
+project bootable/recovery/
+Vitalii Kulikov: minui: Skip EV_REL input devices. - 2 days ago
+Adrian DC: recovery: Fix "Wipe data" wrong "System reset" naming - 4 days ago
+project build/
+Sam Mortimer: build sign_target_files_apks.py: clean tmp on exit - 27 hours ago
+Matt Mower: Revert "build: Enable custom ccache cache dir for Android" - 7 days ago
+project device/asus/msm8916-common/
+LuK1337: msm8916-common: Add and enable IMS - 18 hours ago
+LuK1337: msm8916-common: Enable BOARD_HAVE_QCOM_FM - 35 hours ago
+audahadi: enable back software base encryption - 2 days ago
+audahadi: keystore break on Z00ED/RD - 2 days ago
+project device/qcom/common/
+Rashed Abdel-Tawab: extractors: Add msm8952 blobs - 5 days ago
+Dan Pasanen: Revert "extractors: Update msm8996 graphics blobs info" - 6 days ago
+Dan Pasanen: Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm" - 6 days ago
+project frameworks/base/
+Arvin Quilao: SystemUI: add Notification volume stream title - 7 hours ago
+Sebastian Haderecker: Readded Platinum Alarm sound as I miss it in newer builds. - 9 hours ago
+Danesh M: AudioService: Launch default music player on headset connect - 14 hours ago
+Danesh M: NetworkManagement : Add ability to restrict app data/wifi usage - 2 days ago
+Paul Keith: sensors: Allow opting out of default batch size - 3 days ago
+project hardware/intel/common/omx-components/
+Benoît Laniel: omx-component: fix video corruption - 3 days ago
+project hardware/intel/img/psb_video/
+Benoît Laniel: Encode: correctly handle VAConfig attributes on medfield/CTP - 3 days ago
+Benoît Laniel: Fix video encoding on clovertrail - 3 days ago
+Benoît Laniel: Add clovertrail support (based on the tree at 686e11709b57bc57ee94c3166f187fec959fd43b) - 3 days ago
+Benoît Laniel: Cleanup pvr_drv_video makefile for clovertrail support - 3 days ago
+project hardware/qcom/audio-caf/msm8974/
+Nickolay Semendyaev: msm8974: Remove deprecated FM stuff. - 3 days ago
+project hardware/qcom/fm/
+Ethan Chen: Use BOARD_HAVE_QCOM_FM flag - 2 days ago
+Ethan Chen: Revert "fm: do not build for BCM FM devices" - 2 days ago
+David: fm: do not build for BCM FM devices - 3 days ago
+project kernel/asus/msm8916/
+audahadi: config update - 2 days ago
+audahadi: config : ze500kl/kg - enable f2fs - 2 days ago
+audahadi: ASUS_ZC550KL-13.8.26.76 - 4 days ago
+audahadi: config : enable SECCOMP for ze500kl/ze500kg - 6 days ago
+project packages/apps/Bluetooth/
+Marie Janssen: cleanup unused resource strings - 4 days ago
+project packages/apps/CMParts/
+LuK1337: Use valid network resources in getNetworkModeString() - 2 days ago
+Zhao Wei Liew: CMParts: profiles: Remove old PagerTabStrip hack - 2 days ago
+Zhao Wei Liew: ButtonBacklight: Preview timeout once user stops dragging - 2 days ago
+nijel8: CMParts: Update button backlight brightness in real time - 3 days ago
+Zhao Wei Liew: ExpandedDesktop: Don't re-populate the app list in rebuild() - 5 days ago
+project packages/apps/CMUpdater/
+Joey Rizzoli: Updater: rebrand - 2 days ago
+Simon Shields: DownloadCompleteIntentService: add missing import - 7 days ago
+Dan Pasanen: CMUpdater: include ro.build.version.incremental in request - 7 days ago
+project packages/apps/Dialer/
+Michael W: Dialer: Fix translations - 3 days ago
+project packages/apps/Email/
+Dan Pasanen: Revert "Add account" - 6 days ago
+project packages/apps/Settings/
+Joey Rizzoli: Settings: point to lineageos updater - 7 hours ago
+Danesh M: Settings: Launch default music player on headset connect - 14 hours ago
+Danesh M: Settings: Add volume link notification switch - 15 hours ago
+Zhao Wei Liew: Move notif volume pref on top of increasing ring pref - 15 hours ago
+Bruce Wayne: Settings: per-app cellular data and wifi restrictions - 2 days ago
+Zhao Wei Liew: Settings: DeviceInfo: Clean up the PlatLogo checks - 3 days ago
+Michael W: Settings: Fix translations - 3 days ago
+Luke Dashjr: Allow restricted profiles on phones - 4 days ago
+Michael Bestas: Settings: Improve hotspot timeout strings - 4 days ago
+project packages/apps/Snap/
+Michael W: Snap: CAF strings cleanup second interation - 3 days ago
+Michael W: Snap: Fix missing untranslatables - 5 days ago
+Danny Baumann: Fix camera controls rotation. - 6 days ago
+Michael W: Snap: Replace strings - 6 days ago
+project packages/services/Telecomm/
+Gabriele M: Telecomm: Set MSIM audio params using the proper ID - 4 days ago
+project packages/services/Telephony/
+Michael W: Telephony: Fix translations - 4 days ago
+project system/bt/
+Christopher R. Palmer: bt: Allowed WBS to be disabled when building with QTI_SW - 6 days ago
+project system/netd/
+Danesh M: NetD : Allow passing in interface names for wifi/data app restriction - 6 days ago
+project system/sepolicy/
+Ricardo Cerqueira: domain: Create a dummy domain for qc's rmt and let it access /dev/mem - 2 days ago
+project vendor/asus/
+luca020400: msm8916-common: Add IMS blobs - 19 hours ago
+audahadi: keystore break on Z00ED/RD - 2 days ago
+project vendor/cm/
+Zhao Wei Liew: cm: bootanimation: Clear intermediaries - 10 hours ago
+Asher Simonds: vendor: lineage boot animation - 33 hours ago
+micky387: Sepolicy: Add perm for find cmstatusbar - 2 days ago
+Zhao Wei Liew: cm: config: Remove obsolete props - 3 days ago
+Abhisek Devkota: Disable SU by default - 4 days ago
+Abhisek Devkota: vendorsetup: match lineage naming for build roster - 4 days ago
+Zhao Wei Liew: cm: build: kernel: Remove obsolete checks - 5 days ago
+rahulsnair: vendor: Add maintainers of Moto G4/G4 Plus (athene) - 5 days ago
+David Hays: overlay: Enable Visual Voicemail for Verizon devices - 6 days ago
+Ziyan: build: kernel: build arm kernel modules with -fno-pic - 6 days ago
+David Marble: http_prebuilt: Improve retrieval of artifacts from archive - 7 days ago
+project vendor/cmsdk/
+Zhao Wei Liew: cmsdk: Fix @deprecated annotation mismatch warnings - 2 days ago
+Zhao Wei Liew: cmsdk: Update README references for LineageOS - 4 days ago
+project bootable/recovery/
+Vitalii Kulikov: minui: Skip EV_REL input devices. - 2 days ago
+Adrian DC: recovery: Fix "Wipe data" wrong "System reset" naming - 4 days ago
+project build/
+Sam Mortimer: build sign_target_files_apks.py: clean tmp on exit - 33 hours ago
+Matt Mower: Revert "build: Enable custom ccache cache dir for Android" - 7 days ago
+project device/asus/msm8916-common/
+LuK1337: msm8916-common: Add and enable IMS - 25 hours ago
+LuK1337: msm8916-common: Enable BOARD_HAVE_QCOM_FM - 2 days ago
+audahadi: enable back software base encryption - 2 days ago
+audahadi: keystore break on Z00ED/RD - 2 days ago
+project device/qcom/common/
+Rashed Abdel-Tawab: extractors: Add msm8952 blobs - 5 days ago
+Dan Pasanen: Revert "extractors: Update msm8996 graphics blobs info" - 7 days ago
+Dan Pasanen: Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm" - 7 days ago
+project frameworks/base/
+Michael Bestas: PlatLogo: Show lineage platlogo when tapping on LineageOS version - 6 hours ago
+Arvin Quilao: SystemUI: add Notification volume stream title - 14 hours ago
+Sebastian Haderecker: Readded Platinum Alarm sound as I miss it in newer builds. - 15 hours ago
+Danesh M: AudioService: Launch default music player on headset connect - 20 hours ago
+Danesh M: NetworkManagement : Add ability to restrict app data/wifi usage - 2 days ago
+Paul Keith: sensors: Allow opting out of default batch size - 3 days ago
+project hardware/intel/common/omx-components/
+Benoît Laniel: omx-component: fix video corruption - 3 days ago
+project hardware/intel/img/psb_video/
+Benoît Laniel: Encode: correctly handle VAConfig attributes on medfield/CTP - 3 days ago
+Benoît Laniel: Fix video encoding on clovertrail - 3 days ago
+Benoît Laniel: Add clovertrail support (based on the tree at 686e11709b57bc57ee94c3166f187fec959fd43b) - 3 days ago
+Benoît Laniel: Cleanup pvr_drv_video makefile for clovertrail support - 3 days ago
+project hardware/qcom/audio-caf/msm8974/
+Nickolay Semendyaev: msm8974: Remove deprecated FM stuff. - 3 days ago
+project hardware/qcom/fm/
+Ethan Chen: Use BOARD_HAVE_QCOM_FM flag - 2 days ago
+Ethan Chen: Revert "fm: do not build for BCM FM devices" - 2 days ago
+David: fm: do not build for BCM FM devices - 3 days ago
+project kernel/asus/msm8916/
+audahadi: config update - 2 days ago
+audahadi: config : ze500kl/kg - enable f2fs - 2 days ago
+audahadi: ASUS_ZC550KL-13.8.26.76 - 5 days ago
+audahadi: config : enable SECCOMP for ze500kl/ze500kg - 6 days ago
+project packages/apps/Bluetooth/
+Marie Janssen: cleanup unused resource strings - 5 days ago
+project packages/apps/CMParts/
+LuK1337: Use valid network resources in getNetworkModeString() - 2 days ago
+Zhao Wei Liew: CMParts: profiles: Remove old PagerTabStrip hack - 3 days ago
+Zhao Wei Liew: ButtonBacklight: Preview timeout once user stops dragging - 3 days ago
+nijel8: CMParts: Update button backlight brightness in real time - 3 days ago
+Zhao Wei Liew: ExpandedDesktop: Don't re-populate the app list in rebuild() - 5 days ago
+project packages/apps/CMUpdater/
+Joey Rizzoli: Updater: rebrand - 2 days ago
+Simon Shields: DownloadCompleteIntentService: add missing import - 7 days ago
+project packages/apps/Dialer/
+Michael W: Dialer: Fix translations - 4 days ago
+project packages/apps/Email/
+Dan Pasanen: Revert "Add account" - 7 days ago
+project packages/apps/Settings/
+Joey Rizzoli: Settings: point to lineageos updater - 14 hours ago
+Danesh M: Settings: Launch default music player on headset connect - 20 hours ago
+Danesh M: Settings: Add volume link notification switch - 21 hours ago
+Zhao Wei Liew: Move notif volume pref on top of increasing ring pref - 21 hours ago
+Bruce Wayne: Settings: per-app cellular data and wifi restrictions - 2 days ago
+Zhao Wei Liew: Settings: DeviceInfo: Clean up the PlatLogo checks - 3 days ago
+Michael W: Settings: Fix translations - 4 days ago
+Luke Dashjr: Allow restricted profiles on phones - 4 days ago
+Michael Bestas: Settings: Improve hotspot timeout strings - 5 days ago
+project packages/apps/Snap/
+Michael W: Snap: CAF strings cleanup second interation - 4 days ago
+Michael W: Snap: Fix missing untranslatables - 6 days ago
+Danny Baumann: Fix camera controls rotation. - 6 days ago
+Michael W: Snap: Replace strings - 7 days ago
+project packages/services/Telecomm/
+Gabriele M: Telecomm: Set MSIM audio params using the proper ID - 5 days ago
+project packages/services/Telephony/
+Michael W: Telephony: Fix translations - 4 days ago
+project system/bt/
+Christopher R. Palmer: bt: Allowed WBS to be disabled when building with QTI_SW - 6 days ago
+project system/netd/
+Danesh M: NetD : Allow passing in interface names for wifi/data app restriction - 6 days ago
+project system/sepolicy/
+Ricardo Cerqueira: domain: Create a dummy domain for qc's rmt and let it access /dev/mem - 2 days ago
+project vendor/asus/
+luca020400: msm8916-common: Add IMS blobs - 25 hours ago
+audahadi: keystore break on Z00ED/RD - 2 days ago
+project vendor/cm/
+Adrian DC: extract_utils: Detect output existence before moving it for backup - 6 hours ago
+Zhao Wei Liew: cm: bootanimation: Clear intermediaries - 16 hours ago
+Asher Simonds: vendor: lineage boot animation - 2 days ago
+micky387: Sepolicy: Add perm for find cmstatusbar - 2 days ago
+Zhao Wei Liew: cm: config: Remove obsolete props - 3 days ago
+Abhisek Devkota: Disable SU by default - 4 days ago
+Abhisek Devkota: vendorsetup: match lineage naming for build roster - 4 days ago
+Zhao Wei Liew: cm: build: kernel: Remove obsolete checks - 5 days ago
+rahulsnair: vendor: Add maintainers of Moto G4/G4 Plus (athene) - 6 days ago
+David Hays: overlay: Enable Visual Voicemail for Verizon devices - 6 days ago
+Ziyan: build: kernel: build arm kernel modules with -fno-pic - 6 days ago
+David Marble: http_prebuilt: Improve retrieval of artifacts from archive - 7 days ago
+project vendor/cmsdk/
+Zhao Wei Liew: cmsdk: Fix @deprecated annotation mismatch warnings - 3 days ago
+Zhao Wei Liew: cmsdk: Update README references for LineageOS - 4 days ago
