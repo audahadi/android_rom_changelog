@@ -1,0 +1,42 @@
+
+project android/
+Luca Stefani: Switch to our chromium-webview fork - 5 days ago
+project build/
+Gabriele M: ota_from_target_files: Remove device dependent arguments - 4 days ago
+Tom Powell: releasetools: support reading release keys out of some sort of command - 4 days ago
+Gabriele M: releasetools: Add script to sign zips - 4 days ago
+project device/asus/msm8916-common/
+audahadi: Revert "add missing firmware" - 3 days ago
+audahadi: Revert "prop: enable ims" - 3 days ago
+audahadi: Revert "IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting" - 3 days ago
+audahadi: Merge pull request #1 from BlackFoxy757/patch-1 - 6 days ago
+BlackFoxy757: Delete unused lines - 6 days ago
+dhacker29: IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting - 6 days ago
+ShadowReaper1: prop: enable ims - 6 days ago
+ShadowReaper1: add missing firmware - 6 days ago
+Luca Stefani: msm8916-common: Remove audio_policy.conf - 6 days ago
+project frameworks/base/
+Zhao Wei Liew: SystemUI: HotspotTile: Don't reset the number of connected clients - 4 days ago
+Sam Mortimer: [2/3] Re-introduce custom charging on/off sounds - 4 days ago
+Steve Kondik: windowmanager: Add support for blur effects - 6 days ago
+project hardware/qcom/display-caf/msm8952/
+Sultan Qasim Khan: gralloc: allow forcing old pixel alignment - 4 days ago
+Dan Willemsen: Fix duplicate copy file rules - 5 days ago
+project kernel/asus/msm8916-gitlab/
+audahadi: import device tree from Asus release - 3 days ago
+project packages/apps/CMParts/
+Sam Mortimer: [1/3] CMParts: Add CM charging sounds settings - 4 days ago
+project packages/apps/Settings/
+Sam Mortimer: [3/3] Settings: Add CMParts charging sound settings preference - 4 days ago
+Zhao Wei Liew: Revert "settings: Remove lock screen blur stuff breaking build" - 7 days ago
+project vendor/asus/
+audahadi: Revert "msm8916-common: Add IMS blobs" - 3 days ago
+audahadi: Revert "add missing firmware" - 3 days ago
+audahadi: Revert "update ims" - 3 days ago
+ShadowReaper1: update ims - 6 days ago
+ShadowReaper1: add missing firmware - 6 days ago
+project vendor/cm/
+Eloi Carracedo: apns: Add Freedompop foggmobile APN - 6 days ago
+Dan Pasanen: bootanimation: get all the parts - 6 days ago
+Rashed Abdel-Tawab: build: Append -dtb to kernel image name if TARGET_KERNEL_APPEND_DTB is set - 6 days ago
+Asher Simonds: cm: bootanimation: Improve boot animation - 6 days ago
