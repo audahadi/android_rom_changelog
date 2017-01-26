@@ -1,0 +1,86 @@
+
+project build/
+Gabriele M: core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE - 2 days ago
+Tom Powell: core: include libf2fs_fmt_host_dyn in otatools - 2 days ago
+Gabriele M: ota_from_target_files: Remove device dependent arguments - 2 days ago
+Rashed Abdel-Tawab: build: Append -dtb to kernel image name if TARGET_KERNEL_APPEND_DTB is set - 4 days ago
+project device/asus/msm8916-common/
+audahadi: Revert "add missing firmware" - 4 days ago
+audahadi: Revert "prop: enable ims" - 4 days ago
+audahadi: Revert "IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting" - 4 days ago
+audahadi: Merge pull request #1 from BlackFoxy757/patch-1 - 6 days ago
+BlackFoxy757: Delete unused lines - 6 days ago
+dhacker29: IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting - 6 days ago
+ShadowReaper1: prop: enable ims - 6 days ago
+ShadowReaper1: add missing firmware - 6 days ago
+Luca Stefani: msm8916-common: Remove audio_policy.conf - 6 days ago
+project external/ffmpeg/
+Zhao Wei Liew: ffmpeg: libavcodec: Revert sdclang workaround - 3 days ago
+project external/fsck_msdos/
+Zhao Wei Liew: Revert "fsck_msdos: Don't use Snapdragon LLVM" - 3 days ago
+project frameworks/base/
+jrior001: Allow lid to send a generic COVER_CHANGED broadcast - 2 days ago
+Zhao Wei Liew: SystemUI: HotspotTile: Don't reset the number of connected clients - 3 days ago
+Alex Cruz: Fw_base - Double tap to launch camera - vibration config [1/2] - 4 days ago
+Stefano Mura [STELIX PippoX3]: Merge changes from topic 'AOKP' into nougat - 4 days ago
+Varun Date: Fw_base - QS: Update Pulse Tile Icon - 4 days ago
+ezio84: Fw_base - QS WiFi easy toggle: if enabled, long press for detail view - 4 days ago
+ezio84: Fw_base - QS BT easy toggle: if enabled, long press for detail view - 4 days ago
+stofstik: Fw_base - QS: Added show volume panel tile to QS - 4 days ago
+Varun Date: Fw_base - QS: Add Back Some of my Tiles from marshmallow - 4 days ago
+Steve Kondik: windowmanager: Add support for blur effects - 5 days ago
+Daniel Koman: Fw_base - Proximity speaker [1/2] - 7 days ago
+project frameworks/opt/hardware/
+Christopher N. Hesse: cmhw: Allow LiveDisplay to check if GPU transform is used - 35 hours ago
+project hardware/qcom/audio-caf/msm8952/
+Ethan Chen: Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952 - 3 days ago
+Steve Kondik: hal: Shush some debug logging - 3 days ago
+project hardware/qcom/display-caf/msm8952/
+Ethan Chen: Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.12' into cm-14.1-caf-8952 - 3 days ago
+Sultan Qasim Khan: gralloc: allow forcing old pixel alignment - 4 days ago
+Dan Willemsen: Fix duplicate copy file rules - 5 days ago
+project hardware/ti/wlan/
+Bruce Wayne: wl18xx: fix logical error (single bracket --> double bracket) in scripts file - 20 hours ago
+Bruce Wayne: wl12xx: fix some builds breaking for devices depending on this file - 20 hours ago
+project packages/apps/CMParts/
+Luca Stefani: CMParts: Add reading mode strings - 3 days ago
+Jorge Ruesga: Update contributors cloud db - 4 days ago
+project packages/apps/Dialer/
+Daniel Koman: Dialer - Proximity speaker [2/2] - 7 days ago
+project packages/apps/ROMControl/
+Zhao Wei Liew: ROMControl - Lock screen blur [2/2] - 2 days ago
+Stefano Mura [STELIX PippoX3]: Merge "more translation pt" into nougat - 3 days ago
+xyyx: ROMControl - QS: Bluetooth easy toggle [1/2] - 6 days ago
+mydongistiny: ROMcontrol - QS: WiFi easy toggle [1/2] - 6 days ago
+Alex Cruz: ROMControl - Double tap to launch camera - vibration config [2/2] - 6 days ago
+project packages/apps/Settings/
+Zhao Wei Liew: SoundSettings: Prevent NPE due to linked volumes change - 2 days ago
+Stefano Mura [STELIX PippoX3]: Merge "translation pt-rBR" into nougat - 3 days ago
+project packages/apps/Snap/
+Danny Baumann: Correctly return to film strip after editing a picture. - 3 days ago
+project platform_manifest/
+task650: manifest: Track our oppo_common - 4 days ago
+EsromG5: devices: add merlin and thea - 4 days ago
+Stefano Mura [STELIX PippoX3]: Merge "platform_manifest - track our own Dialer" into nougat - 4 days ago
+STELIX: platform_manifest - track our own Dialer - 4 days ago
+Luca Stefani: manifest: Switch to Lineage chromium-webview fork - 5 days ago
+mr-tweaker: Update Xiaomi repo - 6 days ago
+project system/extras/su/
+Luca Stefani: su: Enable Wall and fix build - 3 days ago
+project vendor/aokp/
+Dan Pasanen: vendor: Add a task for getting prebuilts via http - 2 days ago
+Stefano Mura [STELIX PippoX3]: Merge "add device merlin" into nougat - 4 days ago
+Stefano Mura [STELIX PippoX3]: Merge "add thea in vendor_aokp" into nougat - 4 days ago
+Eloi Carracedo: apns: Add Freedompop foggmobile APN - 4 days ago
+Adrian DC: extract_utils: Detect output existence before moving it for backup - 4 days ago
+EsromG5: add device merlin - 5 days ago
+EsromG5: add thea in vendor_aokp - 5 days ago
+project vendor/asus/
+audahadi: Revert "msm8916-common: Add IMS blobs" - 4 days ago
+audahadi: Revert "add missing firmware" - 4 days ago
+audahadi: Revert "update ims" - 4 days ago
+ShadowReaper1: update ims - 6 days ago
+ShadowReaper1: add missing firmware - 6 days ago
+project vendor/cmsdk/
+jrior001: Add generic support for Lid Cover Apps - 2 days ago
+STELIX: cmsdk - define CM_SETUP_WIZARD_COMPLETED true as default - 4 days ago
