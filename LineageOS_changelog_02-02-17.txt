@@ -1,0 +1,113 @@
+
+project android/
+Joey Rizzoli: android: switch to LineageOS recorder - 3 days ago
+project bionic/
+Dan Pasanen: linker: allow text relocations on user builds - 6 days ago
+project bootable/recovery/
+Matt Mower: Fixup custom bootloader msg offset in block misc - 5 days ago
+project build/
+Gabriele M: Always copy bootable images in BOOTABLE_IMAGES/ - 7 days ago
+Gabriele M: Revert "releasetools: Don't extract BOOTABLE_IMAGES when signing target files" - 7 days ago
+Gabriele M: Move ro.bootimage.build.fingerprint to build.prop - 7 days ago
+project device/asus/Z00RD/
+audahadi: Merge pull request #1 from anomalchik/cm-14.1 - 3 days ago
+Anomalchik: increase volume - 3 days ago
+Anomalchik: remove unused frequencies - 3 days ago
+project device/qcom/common/
+Michael Bestas: extractors: Set INITIAL_COPYRIGHT_YEAR - 4 days ago
+project frameworks/av/
+Christopher R. Palmer: libstagefright: Restore AOSP's handling of 24/32-bit wav files - 3 days ago
+project frameworks/base/
+Sam Mortimer: Revert "Frameworks: fix living wallpaper exception when reboot" - 3 days ago
+Ethan Chen: Correctly name LID_STATE_CHANGED broadcast - 4 days ago
+project frameworks/native/
+Pramodh Kumar Mukunda: gralloc1: Acquire mutex early in release - 2 days ago
+Prabhanjan Kandula: sf1 : Avoid resetting skip flag for dim layer - 2 days ago
+Namit Solanki: surfaceflinger: Increase SurfaceFlinger dump buffer size to 16k. - 2 days ago
+Sam Mortimer: Preserve app data if neither ce nor de have xattr user.default - 3 days ago
+project hardware/broadcom/libbt/
+Nickolay Semendyaev: Broadcom BT: Add support fm/bt via v4l2. - 6 days ago
+project hardware/qcom/audio-caf/msm8916/
+Luca Stefani: Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD - 6 days ago
+project hardware/qcom/audio-caf/msm8937/
+Alberto97: Fix 04ed2351 for msm8916 audio platform - 7 days ago
+project hardware/qcom/audio-caf/msm8996/
+Ethan Chen: Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996 - 4 days ago
+Ethan Chen: Revert "post proc : volume listener : fix effect release crash" - 4 days ago
+project hardware/qcom/display-caf/msm8996/
+Christopher R. Palmer: Revert "display: Add color metadata definition" - 3 days ago
+Christopher R. Palmer: Revert "sdm: Use ColorMetadata in SDM" - 3 days ago
+Ethan Chen: Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996 - 4 days ago
+project hardware/qcom/media-caf/msm8996/
+Christopher R. Palmer: Revert "mm-video-v4l2: vdec: Support for HDR Info extension" - 3 days ago
+Christopher R. Palmer: Revert "mm-video-v4l2: vdec:Metadata for HDR and ColorAspects" - 3 days ago
+Christopher R. Palmer: Revert "mm-video-v4l2: vdec: Convert maximum display luminance in cd/m2" - 3 days ago
+Ethan Chen: Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996 - 4 days ago
+project kernel/asus/msm8916/
+audahadi: drivers/staging/prima : update to LA.BR.1.2.9_rb1.11 - 4 days ago
+audahadi: Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD - 4 days ago
+Srinivas Rao L: genirq: fix race condition in irq_affinity_notify - 4 days ago
+Lina Iyer: irq: Allow multiple clients to register for irq affinity notification - 4 days ago
+Vijayavardhan Vennapusa: USB: phy: msm: Fix bad magic error during probe - 4 days ago
+yidongh: ASOC: msm: Restrict loop index to avoid buffer overread - 5 days ago
+kunleiz: ASoC: msm: qdsp6v2: DAP: Add check to validate param length - 5 days ago
+Ghanim Fodi: msm: rndis_ipa: Remove rndis_ipa loopback functionality - 5 days ago
+Xiaojun Sang: ASoC: qdsp6v2: fix potential bug of infinite loop - 5 days ago
+Yeleswarapu Nagaradhesh: ASoC: wcd-mbhc: enable micbias for special headset - 5 days ago
+Sachin Bhayare: msm: mdss: Fix potential deferencing of null pointer - 5 days ago
+Xiaojun Sang: ASoC: soc: prevent risk of buffer overflow - 5 days ago
+Siena Richard: ASoC: msm: qdsp6v2: return error when copy from userspace fails - 5 days ago
+Xiaoyu Ye: drivers: soc: qcom: Add error handling in function avtimer_ioctl - 5 days ago
+Laxminath Kasam: avtimer: update ioctl call to query avtimer - 5 days ago
+David Keitel: pinctrl: msm: fix function name allocation length - 5 days ago
+Karthikeyan Mani: ASoC: wcd9335: Fix out of bounds for mad input value - 5 days ago
+Karthikeyan Mani: ASoC: wcd9330: Fix out of bounds for mad input value - 5 days ago
+Karthikeyan Mani: ASoC: wcd9320: Fix out of bounds for mad input value - 5 days ago
+David Keitel: bcl: fix allocation for BCL attribute - 5 days ago
+Ram Chandrasekar: msm: limits: Fix out of bound access - 5 days ago
+Sathish Ambley: msm: ADSPRPC: Buffer length truncated while validation - 5 days ago
+VijayaKumar T M: msm-camera: Addressing possible overflow conditions - 5 days ago
+Bhalchandra Gajare: ASoC: msm-lsm-client: cleanup ioctl functions - 5 days ago
+Rajesh Bondugula: msm: camera: sensor: Fix the improper pointer dereference - 5 days ago
+EunTaik Lee: staging/android/ion : fix a race condition in the ion driver - 5 days ago
+AnilKumar Chimata: msm: crypto: set CLR_CNTXT bit for crypto operations - 5 days ago
+Karthikeyan Ramasubramanian: net: ipc_router: Register services only on client port - 5 days ago
+Vinayak Menon: arm64: avoid segfault on el0 cache maintenance - 5 days ago
+Srinivasarao P: Revert "trace: Add an option to show tgids in trace output" - 5 days ago
+Swetha Chikkaboraiah: perf: fix perf bug in fork() - 5 days ago
+Swetha Chikkaboraiah: perf: Fix irq_work 'tail' recursion - 5 days ago
+Swetha Chikkaboraiah: perf: Handle compat ioctl - 5 days ago
+Jiri Olsa: perf: Add queued work to remove orphaned child events - 5 days ago
+Jiri Olsa: perf: Set owner pointer for kernel events - 5 days ago
+Devdutt Patnaik: usb: android: Fix buffer overflow due to incorrect snprintf length - 5 days ago
+Sharad Sangle: ASoC: msm: qdsp6v2: DAP: Add check to validate param length - 5 days ago
+audahadi: config : disable config local version - 5 days ago
+Hernán Castañón: scripts: Nokia 6 desktop setup example - 5 days ago
+project packages/apps/Recorder/
+Joey Rizzoli: Recorder: grant permissions to read opened files to apps started from notifications - 3 days ago
+Joey Rizzoli: Recorder: tmp app icon - 3 days ago
+Joey Rizzoli: Recorder: update gradle plugin - 3 days ago
+project packages/apps/Settings/
+cretin45: Settings: Don't crash in SUW if no talkback service is installed - 6 days ago
+project packages/apps/SetupWizard/
+cretin45: SetupWizard: Update test app icon - 6 days ago
+project packages/apps/Snap/
+Danny Baumann: Fix thumbnail sometimes not being shown initially in video mode. - 2 days ago
+Danny Baumann: Fix shutter button pressed state tracking issues. - 2 days ago
+codeworkx: Snap: store module index - 4 days ago
+Michael Bestas: Snap: Fix NPE when parameters.getSupportedVideoSizes() is null - 4 days ago
+project packages/services/Telecomm/
+Simon Shields: CallAudioModeStateMachineTest: fix compilation - 4 days ago
+project packages/services/Telephony/
+Gabriele M: MobileNetworkSettings: Read and write USER_NETWORK_MODE - 6 days ago
+project vendor/cm/
+Zhao Wei Liew: cm: contributors: Update translator list - 2 days ago
+Joey Rizzoli: cm: add LineageOS recorder - 3 days ago
+Paul Keith: apns: Remove differentiation between FreedomPop GSM APNs - 3 days ago
+Paul Keith: apns: Correct FreedomPop US LTE APN - 3 days ago
+Scott Warner: bootanimation: Limit the PNGs to 250 colors - 4 days ago
+codeworkx: contributors: add LeEco Le 2 (s2) - 4 days ago
+Rashed Abdel-Tawab: envsetup: Use GNU sed commands if GNU sed is detected - 5 days ago
+Paul Keith: apns: Add differentiation to FreedomPop Global GSM APN - 6 days ago
+Paul Keith: apns: Add FreedomPop US LTE sim APN - 6 days ago
+Paul Keith: apns: Correct FreedomPop Global GSM APN - 6 days ago
