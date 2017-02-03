@@ -1,0 +1,200 @@
+
+project bootable/recovery/
+Matt Mower: Fixup custom bootloader msg offset in block misc - 6 days ago
+project build/
+Gabriele M: Always copy bootable images in BOOTABLE_IMAGES/ - 3 days ago
+Gabriele M: Revert "releasetools: Don't extract BOOTABLE_IMAGES when signing target files" - 3 days ago
+Gabriele M: Move ro.bootimage.build.fingerprint to build.prop - 3 days ago
+Rashed Abdel-Tawab: envsetup: Use GNU sed commands if GNU sed is detected - 6 days ago
+project device/asus/Z00RD/
+audahadi: Merge pull request #1 from anomalchik/cm-14.1 - 4 days ago
+Anomalchik: increase volume - 5 days ago
+Anomalchik: remove unused frequencies - 5 days ago
+project device/asus/msm8916-common/
+Luca Stefani: msm8916-common: Add selinux rules needed by gestures cmhw - 5 hours ago
+Zhao Wei Liew: msm8916-common: Switch to the CMHW touchscreen gestures implementation - 5 hours ago
+Luca Stefani: msm8916-common: Remove keyhandler - 5 hours ago
+Luca Stefani: msm8916-common: Get rid of CMActions - 5 hours ago
+project device/qcom/common/
+Zhao Wei Liew: power: Remove POWER_HINT_AUDIO - 26 hours ago
+Michael Bestas: extractors: Set INITIAL_COPYRIGHT_YEAR - 5 days ago
+project frameworks/av/
+Christopher R. Palmer: libstagefright: Restore AOSP's handling of 24/32-bit wav files - 3 days ago
+project frameworks/base/
+Abhisek Devkota: Automatic translation import - 11 hours ago
+rogersb11: Fw_base - Forward Port: PIE 3.0 (1/2) - 31 hours ago
+LorDClockaN: Fw_base - Fix up EdgeGestureService for N - 31 hours ago
+Altaf-Mahdi: Fw_base - policy: don't use EdgeGestureService for navigation bar if were on the keyguard - 31 hours ago
+Khalid Zubair: Fw_base - gesture: fix possible race during initialization - 31 hours ago
+Kyrylo Mikos: Fw_base - PhoneWindowManager: add ability to use EdgeGestureService for system gestures. - 31 hours ago
+Kyrylo Mikos: Fw_base - Add EdgeGesture service [1/2] - 31 hours ago
+Zhao Wei Liew: PhoneWindowManager: Support multiple key handlers - 32 hours ago
+LuK1337: SystemUI: Never link nofication volume on non-voice capable devices - 32 hours ago
+Dan Pasanen: core: more descriptive vendor image mismatch message - 32 hours ago
+LorDClockaN: Fw_base - add back AICP-memo to "N" - 2 days ago
+beanstown106: Fw_base - Fix right lockscreen shortcut icon resetting - 2 days ago
+beanstown106: Fw_base - Make Heads Up snooze toast more informative - 2 days ago
+Lokesh Chamane: Fw_base - HeadsUp snooze function [1/2] - 2 days ago
+Lars Greiss: Fw_base - HeadsUp: add timeout option (1/2) - 2 days ago
+Sam Mortimer: Revert "Frameworks: fix living wallpaper exception when reboot" - 3 days ago
+Ethan Chen: Correctly name LID_STATE_CHANGED broadcast - 3 days ago
+Lars Greiss: Fw_base - Flip to Mute/Reject Call [1/3] - 6 days ago
+PMS22: EasterEgg: We like cats - 6 days ago
+project frameworks/native/
+Pramodh Kumar Mukunda: gralloc1: Acquire mutex early in release - 3 days ago
+Prabhanjan Kandula: sf1 : Avoid resetting skip flag for dim layer - 3 days ago
+Namit Solanki: surfaceflinger: Increase SurfaceFlinger dump buffer size to 16k. - 3 days ago
+Sam Mortimer: Preserve app data if neither ce nor de have xattr user.default - 3 days ago
+project frameworks/opt/hardware/
+Zhao Wei Liew: cmhw: Add TouchscreenGestures API - 2 days ago
+project hardware/broadcom/libbt/
+Nickolay Semendyaev: Broadcom BT: Add support fm/bt via v4l2. - 7 days ago
+project hardware/libhardware/
+Zhao Wei Liew: hardware: power: Remove POWER_HINT_AUDIO - 27 hours ago
+Zhao Wei Liew: Revert "power: Add support for camera preview in powerHAL" - 27 hours ago
+project hardware/qcom/audio-caf/msm8916/
+Luca Stefani: Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD - 7 days ago
+project hardware/qcom/audio-caf/msm8996/
+Ethan Chen: Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996 - 5 days ago
+Ethan Chen: Revert "post proc : volume listener : fix effect release crash" - 5 days ago
+project hardware/qcom/display-caf/msm8996/
+Christopher R. Palmer: Revert "display: Add color metadata definition" - 4 days ago
+Christopher R. Palmer: Revert "sdm: Use ColorMetadata in SDM" - 4 days ago
+Ethan Chen: Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996 - 5 days ago
+project hardware/qcom/fm/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project hardware/qcom/media-caf/msm8996/
+Christopher R. Palmer: Revert "mm-video-v4l2: vdec: Support for HDR Info extension" - 4 days ago
+Christopher R. Palmer: Revert "mm-video-v4l2: vdec:Metadata for HDR and ColorAspects" - 4 days ago
+Christopher R. Palmer: Revert "mm-video-v4l2: vdec: Convert maximum display luminance in cd/m2" - 4 days ago
+Ethan Chen: Merge tag 'LA.UM.5.5.r1-02500-8x96.0' into cm-14.1-caf-8996 - 5 days ago
+project kernel/asus/msm8916/
+audahadi: drivers/staging/prima : update to LA.BR.1.2.9_rb1.11 - 6 days ago
+audahadi: Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.11' into HEAD - 6 days ago
+Srinivas Rao L: genirq: fix race condition in irq_affinity_notify - 6 days ago
+Lina Iyer: irq: Allow multiple clients to register for irq affinity notification - 6 days ago
+Vijayavardhan Vennapusa: USB: phy: msm: Fix bad magic error during probe - 6 days ago
+yidongh: ASOC: msm: Restrict loop index to avoid buffer overread - 6 days ago
+kunleiz: ASoC: msm: qdsp6v2: DAP: Add check to validate param length - 6 days ago
+Ghanim Fodi: msm: rndis_ipa: Remove rndis_ipa loopback functionality - 6 days ago
+Xiaojun Sang: ASoC: qdsp6v2: fix potential bug of infinite loop - 6 days ago
+Yeleswarapu Nagaradhesh: ASoC: wcd-mbhc: enable micbias for special headset - 6 days ago
+Sachin Bhayare: msm: mdss: Fix potential deferencing of null pointer - 6 days ago
+Xiaojun Sang: ASoC: soc: prevent risk of buffer overflow - 6 days ago
+Siena Richard: ASoC: msm: qdsp6v2: return error when copy from userspace fails - 6 days ago
+Xiaoyu Ye: drivers: soc: qcom: Add error handling in function avtimer_ioctl - 6 days ago
+Laxminath Kasam: avtimer: update ioctl call to query avtimer - 6 days ago
+David Keitel: pinctrl: msm: fix function name allocation length - 6 days ago
+Karthikeyan Mani: ASoC: wcd9335: Fix out of bounds for mad input value - 6 days ago
+Karthikeyan Mani: ASoC: wcd9330: Fix out of bounds for mad input value - 6 days ago
+Karthikeyan Mani: ASoC: wcd9320: Fix out of bounds for mad input value - 6 days ago
+David Keitel: bcl: fix allocation for BCL attribute - 6 days ago
+Ram Chandrasekar: msm: limits: Fix out of bound access - 6 days ago
+Sathish Ambley: msm: ADSPRPC: Buffer length truncated while validation - 6 days ago
+VijayaKumar T M: msm-camera: Addressing possible overflow conditions - 6 days ago
+Bhalchandra Gajare: ASoC: msm-lsm-client: cleanup ioctl functions - 6 days ago
+Rajesh Bondugula: msm: camera: sensor: Fix the improper pointer dereference - 6 days ago
+EunTaik Lee: staging/android/ion : fix a race condition in the ion driver - 6 days ago
+AnilKumar Chimata: msm: crypto: set CLR_CNTXT bit for crypto operations - 6 days ago
+Karthikeyan Ramasubramanian: net: ipc_router: Register services only on client port - 6 days ago
+Vinayak Menon: arm64: avoid segfault on el0 cache maintenance - 6 days ago
+Srinivasarao P: Revert "trace: Add an option to show tgids in trace output" - 6 days ago
+Swetha Chikkaboraiah: perf: fix perf bug in fork() - 6 days ago
+Swetha Chikkaboraiah: perf: Fix irq_work 'tail' recursion - 6 days ago
+Swetha Chikkaboraiah: perf: Handle compat ioctl - 6 days ago
+Jiri Olsa: perf: Add queued work to remove orphaned child events - 6 days ago
+Jiri Olsa: perf: Set owner pointer for kernel events - 6 days ago
+Devdutt Patnaik: usb: android: Fix buffer overflow due to incorrect snprintf length - 6 days ago
+Sharad Sangle: ASoC: msm: qdsp6v2: DAP: Add check to validate param length - 6 days ago
+audahadi: config : disable config local version - 6 days ago
+Hernán Castañón: scripts: Nokia 6 desktop setup example - 6 days ago
+project packages/apps/AudioFX/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/Bluetooth/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/CMFileManager/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/CMParts/
+Zhao Wei Liew: CMParts: power: Resolve 'automatic optimization' state issues - 11 hours ago
+Abhisek Devkota: Automatic translation import - 11 hours ago
+Zhao Wei Liew: CMParts: Add touchscreen gesture settings and keyhandler - 2 days ago
+project packages/apps/Calendar/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/CellBroadcastReceiver/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/Dialer/
+Abhisek Devkota: Automatic translation import - 11 hours ago
+Lars Greiss: Dialer - Flip to Mute/Reject Call [3/3] - 6 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/Gallery2/
+Sam Mortimer: Gallery2: Fix crash when using locations view - 2 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/Messaging/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/PhoneCommon/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/ROMControl/
+rogersb11: ROMControl - PIE 3.0 (2/2) - 10 hours ago
+project packages/apps/Recorder/
+Joey Rizzoli: Recorder: grant permissions to read opened files to apps started from notifications - 4 days ago
+Joey Rizzoli: Recorder: tmp app icon - 4 days ago
+Joey Rizzoli: Recorder: update gradle plugin - 4 days ago
+project packages/apps/Settings/
+Abhisek Devkota: Automatic translation import - 11 hours ago
+Kiril Mikos: Settings - Add preference for EdgeGesture service [2/2] - 31 hours ago
+Zhao Wei Liew: Settings: gesture: Add CMParts touchscreen gesture settings - 32 hours ago
+Lokesh Chamane: Settings - HeadsUp snooze function [2/2] - 2 days ago
+Lars Greiss: Settings - HeadsUp: add timeout option (2/2) - 2 days ago
+Brint E. Kriebel: development: Add setting for updating recovery - 3 days ago
+cretin45: Settings: Don't crash in SUW if no talkback service is installed - 6 days ago
+project packages/apps/Snap/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Danny Baumann: Fix thumbnail sometimes not being shown initially in video mode. - 3 days ago
+Danny Baumann: Fix shutter button pressed state tracking issues. - 3 days ago
+codeworkx: Snap: store module index - 5 days ago
+Michael Bestas: Snap: Fix NPE when parameters.getSupportedVideoSizes() is null - 5 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/masquerade/
+Nicholas Chum: Release 20P: Initiate the caller package checking system - 7 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/providers/DownloadProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/providers/WeatherProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/services/Telecomm/
+Simon Shields: CallAudioModeStateMachineTest: fix compilation - 5 days ago
+project packages/services/Telephony/
+Abhisek Devkota: Automatic translation import - 11 hours ago
+Lars Greiss: services/Telephony - Flip to Mute/Reject Call [2/3] - 6 days ago
+Gabriele M: MobileNetworkSettings: Read and write USER_NETWORK_MODE - 7 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project platform_manifest/
+Zhao Wei Liew: aokp: Remove external/google - 11 hours ago
+druboo666: Z00A/Z008:Go Back to The Muppets - 2 days ago
+Joey Rizzoli: android: switch to LineageOS recorder - 3 days ago
+STELIX: platform_manifest - track our own services_Telephony - 5 days ago
+project vendor/aokp/
+Zhao Wei Liew: cm: overlay: Settings: Enable gesture settings - 2 days ago
+Joey Rizzoli: cm: add LineageOS recorder - 3 days ago
+EsromG5: Add otus and peregrine - 6 days ago
+Paul Keith: apns: Add differentiation to FreedomPop Global GSM APN - 6 days ago
+Paul Keith: apns: Add FreedomPop US LTE sim APN - 6 days ago
+Paul Keith: apns: Correct FreedomPop Global GSM APN - 6 days ago
+project vendor/cmsdk/
+Zhao Wei Liew: cmsdk: PerformanceManager: Update POWER_HINT_SET_PROFILE value - 10 hours ago
+Abhisek Devkota: Automatic translation import - 10 hours ago
+Zhao Wei Liew: cmsdk: Add touchscreen gestures support - 2 days ago
+Zhao Wei Liew: cmsdk: Add DeviceKeyHandler overlays - 2 days ago
