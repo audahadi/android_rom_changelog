@@ -1,0 +1,211 @@
+
+project bionic/
+Matt Mower: linker: Allow only specified non-PIE executables - 6 days ago
+Michael Bestas: Revert "Revert "Reenable support for non-PIE executables"" - 6 days ago
+project device/asus/msm8916-common/
+Luca Stefani: msm8916-common: Add selinux rules needed by gestures cmhw - 6 days ago
+Zhao Wei Liew: msm8916-common: Switch to the CMHW touchscreen gestures implementation - 6 days ago
+Luca Stefani: msm8916-common: Remove keyhandler - 6 days ago
+Luca Stefani: msm8916-common: Get rid of CMActions - 6 days ago
+project frameworks/base/
+maxwen: Fw_base - QSCustomizer: use custom column count - 9 hours ago
+maxwen: Fw_base - SystemUI: all tile scroller for quickbar settings [1/2] - 9 hours ago
+Calin: Fw_base - Blur: Color Filters implementation (1/2) - 9 hours ago
+maxwen: Fw_base - SystemUI: custom QS header images [1/2] - 9 hours ago
+LorDClockaN: Fw_base - AppSidebar: Auto hide timeout (1/2) - 9 hours ago
+LorDClockaN: Fw_base - Blur: Fix qs shade alpha to show correctly after LS - 9 hours ago
+LorDClockaN: Fw_base - Edit ss: Move Edit action and fix share action - 9 hours ago
+Calin: Fw_base - Blur: Implement Recents Blur (1/2) - 9 hours ago
+Calin: Fw_base - [SQUASHED] Implement XOSP Blur personalization options (1/2) - 9 hours ago
+Altaf-Mahdi: Fw_base - Add a controller for in-call proximity sensor (1/3) - 2 days ago
+garwedgess: Fw_base - Breathing missedcall/sms/voicemail [1/5] - 2 days ago
+Shufeng Hou: SystemUI: Fix the unlock sound played repeatedly - 3 days ago
+Matt Filetto: policy: don't allow app switch/recents key to be pressed on lockscreen - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+dankoman: Fw_base - port SlimSeekBarPreference to Nougat - 4 days ago
+Muhammed Nazim: Fw_base - National Data Roaming [1/3] - 4 days ago
+Danesh M: SeekBarVolumizer: Disable notification volume if RINGER_MODE_VIBRATE - 5 days ago
+Zhao Wei Liew: SystemUI: PowerNotification: Add up button to fragment - 6 days ago
+LuK1337: Use STREAM_RING on non-voice capable devices - 6 days ago
+Willi Ye: Fw_base - circlebattery: bring back pulsing animation - 7 days ago
+Jean-Pierre Rasquin: Fw_base - show battery info on lockscreen when charging [1/2] - 7 days ago
+Jean-Pierre Rasquin: Fw_base - show charging current & voltage on lockscreen [1/2] - 7 days ago
+beanstown106: Fw_base - Longpress power lockscreen torch [1/2] - 7 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project frameworks/opt/telephony/
+Arne Coucheron: Fix SIM detection when encrypted for older RIL - 3 days ago
+project hardware/qcom/fm/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project kernel/asus/msm8916/
+LuK1337: input: ftxxxx: Return proper gesture_mode value - 5 days ago
+project packages/apps/AudioFX/
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Bluetooth/
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Browser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMFileManager/
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMParts/
+Zhao Wei Liew: CMParts: power: Resolve 'automatic optimization' state issues - 7 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/Calendar/
+Michael W: Calendar: Fix check for things to import - 6 hours ago
+Michael W: Calendar: Prevent NPE - 6 hours ago
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CellBroadcastReceiver/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Contacts/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/DeskClock/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Dialer/
+Altaf-Mahdi: Dialer - InCallUI: Add a controller for in-call proximity sensor (2/3) - 2 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Email/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gallery2/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+razorloves: LockClock: change forecast text color to white - 5 days ago
+project packages/apps/ManagedProvisioning/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Messaging/
+Bajee11: Messaging - Breathing missedcall/sms/voicemail [4/5] - 2 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+project packages/apps/PhoneCommon/
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/ROMControl/
+entony80: Update Italian translation - 9 hours ago
+SpiritCroc: ROMControl - all tile scroller for quickbar settings [2/2] - 9 hours ago
+Calin: ROMControl - Blur: Color Filters implementation (2/2) - 9 hours ago
+maxwen: ROMControl - custom QS header images [2/2] - 9 hours ago
+LorDClockaN: ROMControl - AppSidebar: Auto hide timeout (2/2) - 9 hours ago
+Ali B: ROMControl - sometimes transparency is opacity - 9 hours ago
+Ali B: ROMControl - AE: BlurUI update strings and dependencies - 9 hours ago
+LorDClockaN: ROMControl - Blur: edit notice, stroke is working now - 9 hours ago
+Ali B: ROMControl - Blur: Implement Recents Blur (1/2) - 9 hours ago
+Calin: ROMControl - Blur: Add recents blur back that XOSP removed just for the fun - 9 hours ago
+Ali B: ROMControl - BlurUI: update to N - 9 hours ago
+LorDClockaN: ROMControl - Blur: Main switch now restores previous switch values - 9 hours ago
+Calin: ROMControl - [SQUASHED] Implement XOSP Blur personalization options (2/2) - 9 hours ago
+mestreian: ROMControl - add Mestreian in maintainers - 9 hours ago
+Bajee11: ROMControl - Breathing missedcall/sms/voicemail [5/5] - 4 days ago
+STELIX: ROMControl - give back split screen action to hw buttons - 4 days ago
+Jean-Pierre Rasquin: ROMControl - show battery info on lockscreen when charging [2/2] - 7 days ago
+Ali B: ROMControl - show charging current & voltage on lockscreen [2/2] - 7 days ago
+beanstown106: ROMControl - Longpress power lockscreen torch [2/2] - 7 days ago
+Shreps: ROMControl: FR translation - 7 days ago
+rogersb11: ROMControl - PIE 3.0 (2/2) - 7 days ago
+project packages/apps/Recorder/
+Abhisek Devkota: Automatic translation import - 11 hours ago
+Joey Rizzoli: Recorder: add play action to notifications - 33 hours ago
+Joey Rizzoli: Recorder: bump support libraries - 33 hours ago
+Danny Baumann: Recorder: cleanup - 33 hours ago
+Danny Baumann: Correctly unregister shared preference change listener. - 33 hours ago
+Joey Rizzoli: Recorder: add latest records cards - 33 hours ago
+Joey Rizzoli: Recorder: fix broken services on activity changes - 33 hours ago
+Joey Rizzoli: Recorder: fix mic request for screen recorder - 2 days ago
+Danny Baumann: Avoid fragment state management issues. - 2 days ago
+project packages/apps/Settings/
+Andrew Dodd: wifi: Allow configuration of country code for wifi - 9 hours ago
+Zhao Wei Liew: Settings: Disable lock screen blur by default - 23 hours ago
+Zhao Wei Liew: Revert "settings: Remove lock screen blur stuff breaking build" - 23 hours ago
+STELIX: Settings - don't show doze batt info if doesn't support - 2 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+LuK1337: Show proper notification volume icon on non-voice capable devices - 6 days ago
+Zhao Wei Liew: SoundSettings: Always initialize mRingOrNotificationPreference - 6 days ago
+Zhao Wei Liew: Revert "SoundSettings: Prevent NPE due to linked volumes change" - 6 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/Snap/
+Flex1911: Snap: VideoModule: properly update focus settings when switching between cameras - 10 hours ago
+Gabriele M: Snap: Fix zoom in video mode - 10 hours ago
+Steve Kondik: Snap: Remove touch AF/AEC option - 11 hours ago
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Terminal/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 32 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/TvSettings/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/UnifiedEmail/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/WallpaperPicker/
+Joey Rizzoli: WallpaperPicker: bring back cm wallpapers - 2 days ago
+Joey Rizzoli: WallpaperPicker: update icon - 3 days ago
+Joey Rizzoli: WallpaperPicker: materialize delete icon - 3 days ago
+Joey Rizzoli: WallpaperPicker: bump gradle - 3 days ago
+project packages/inputmethods/LatinIME/
+dh-harald: LatinIME: Add Hungarian QWERTY, enable predictive dictionary - 4 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/DownloadProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/MediaProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/TelephonyProvider/
+Arne Coucheron: Revert "telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE" - 6 hours ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/Telecomm/
+garwedgess: services/Telecomm - Breathing missedcall/sms/voicemail [2/5] - 2 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+project packages/services/Telephony/
+dankoman: Services_Telephony - Proximity speaker [2/3] - 2 days ago
+Altaf-Mahdi: Telephony Service - Add a controller for in-call proximity sensor (3/3) - 2 days ago
+garwedgess: services/Telephony - Breathing missedcall/sms/voicemail [3/5] - 2 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+lichti1901: Services_Telephony - National Data Roaming [3/3] - 4 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/wallpapers/LivePicker/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project platform_manifest/
+STELIX: platform_manifest - track our own fw_opt_telephony - 4 days ago
+STELIX: platform_manifest - track our own packages_Messaging - 4 days ago
+STELIX: platform_manifest - track our own services_Telecomm - 4 days ago
+Zhao Wei Liew: aokp: Remove external/google - 7 days ago
+project system/core/
+Harry Youd: debuggerd: Rebrand tombstone header to LineageOS - 4 days ago
+project system/extras/su/
+Unpublished: su: don't crash on SIGPIPE while passing return code to client - 4 days ago
+project system/sepolicy/
+Erik Kline: Permit dumpstate to run "ip xfrm policy". - 34 hours ago
+project vendor/aokp/
+Matt Mower: qcom: Permit dumpstate to run "ip xfrm policy" - 34 hours ago
+dh-harald: LatinIME: re-add (fixed) Hungarian dictionary - 2 days ago
+Zhao Wei Liew: cm: charger: Correct res_create_multi_display_surface() usage - 2 days ago
+Zhao Wei Liew: cm: Enable long-press on power in suspend by default - 2 days ago
+nicknitewolf: apns: Add SingTel hi!card sim APN - 5 days ago
+Daniel Marsee: apns: Update H2O Wireless for LTE - 5 days ago
+project vendor/cmsdk/
+Abhisek Devkota: Automatic translation import - 3 days ago
+Zhao Wei Liew: cmsdk: PerformanceManager: Update POWER_HINT_SET_PROFILE value - 7 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+Abhisek Devkota: Automatic translation import - 31 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+Abhisek Devkota: Automatic translation import - 31 hours ago
+Abhisek Devkota: Automatic translation import - 4 days ago
