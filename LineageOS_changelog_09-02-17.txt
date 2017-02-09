@@ -1,0 +1,143 @@
+
+project bionic/
+Matt Mower: linker: Allow only specified non-PIE executables - 6 days ago
+Michael Bestas: Revert "Revert "Reenable support for non-PIE executables"" - 6 days ago
+project device/asus/msm8916-common/
+Luca Stefani: msm8916-common: Add selinux rules needed by gestures cmhw - 6 days ago
+Zhao Wei Liew: msm8916-common: Switch to the CMHW touchscreen gestures implementation - 6 days ago
+Luca Stefani: msm8916-common: Remove keyhandler - 6 days ago
+Luca Stefani: msm8916-common: Get rid of CMActions - 6 days ago
+project device/qcom/common/
+Zhao Wei Liew: power: Remove POWER_HINT_AUDIO - 7 days ago
+project frameworks/base/
+Shufeng Hou: SystemUI: Fix the unlock sound played repeatedly - 3 days ago
+Matt Filetto: policy: don't allow app switch/recents key to be pressed on lockscreen - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+Danesh M: SeekBarVolumizer: Disable notification volume if RINGER_MODE_VIBRATE - 5 days ago
+beanstown106: policy: Long-press power while display is off for torch - 5 days ago
+Zhao Wei Liew: SystemUI: PowerNotification: Add up button to fragment - 6 days ago
+LuK1337: Use STREAM_RING on non-voice capable devices - 6 days ago
+project frameworks/opt/telephony/
+Arne Coucheron: Fix SIM detection when encrypted for older RIL - 4 days ago
+project hardware/libhardware/
+Zhao Wei Liew: hardware: power: Remove POWER_HINT_AUDIO - 7 days ago
+project hardware/qcom/fm/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project kernel/asus/msm8916/
+LuK1337: input: ftxxxx: Return proper gesture_mode value - 5 days ago
+project packages/apps/AudioFX/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Bluetooth/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Browser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMBugReport/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMFileManager/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMParts/
+Michael W: CMParts: Clean out imports - 2 days ago
+Bruno Martins: CMParts: Simplify long press for torch strings - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+beanstown106: CMParts: Long-press power while display is off for torch - 5 days ago
+Zhao Wei Liew: CMParts: Clean up status bar settings class - 7 days ago
+Zhao Wei Liew: CMParts: power: Resolve 'automatic optimization' state issues - 7 days ago
+Zhao Wei Liew: CMParts: Update quick QS pull-down entries for RTL layouts - 7 days ago
+Zhao Wei Liew: CMParts: Don't update status bar clock summary on RTL - 7 days ago
+Zhao Wei Liew: CMParts: Update quick QS pull-down summary on pref change - 7 days ago
+project packages/apps/CMUpdater/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Tom Powell: CMUpdater: Show updates only for the channel a user is on - 7 days ago
+project packages/apps/Calendar/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CellBroadcastReceiver/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Contacts/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/DeskClock/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Dialer/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Email/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gallery2/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 4 days ago
+razorloves: LockClock: change forecast text color to white - 5 days ago
+project packages/apps/ManagedProvisioning/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Messaging/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/PhoneCommon/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Settings/
+Abhisek Devkota: Automatic translation import - 4 days ago
+LuK1337: Show proper notification volume icon on non-voice capable devices - 6 days ago
+Zhao Wei Liew: SoundSettings: Always initialize mRingOrNotificationPreference - 6 days ago
+Zhao Wei Liew: Revert "SoundSettings: Prevent NPE due to linked volumes change" - 6 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/SetupWizard/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/Snap/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Terminal/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/TvSettings/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/UnifiedEmail/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/inputmethods/LatinIME/
+dh-harald: LatinIME: Add Hungarian QWERTY, enable predictive dictionary - 3 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/DownloadProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/MediaProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/Telecomm/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/Telephony/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/wallpapers/LivePicker/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project system/core/
+Harry Youd: debuggerd: Rebrand tombstone header to LineageOS - 4 days ago
+project system/extras/su/
+Unpublished: su: don't crash on SIGPIPE while passing return code to client - 4 days ago
+project system/sepolicy/
+Erik Kline: Permit dumpstate to run "ip xfrm policy". - 35 hours ago
+project vendor/cm/
+Matt Mower: qcom: Permit dumpstate to run "ip xfrm policy" - 35 hours ago
+Christopher N. Hesse: bootanimation: Use mogrify to convert images in place - 2 days ago
+dh-harald: LatinIME: re-add (fixed) Hungarian dictionary - 3 days ago
+Zhao Wei Liew: cm: charger: Correct res_create_multi_display_surface() usage - 4 days ago
+c457: contributors: Add Axon7 maintainers - 4 days ago
+FireLord1: vendor: fix lunch combo name to lineage - 5 days ago
+Zhao Wei Liew: cm: Enable long-press on power in suspend by default - 5 days ago
+Brinly Taylor: contributors: BQ updates - 6 days ago
+nicknitewolf: apns: Add SingTel hi!card sim APN - 6 days ago
+Daniel Marsee: apns: Update H2O Wireless for LTE - 6 days ago
+project vendor/cmsdk/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Zhao Wei Liew: CMSDK: Add long-press power for torch CMSetting - 5 days ago
+Zhao Wei Liew: cmsdk: PerformanceManager: Update POWER_HINT_SET_PROFILE value - 7 days ago
+project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
