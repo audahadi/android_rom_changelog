@@ -1,0 +1,403 @@
+
+project bionic/
+Matt Mower: linker: Allow only specified non-PIE executables - 5 days ago
+Dan Pasanen: linker: allow text relocations on user builds - 5 days ago
+project bootable/recovery/
+115ek: Rename process_key to ProcessKey - 34 hours ago
+Matt Mower: Fix bldr msg file open mode when offset specified - 35 hours ago
+Matt Mower: Fixup custom bootloader msg offset in block misc - 5 days ago
+project build/
+Dan Pasanen: Revert "build_image: Unbreak verity/FEC generation" - 12 hours ago
+Dan Pasanen: tasks: dt: add flag to optionally compress dt with lz4 - 5 days ago
+Gabriele M: releasetools: Generate recovery-from-boot.p with bsdiff if necessary - 5 days ago
+Allen Wild: bacon: strip absolute PRODUCT_OUT path from md5sum file - 6 days ago
+project device/qcom/common/
+Dan Pasanen: Revert "extractors: Add aptX & aptXHD to confirmed platforms" - 5 hours ago
+Ethan Chen: cryptfs_hw: Move to vendor/qcom/opensource/cryptfs_hw - 22 hours ago
+project device/qcom/sepolicy/
+Michael Bestas: Merge tag 'LA.UM.5.5.r1-02200-8x96.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into cm-14.1 - 12 hours ago
+project external/jemalloc/
+Jason Evans: Avoid a potential innocuous compiler warning. - 7 days ago
+project external/ntfs-3g/
+Jean-Pierre André: Loaded the fuse kernel module with no environment - 33 hours ago
+project frameworks/base/
+d34d: Show infinity for large notification counts - 12 hours ago
+Gabriele M: Don't reposition the clock when pulling down the notification bar - 2 days ago
+Abhisek Devkota: Automatic translation import - 2 days ago
+LuK1337: SystemUI: Use mContext.getDrawable for battery icon - 2 days ago
+Sam Mortimer: PhoneWindowManager: add mTopFullscreenOpaqueWindowState null check to fix exception - 6 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project frameworks/native/
+Dan Pasanen: sf: fixes for HWC2 - 12 hours ago
+project frameworks/opt/telephony/
+Muhammed Nazim: Fw_opt_tel - National Data Roaming [2/3] - 6 hours ago
+project hardware/broadcom/libbt/
+Paul Keith: libbt: Import CID_PATH from samsung_macloader.h - 6 days ago
+project hardware/libhardware/
+Zhao Wei Liew: hardware: power: Remove POWER_HINT_AUDIO - 22 hours ago
+Zhao Wei Liew: Revert "power: Add support for camera preview in powerHAL" - 22 hours ago
+project hardware/libhardware_legacy/
+Paul Keith: wifi: Import CID_PATH from samsung_macloader.h - 5 days ago
+project hardware/qcom/audio-caf/msm8974/
+Hendrik Hagendorn: hal: Remove duplicated HFP if branch (mismerge) - 6 days ago
+project hardware/qcom/bootctrl/
+Dan Pasanen: bootctl: use TARGET_RECOVERY_UPDATER_LIBS macro for linking - 35 hours ago
+project hardware/qcom/fm/
+Ricardo Cerqueira: jni: Confine the firmware-load skipping to the actual loading - 35 hours ago
+project hardware/qcom/media/
+David: media: add missing 8952 symlink - 2 days ago
+project hardware/ril-caf/
+Matt Mower: ril: Setting ril to v10 or v11 serves no purpose - 35 hours ago
+project kernel/asus/msm8916/
+audahadi: config : update zc550-perf, remove zc550-aosp - 3 days ago
+project packages/apps/AudioFX/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Browser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMFileManager/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/CMParts/
+Abhisek Devkota: Automatic translation import - 12 hours ago
+dianlujitao: CMParts: strings: Fix indentation - 2 days ago
+Zhao Wei Liew: CMParts: gestures: Specify a qualified user for update broadcast - 2 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+LuK1337: Add "Letter V" string - 6 days ago
+project packages/apps/Calendar/
+Michael W: Calendar: Fix check for things to import - 5 days ago
+Michael W: Calendar: Prevent NPE - 7 days ago
+project packages/apps/CellBroadcastReceiver/
+Arun Rathi: Alert tone does not play for ETWS - 5 days ago
+project packages/apps/Contacts/
+Danny Baumann: Improve CAF strings - 11 hours ago
+project packages/apps/ContactsCommon/
+Danny Baumann: Improve CAF strings - 5 days ago
+project packages/apps/Dialer/
+Danny Baumann: Fix tab layout for DSDA. - 2 days ago
+Abhisek Devkota: Automatic translation import - 2 days ago
+Danny Baumann: Improve CAF strings - 6 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Exchange/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/FMRadio/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Messaging/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Profiles/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Recorder/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Settings/
+Danny Baumann: Track RemotePreferenceManager API changes. - 2 days ago
+Abhisek Devkota: Automatic translation import - 2 days ago
+Arne Coucheron: Settings: Set ADB notification on by default - 2 days ago
+entony80: Update Italian translation - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Snap/
+Gabriele M: Snap: Replace noisy debug line - 5 days ago
+Gabriele M: Snap: VideoModule: Restore check on mPreferenceRead - 5 days ago
+Gabriele M: Snap: VideoModule: Update flash status on preference change - 5 days ago
+Michael Bestas: Snap: Fix filtering of unsupported HFR/HSR modes - 5 days ago
+Gabriele M: Snap: Fix max brightness and power shutter settings - 5 days ago
+Michael Bestas: Snap: Fix NPE when parameters.getSupportedVideoSizes() is null - 5 days ago
+Danny Baumann: Fix shutter button pressed state tracking issues. - 5 days ago
+codeworkx: Snap: store module index - 5 days ago
+Danny Baumann: Fix thumbnail sometimes not being shown initially in video mode. - 5 days ago
+Flex1911: Snap: VideoModule: properly update focus settings when switching between cameras - 5 days ago
+Gabriele M: Snap: Fix zoom in video mode - 5 days ago
+Steve Kondik: Snap: Remove touch AF/AEC option - 7 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/WallpaperPicker/
+Joey Rizzoli: WallpaperPicker: bring back cm wallpapers - 5 days ago
+Joey Rizzoli: WallpaperPicker: materialize delete icon - 5 days ago
+Joey Rizzoli: WallpaperPicker: update icon - 5 days ago
+Joey Rizzoli: WallpaperPicker: bump gradle - 7 days ago
+project packages/inputmethods/LatinIME/
+dh-harald: LatinIME: Add Hungarian QWERTY, enable predictive dictionary - 7 days ago
+project packages/providers/ContactsProvider/
+Dan Pasanen: dbhelper: fix schema disaster from pre-cafrebase repo - 27 hours ago
+Gabriele M: Don't suspend aggregation for new contacts - 7 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/TelephonyProvider/
+Arne Coucheron: Revert "telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE" - 5 days ago
+Gabriele M: telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE - 5 days ago
+project packages/providers/ThemesProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/WeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/LiveLockScreenService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/Telecomm/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/services/Telephony/
+Kasual: Telephony: Fix qtistrings - 2 days ago
+Michael W: Telephony: Fix qtistrings - 2 days ago
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project platform_manifest/
+Zhao Wei Liew: cm: Sync the new cryptfs_hw repo - 12 hours ago
+Shane Passmore: cm.xml: remove CMWallpapers repo - 12 hours ago
+Zhao Wei Liew: cm: Remove android-visualizer library - 12 hours ago
+Zhao Wei Liew: cm: Remove ahbottomnavigation library - 12 hours ago
+STELIX: platform_manifest - SwagPapers - 5 days ago
+project system/bt/
+Dan Pasanen: Revert "Bluetooth-Wipower: Enable WiPower feature." - 32 hours ago
+project system/extras/
+David Marble: extras: Remove su, we have our own - 13 hours ago
+project system/media/
+Andreas Schneider: audio_route: Add support to set complete byte arrays - 7 days ago
+project system/vold/
+c457: vold: Update path to cryptfs_hw - 22 hours ago
+project vendor/aokp/
+David Marble: http_prebuilt: Improve retrieval of artifacts from archive - 4 days ago
+Brandon McAnsh: http_prebuilt: Implement archive of artifacts - 4 days ago
+STELIX: vendor_aokp - SwagPapers - 6 days ago
+project vendor/cmsdk/
+Danny Baumann: RemotePreferenceManager: Fix receiver registration issues. - 2 days ago
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/qcom/opensource/cryptfs_hw/
+AnilKumar Chimata: cryptfs_hw: Remove keymaster partition check - 4 days ago
+Dinesh K Garg: Cleanup temporarily stored passwords - 4 days ago
+Brahmaji K: cryptfs_hw: update the listener property with keymaster property - 4 days ago
+Dinesh K Garg: Wait for QSEECom listeners before calling KMS APIs - 4 days ago
+Dinesh K Garg: cryptfs_hw: Tie HW FDE keys with keymaster - 4 days ago
+Dinesh K Garg: cryptfs_hw: Update module as per vold project - 4 days ago
+Chiou-Hao Hsu: cryptfs_hw: add string.h - 4 days ago
+AnilKumar Chimata: cryptfs_hw: Update APIs to take old password - 4 days ago
+AnilKumar Chimata: cryptfs_hw: Add support for wipe_key routine - 4 days ago
+Dinesh K Garg: Adding support for eMMC based ICE - 4 days ago
+Dinesh K Garg: Adding support of Inline Crypto Engine (ICE) - 4 days ago
+Sri Krishna Chaitanya Madireddy: qcom/common: Added O_NOFOLLOW to avoid follow the symlink - 4 days ago
+Dinesh K Garg: Port cryptfs_hw library to 64bit platform - 4 days ago
+Dinesh K Garg: Wrong function pointer usage - 4 days ago
+Dinesh K Garg: Place library in vendor folder on device - 4 days ago
+Dinesh K Garg: vold: HW based device encryption - 4 days ago
+project bionic/
+Matt Mower: linker: Allow only specified non-PIE executables - 5 days ago
+Dan Pasanen: linker: allow text relocations on user builds - 5 days ago
+project bootable/recovery/
+115ek: Rename process_key to ProcessKey - 2 days ago
+Matt Mower: Fix bldr msg file open mode when offset specified - 2 days ago
+Matt Mower: Fixup custom bootloader msg offset in block misc - 5 days ago
+project build/
+Dan Pasanen: Revert "build_image: Unbreak verity/FEC generation" - 15 hours ago
+Dan Pasanen: tasks: dt: add flag to optionally compress dt with lz4 - 5 days ago
+Gabriele M: releasetools: Generate recovery-from-boot.p with bsdiff if necessary - 5 days ago
+Allen Wild: bacon: strip absolute PRODUCT_OUT path from md5sum file - 7 days ago
+project device/qcom/common/
+Dan Pasanen: Revert "extractors: Add aptX & aptXHD to confirmed platforms" - 8 hours ago
+Ethan Chen: cryptfs_hw: Move to vendor/qcom/opensource/cryptfs_hw - 25 hours ago
+project device/qcom/sepolicy/
+Michael Bestas: Merge tag 'LA.UM.5.5.r1-02200-8x96.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into cm-14.1 - 15 hours ago
+project external/jemalloc/
+Jason Evans: Avoid a potential innocuous compiler warning. - 7 days ago
+project external/ntfs-3g/
+Jean-Pierre André: Loaded the fuse kernel module with no environment - 2 days ago
+project frameworks/base/
+d34d: Show infinity for large notification counts - 15 hours ago
+Gabriele M: Don't reposition the clock when pulling down the notification bar - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+LuK1337: SystemUI: Use mContext.getDrawable for battery icon - 3 days ago
+Sam Mortimer: PhoneWindowManager: add mTopFullscreenOpaqueWindowState null check to fix exception - 7 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project frameworks/native/
+Dan Pasanen: sf: fixes for HWC2 - 15 hours ago
+project frameworks/opt/telephony/
+Muhammed Nazim: Fw_opt_tel - National Data Roaming [2/3] - 9 hours ago
+project hardware/broadcom/libbt/
+Paul Keith: libbt: Import CID_PATH from samsung_macloader.h - 6 days ago
+project hardware/libhardware/
+Zhao Wei Liew: hardware: power: Remove POWER_HINT_AUDIO - 25 hours ago
+Zhao Wei Liew: Revert "power: Add support for camera preview in powerHAL" - 25 hours ago
+project hardware/libhardware_legacy/
+Paul Keith: wifi: Import CID_PATH from samsung_macloader.h - 5 days ago
+project hardware/qcom/audio-caf/msm8974/
+Hendrik Hagendorn: hal: Remove duplicated HFP if branch (mismerge) - 7 days ago
+project hardware/qcom/bootctrl/
+Dan Pasanen: bootctl: use TARGET_RECOVERY_UPDATER_LIBS macro for linking - 2 days ago
+project hardware/qcom/fm/
+Ricardo Cerqueira: jni: Confine the firmware-load skipping to the actual loading - 2 days ago
+project hardware/qcom/media/
+David: media: add missing 8952 symlink - 2 days ago
+project hardware/ril-caf/
+Matt Mower: ril: Setting ril to v10 or v11 serves no purpose - 2 days ago
+project kernel/asus/msm8916/
+audahadi: config : update zc550-perf, remove zc550-aosp - 3 days ago
+project packages/apps/AudioFX/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Browser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMFileManager/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/CMParts/
+Abhisek Devkota: Automatic translation import - 15 hours ago
+dianlujitao: CMParts: strings: Fix indentation - 3 days ago
+Zhao Wei Liew: CMParts: gestures: Specify a qualified user for update broadcast - 3 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+LuK1337: Add "Letter V" string - 6 days ago
+project packages/apps/Calendar/
+Michael W: Calendar: Fix check for things to import - 5 days ago
+Michael W: Calendar: Prevent NPE - 7 days ago
+project packages/apps/CellBroadcastReceiver/
+Arun Rathi: Alert tone does not play for ETWS - 5 days ago
+project packages/apps/Contacts/
+Danny Baumann: Improve CAF strings - 14 hours ago
+project packages/apps/ContactsCommon/
+Danny Baumann: Improve CAF strings - 5 days ago
+project packages/apps/Dialer/
+Danny Baumann: Fix tab layout for DSDA. - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+Danny Baumann: Improve CAF strings - 6 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Exchange/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/FMRadio/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Messaging/
+Abhisek Devkota: Automatic translation import - 3 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/Profiles/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Recorder/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Settings/
+Danny Baumann: Track RemotePreferenceManager API changes. - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+Arne Coucheron: Settings: Set ADB notification on by default - 3 days ago
+entony80: Update Italian translation - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/apps/Snap/
+Gabriele M: Snap: Replace noisy debug line - 5 days ago
+Gabriele M: Snap: VideoModule: Restore check on mPreferenceRead - 5 days ago
+Gabriele M: Snap: VideoModule: Update flash status on preference change - 5 days ago
+Michael Bestas: Snap: Fix filtering of unsupported HFR/HSR modes - 5 days ago
+Gabriele M: Snap: Fix max brightness and power shutter settings - 5 days ago
+Michael Bestas: Snap: Fix NPE when parameters.getSupportedVideoSizes() is null - 5 days ago
+Danny Baumann: Fix shutter button pressed state tracking issues. - 5 days ago
+codeworkx: Snap: store module index - 5 days ago
+Danny Baumann: Fix thumbnail sometimes not being shown initially in video mode. - 5 days ago
+Flex1911: Snap: VideoModule: properly update focus settings when switching between cameras - 5 days ago
+Gabriele M: Snap: Fix zoom in video mode - 5 days ago
+Steve Kondik: Snap: Remove touch AF/AEC option - 7 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/WallpaperPicker/
+Joey Rizzoli: WallpaperPicker: bring back cm wallpapers - 5 days ago
+Joey Rizzoli: WallpaperPicker: materialize delete icon - 5 days ago
+Joey Rizzoli: WallpaperPicker: update icon - 5 days ago
+Joey Rizzoli: WallpaperPicker: bump gradle - 7 days ago
+project packages/inputmethods/LatinIME/
+dh-harald: LatinIME: Add Hungarian QWERTY, enable predictive dictionary - 7 days ago
+project packages/providers/ContactsProvider/
+Dan Pasanen: dbhelper: fix schema disaster from pre-cafrebase repo - 31 hours ago
+Gabriele M: Don't suspend aggregation for new contacts - 7 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/TelephonyProvider/
+Arne Coucheron: Revert "telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE" - 5 days ago
+Gabriele M: telephony: Initialize USER_NETWORK_MODE with DEFAULT_NW_MODE - 5 days ago
+project packages/providers/ThemesProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/WeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/LiveLockScreenService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/Telecomm/
+Abhisek Devkota: Automatic translation import - 3 days ago
+project packages/services/Telephony/
+Kasual: Telephony: Fix qtistrings - 3 days ago
+Michael W: Telephony: Fix qtistrings - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+Abhisek Devkota: Automatic translation import - 7 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project platform_manifest/
+Zhao Wei Liew: cm: Sync the new cryptfs_hw repo - 16 hours ago
+Shane Passmore: cm.xml: remove CMWallpapers repo - 16 hours ago
+Zhao Wei Liew: cm: Remove android-visualizer library - 16 hours ago
+Zhao Wei Liew: cm: Remove ahbottomnavigation library - 16 hours ago
+STELIX: platform_manifest - SwagPapers - 5 days ago
+project system/bt/
+Dan Pasanen: Revert "Bluetooth-Wipower: Enable WiPower feature." - 35 hours ago
+project system/extras/
+David Marble: extras: Remove su, we have our own - 16 hours ago
+project system/media/
+Andreas Schneider: audio_route: Add support to set complete byte arrays - 7 days ago
+project system/vold/
+c457: vold: Update path to cryptfs_hw - 25 hours ago
+project vendor/aokp/
+David Marble: http_prebuilt: Improve retrieval of artifacts from archive - 4 days ago
+Brandon McAnsh: http_prebuilt: Implement archive of artifacts - 4 days ago
+STELIX: vendor_aokp - SwagPapers - 6 days ago
+project vendor/cmsdk/
+Danny Baumann: RemotePreferenceManager: Fix receiver registration issues. - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/qcom/opensource/cryptfs_hw/
+AnilKumar Chimata: cryptfs_hw: Remove keymaster partition check - 4 days ago
+Dinesh K Garg: Cleanup temporarily stored passwords - 4 days ago
+Brahmaji K: cryptfs_hw: update the listener property with keymaster property - 4 days ago
+Dinesh K Garg: Wait for QSEECom listeners before calling KMS APIs - 4 days ago
+Dinesh K Garg: cryptfs_hw: Tie HW FDE keys with keymaster - 4 days ago
+Dinesh K Garg: cryptfs_hw: Update module as per vold project - 4 days ago
+Chiou-Hao Hsu: cryptfs_hw: add string.h - 4 days ago
+AnilKumar Chimata: cryptfs_hw: Update APIs to take old password - 4 days ago
+AnilKumar Chimata: cryptfs_hw: Add support for wipe_key routine - 4 days ago
+Dinesh K Garg: Adding support for eMMC based ICE - 4 days ago
+Dinesh K Garg: Adding support of Inline Crypto Engine (ICE) - 4 days ago
+Sri Krishna Chaitanya Madireddy: qcom/common: Added O_NOFOLLOW to avoid follow the symlink - 4 days ago
+Dinesh K Garg: Port cryptfs_hw library to 64bit platform - 4 days ago
+Dinesh K Garg: Wrong function pointer usage - 4 days ago
+Dinesh K Garg: Place library in vendor folder on device - 4 days ago
+Dinesh K Garg: vold: HW based device encryption - 4 days ago
