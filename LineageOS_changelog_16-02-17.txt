@@ -1,0 +1,200 @@
+
+project android/
+Shane Passmore: cm.xml: remove CMWallpapers repo - 3 days ago
+project bootable/recovery/
+115ek: Rename process_key to ProcessKey - 3 days ago
+Matt Mower: Fix bldr msg file open mode when offset specified - 3 days ago
+project build/
+Matt Mower: core: Output full OTA package path to terminal - 3 days ago
+Tom Powell: Revert "Allow to force disable block based OTAs" - 3 days ago
+Gabriele M: Allow to force disable block based OTAs - 4 days ago
+Gabriele M: releasetools: Generate recovery-from-boot.p with bsdiff if necessary - 6 days ago
+Paul Keith: dumpvar: Dump RECOVERY_VARIANT if not empty - 7 days ago
+project frameworks/base/
+d34d: Show infinity for large notification counts - 2 days ago
+Gabriele M: Don't reposition the clock when pulling down the notification bar - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+LuK1337: SystemUI: Use mContext.getDrawable for battery icon - 5 days ago
+project hardware/broadcom/libbt/
+Paul Keith: libbt: Import CID_PATH from samsung_macloader.h - 6 days ago
+project hardware/libhardware_legacy/
+Paul Keith: wifi: Import CID_PATH from samsung_macloader.h - 6 days ago
+project hardware/qcom/audio-caf/msm8974/
+Hendrik Hagendorn: hal: Remove duplicated HFP if branch (mismerge) - 6 days ago
+project hardware/qcom/fm/
+Ricardo Cerqueira: jni: Confine the firmware-load skipping to the actual loading - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project hardware/qcom/media/
+David: media: add missing 8952 symlink - 2 days ago
+project kernel/asus/msm8916/
+audahadi: config : update zc550-perf, remove zc550-aosp - 2 days ago
+project packages/apps/AudioFX/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Bluetooth/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Browser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMBugReport/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CMFileManager/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/CMParts/
+dianlujitao: CMParts: strings: Fix indentation - 3 days ago
+Zhao Wei Liew: CMParts: gestures: Specify a qualified user for update broadcast - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+LuK1337: Add "Letter V" string - 6 days ago
+project packages/apps/CMUpdater/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Calendar/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Camera2/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/CellBroadcastReceiver/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Arun Rathi: Alert tone does not play for ETWS - 6 days ago
+project packages/apps/CertInstaller/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Contacts/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Danny Baumann: Improve CAF strings - 6 days ago
+project packages/apps/ContactsCommon/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/DeskClock/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Dialer/
+Danny Baumann: Fix tab layout for DSDA. - 3 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+Danny Baumann: Improve CAF strings - 6 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Email/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/EmergencyInfo/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/ExactCalculator/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Exchange/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/FMRadio/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gallery2/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/HTMLViewer/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/KeyChain/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/ManagedProvisioning/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Messaging/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Nfc/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/PackageInstaller/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/PhoneCommon/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Profiles/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Recorder/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/SafetyRegulatoryInfo/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Settings/
+Danny Baumann: Track RemotePreferenceManager API changes. - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+Arne Coucheron: Settings: Set ADB notification on by default - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/SetupWizard/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Snap/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Michael Bestas: Snap: Fix filtering of unsupported HFR/HSR modes - 6 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Gabriele M: Snap: Fix max brightness and power shutter settings - 6 days ago
+Gabriele M: Snap: VideoModule: Update flash status on preference change - 6 days ago
+Gabriele M: Snap: Replace noisy debug line - 6 days ago
+Gabriele M: Snap: VideoModule: Restore check on mPreferenceRead - 6 days ago
+project packages/apps/Stk/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Tag/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Terminal/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/TvSettings/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/UnifiedEmail/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/apps/WallpaperPicker/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/inputmethods/LatinIME/
+Abhisek Devkota: Automatic translation import - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/providers/BookmarkProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/CalendarProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/CallLogProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/ContactsProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/DownloadProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/MediaProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/TelephonyProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/ThemesProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/UserDictionaryProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/providers/WeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/screensavers/Basic/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/screensavers/PhotoTable/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/LiveLockScreenService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/Telecomm/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/Telephony/
+Kasual: Telephony: Fix qtistrings - 3 days ago
+Michael W: Telephony: Fix qtistrings - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project packages/wallpapers/LivePicker/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project system/media/
+Andreas Schneider: audio_route: Add support to set complete byte arrays - 7 days ago
+project vendor/cm/
+Shane Passmore: cm: config: dont build CMWallpapers - 3 days ago
+Zhao Wei Liew: cm: bootanimation: Fail the build if mogrify is absent - 5 days ago
+Dan Pasanen: tasks: dt: add flag to optionally compress dt with lz4 - 6 days ago
+project vendor/cmsdk/
+Danny Baumann: RemotePreferenceManager: Fix receiver registration issues. - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
+project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+Abhisek Devkota: Automatic translation import - 4 days ago
