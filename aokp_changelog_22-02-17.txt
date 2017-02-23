@@ -1,0 +1,259 @@
+
+project build/
+Peter Carenza: build - Changelog Generator [1/3] - 29 hours ago
+STELIX: build - fix syntax error on build_image.py - 3 days ago
+Dan Pasanen: build: core: include platform helper macros in target makefiles - 3 days ago
+Zhao Wei Liew: build: qcom_target: Define MSM_VIDC_TARGET_LIST - 3 days ago
+Zhao Wei Liew: build: qcom_target: Clean up QCOM_HARDWARE_VARIANT checks - 3 days ago
+Zhao Wei Liew: build: envsetup: Update CAF remote - 3 days ago
+Paul Keith: dumpvar: Dump RECOVERY_VARIANT if not empty - 3 days ago
+Abhisek Devkota: Add dumpvar for WITH_SU - 3 days ago
+Dan Pasanen: Revert "build_image: Unbreak verity/FEC generation" - 3 days ago
+Gabriele M: core: Fix unified trees with no TARGET_OTA_ASSERT_DEVICE - 3 days ago
+Arne Coucheron: build: Disable check for blocking prebuilt apk in PRODUCT_COPY_FILES - 3 days ago
+Gabriele M: ota_from_target_files: Remove device dependent arguments - 6 days ago
+Tom Powell: releasetools: support reading release keys out of some sort of command - 6 days ago
+Gabriele M: releasetools: Add script to sign zips - 6 days ago
+Adrian DC: build: Warn about prebuilt apk in PRODUCT_COPY_FILES - 6 days ago
+Dan Pasanen: core: move platform-specific helper macros to target makefiles - 6 days ago
+project device/qcom/common/
+dianlujitao: Revert "Revert "extractors: Add msm8996 32bit libmm-disp-apis and libmm-qdcm"" - 2 days ago
+dianlujitao: extractors: Update msm8996 graphics blobs info - 2 days ago
+Dan Pasanen: Revert "extractors: Add aptX & aptXHD to confirmed platforms" - 6 days ago
+Ethan Chen: cryptfs_hw: Move to vendor/qcom/opensource/cryptfs_hw - 7 days ago
+project device/qcom/sepolicy/
+STELIX: qcom/sepolicy - point to vendor/aokp - 3 days ago
+Gabriele M: Bluetooth: Remove stray characters - 5 days ago
+project frameworks/av/
+Muhammed Nazim: Fw_av - Forward Port: Add Camera sound toggle [1/3] - 6 days ago
+project frameworks/base/
+Joey Rizzoli: base: instrumentation: fix protected apps intents - 29 hours ago
+Abhisek Devkota: Automatic translation import - 29 hours ago
+Alex Cruz: Expose external qs tile tint color - 3 days ago
+Abdulwahab Isam: Themes: Expose QS battery - 3 days ago
+George G: graphics: ADB "N" icon compatible with OMS7 - 3 days ago
+Alex Cruz: Set external QS tiles tint mode to SRC_ATOP - 3 days ago
+Branden M: Themes: Expose Keyguard affordance circle background - 3 days ago
+SpiritCroc: Notification tint: add optional findContrastColor algorithm for dark backgrounds - 3 days ago
+c_rrajiv: Wifi: User notification on wrong Password for PSK Networks - 5 days ago
+Zhao Fan: IMS: Add API to get IMS Registration Status based on subId - 5 days ago
+Li Junfei: Add a new feature for recording data usage of video call - 5 days ago
+Meninblack007: Revert "Revert "Wifi: Introduce additional APIs to support STA + SoftAp concurrency"" - 5 days ago
+Nalla Kartheek: Wifi: Introduce Intent to inform Wifi sub system restart - 5 days ago
+Suchand Ghosh: IMS: Define new ImsReasonInfo CODE_NORMAL_UNSPECIFIED is 31. - 5 days ago
+Prashant Srivastava: Operator specific SIM icon customisation. - 5 days ago
+STELIX: Fw_base - CAF/LOS rebase fixes - 5 days ago
+Willi Ye: Fw_base - Port PA battery circle style [1/3] - 5 days ago
+d34d: Show infinity for large notification counts - 6 days ago
+project frameworks/native/
+Dan Pasanen: sf: fixes for HWC2 - 6 days ago
+project frameworks/opt/telephony/
+Muhammed Nazim: Fw_opt_tel - National Data Roaming [2/3] - 6 days ago
+project hardware/libhardware/
+Zhao Wei Liew: hardware: power: Remove POWER_HINT_AUDIO - 7 days ago
+Zhao Wei Liew: Revert "power: Add support for camera preview in powerHAL" - 7 days ago
+project hardware/qcom/fm/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project kernel/asus/msm8916/
+audahadi: config : zc550-perf build wlan prima - 6 days ago
+project packages/apps/AudioFX/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/Bluetooth/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/CMFileManager/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/CMParts/
+Paul Keith: CMParts: Replace variable for setup wizard complete - 3 days ago
+Abhisek Devkota: Automatic translation import - 3 days ago
+dianlujitao: CMParts: Add strings for sRGB - 4 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Calendar/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Camera2/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/CellBroadcastReceiver/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Michael W: CellBroadcastReceiver: Fix strings - 3 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/CertInstaller/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Contacts/
+beanstown106: Themes: Expose hardcoded layout and styles colors - 3 days ago
+Michael W: Contacts: Fix quotes - 5 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+Danny Baumann: Improve CAF strings - 6 days ago
+project packages/apps/ContactsCommon/
+Bryan Owens: Themes: Define back arrow tint color for themes - 3 days ago
+bgill55: Themes: Expose hardcoded contact tile text colors - 3 days ago
+Michael W: ContactsCommon: Fix derp - 5 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/DeskClock/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Dialer/
+Abhisek Devkota: Automatic translation import - 3 days ago
+George G: Themes: InCallUI dialpad digits color - 5 days ago
+Alex Cruz: Themes: Separate background color from text color - 5 days ago
+Altaf-Mahdi: Dialer - InCallUI: Add a controller for in-call proximity sensor (2/3) - 5 days ago
+Lars Greiss: Dialer - Flip to Mute/Reject Call [3/3] - 5 days ago
+Daniel Koman: Dialer - Proximity speaker [2/2] - 5 days ago
+Danny Baumann: Improve CAF strings - 7 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Email/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/EmergencyInfo/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/ExactCalculator/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Gallery2/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/HTMLViewer/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/KeyChain/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/ManagedProvisioning/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Messaging/
+Abhisek Devkota: Automatic translation import - 3 days ago
+Bajee11: Messaging - Breathing missedcall/sms/voicemail [4/5] - 5 days ago
+project packages/apps/Nfc/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/PackageInstaller/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/PhoneCommon/
+Thyrus11: Themes: Make dialpad seperator line theme-able - 3 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/ROMControl/
+David Viteri: ROMControl - Changelog Generator [2/3] - 29 hours ago
+Miccia: ROMControl - Port PA battery circle style [2/3] - 7 days ago
+project packages/apps/Recorder/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Gabriele M: Dismiss notification when corresponding recording is deleted - 2 days ago
+Gabriele M: Fix last recording duration string - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/SafetyRegulatoryInfo/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Settings/
+Abhisek Devkota: Automatic translation import - 29 hours ago
+Clark Scheff: Move color declare for external settings icons - 3 days ago
+Ivan Iskandar: Set external settings icon tint mode to SRC_ATOP - 3 days ago
+Zhao Wei Liew: Settings: Add status bar tap to sleep pref to gestures - 5 days ago
+Ali B: Settings - HeadsUp: add two more snooze options - 7 days ago
+project packages/apps/Snap/
+Christian Frisson: Snap: Allow switching beyond just 2 cameras - 33 hours ago
+Abhisek Devkota: Automatic translation import - 2 days ago
+codeworkx: Snap: CaptureModule: fix preview being invisible on first start - 3 days ago
+Danny Baumann: CaptureModule: Fix UI. - 3 days ago
+codeworkx: Snap: CaptureModule: re-apply flash setting when disabling manual iso - 4 days ago
+codeworkx: Snap: CaptureModule: check if ZSL is supported before using it - 4 days ago
+codeworkx: Snap: CaptureModule: enable noise reduction - 4 days ago
+codeworkx: Snap: CaptureModule: enable redeye reduction - 4 days ago
+codeworkx: Snap: CaptureModule: enable and fix manual iso control - 4 days ago
+codeworkx: Snap: CaptureUI: remove camera2 option - 4 days ago
+codeworkx: Snap: detect and use Camera2 if available - 4 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Stk/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Tag/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/Terminal/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/apps/TvSettings/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/UnifiedEmail/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/apps/WallpaperPicker/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/inputmethods/LatinIME/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/BookmarkProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/CalendarProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/CallLogProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/ContactsProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/providers/DownloadProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/MediaProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/TelephonyProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/UserDictionaryProvider/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/providers/WeatherProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/screensavers/Basic/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/screensavers/PhotoTable/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project packages/services/LiveLockScreenService/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/services/Telecomm/
+Abhisek Devkota: Automatic translation import - 3 days ago
+garwedgess: services/Telecomm - Breathing missedcall/sms/voicemail [2/5] - 5 days ago
+project packages/services/Telephony/
+Abhisek Devkota: Automatic translation import - 3 days ago
+dankoman: Services_Telephony - Proximity speaker [2/3] - 5 days ago
+Altaf-Mahdi: Telephony Service - Add a controller for in-call proximity sensor (3/3) - 5 days ago
+garwedgess: services/Telephony - Breathing missedcall/sms/voicemail [3/5] - 5 days ago
+lichti1901: Services_Telephony - National Data Roaming [3/3] - 5 days ago
+Lars Greiss: services/Telephony - Flip to Mute/Reject Call [2/3] - 5 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 2 days ago
+project packages/wallpapers/LivePicker/
+Abhisek Devkota: Automatic translation import - 5 days ago
+project platform_manifest/
+Alexander Gemsa: Add Galaxy TabS2 9.7 LTE and WIFI - 29 hours ago
+Alexander Gemsa: Add Galaxy S7 and S7 Edge to the AOKP Family - 29 hours ago
+STELIX: platform_manifest - track our contacts/phone repo for OMS - 3 days ago
+STELIX: platform_manifest - just re-order the list - 5 days ago
+Zhao Wei Liew: cm: Sync the new cryptfs_hw repo - 7 days ago
+Shane Passmore: cm.xml: remove CMWallpapers repo - 7 days ago
+Zhao Wei Liew: cm: Remove android-visualizer library - 7 days ago
+Zhao Wei Liew: cm: Remove ahbottomnavigation library - 7 days ago
+project system/core/
+STELIX: System/core - AOKPize - 5 days ago
+project system/extras/
+David Marble: extras: Remove su, we have our own - 7 days ago
+project system/sepolicy/
+STELIX: Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_sepolicy into AOKP - 5 days ago
+project system/vold/
+c457: vold: Update path to cryptfs_hw - 7 days ago
+project vendor/aokp/
+David Viteri: vendor_aokp - Changelog Generator [3/3] - 29 hours ago
+ElDainosor: apn: Updating Movistar Argentina APN - 2 days ago
+Shane Passmore: aokp: config: dont build CMWallpapers - 4 days ago
+project vendor/cmsdk/
+Abhisek Devkota: Automatic translation import - 29 hours ago
+Zhao Wei Liew: Add a proper description for CM_SETUP_WIZARD_COMPLETED deprecation - 2 days ago
+Paul Keith: cmsdk: Deprecate CM_SETUP_WIZARD_COMPLETED - 2 days ago
+Miccia: vendor_cmsdk - Port PA battery circle style [3/3] - 7 days ago
+project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+Abhisek Devkota: Automatic translation import - 2 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
