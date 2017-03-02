@@ -1,0 +1,263 @@
+
+project android/
+Joey Rizzoli: RIP cmfm - 4 days ago
+project bionic/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project build/
+Flex1911: build: copy recovery.img to BOOTABLE_IMAGES only when it's actually used - 3 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+Flex1911: build: always copy recovery.img to BOOTABLE_IMAGES. - 7 days ago
+project dalvik/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project device/asus/msm8916-common/
+audahadi: enable native exfat support - 5 days ago
+project device/qcom/common/
+Ramakrishnan Ganesh: power: replace strncpy with strlcpy - 6 days ago
+Zhao Wei Liew: power: Use POWER_HINT_LAUNCH for launch boosts - 7 days ago
+project frameworks/av/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project frameworks/base/
+Gabriele M: Disable quick pulldown by default - 4 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+Gabriele M: SystemUI: Add config to disable HumanInteractionClassifier - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Matthias Yzusqui: Revert "Emergency call button on Swipe lock Screen." - 6 days ago
+Kazuki Kobayashi: Fix clipping for date and time on QS - 6 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+Danny Baumann: Fix automatic zen rules. - 6 days ago
+Dan Pasanen: DocumentsUI: use 'Files' icon and text for icon - 7 days ago
+Venkata Jagadeesh Garaga: Bluetooth: Fix setting app stoped when unpair device - 7 days ago
+project frameworks/native/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project frameworks/opt/hardware/
+Zhao Wei Liew: Revert "cmhw: Allow LiveDisplay to check if GPU transform is used" - 6 days ago
+project frameworks/opt/net/wifi/
+Luca Stefani: Revert "Wifi: provide runtime logging option in WifiP2pService" - 2 days ago
+Michael W: WiFi: Fix possible NPE - 3 days ago
+project hardware/libhardware/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project hardware/libhardware_legacy/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project hardware/qcom/audio-caf/msm8916/
+Luca Stefani: Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD - 7 days ago
+project hardware/qcom/audio-caf/msm8952/
+Luca Stefani: Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD - 2 days ago
+Ramjee Singh: hal: limit ADM sample rate at 48kHz for speaker - 5 days ago
+project hardware/qcom/audio-caf/msm8960/
+kunleiz: hal: Update active input stream for Voip when voip input started - 4 days ago
+Divya Narayanan Poojary: audio: acquire lock for compress voip close input/output stream - 4 days ago
+project hardware/qcom/audio-caf/msm8974/
+Hendrik Hagendorn: hal: Remove duplicated HFP if branch (mismerge) - 3 days ago
+project hardware/qcom/audio/default/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project hardware/qcom/display-caf/apq8084/
+Skrilax_CZ: gralloc: Add a switch to use 16 byte pixel alignment - 3 days ago
+Corinna Vinschen: Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into cm-14.1-caf-8084 - 3 days ago
+Ethan Chen: Revert "gralloc: Add a switch to use 16 byte pixel alignment" - 3 days ago
+project hardware/qcom/display-caf/msm8916/
+Luca Stefani: Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD - 7 days ago
+project hardware/qcom/display-caf/msm8952/
+Luca Stefani: Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD - 2 days ago
+project hardware/qcom/media-caf/apq8084/
+Corinna Vinschen: Merge remote-tracking branch 'caf/LA.BF.2.1.2_rb1.16' into LA.BF.2.1.2_rb1.16 - 4 days ago
+project hardware/qcom/media-caf/msm8952/
+Luca Stefani: Merge remote-tracking branch 'caf/LA.BR.1.3.6_rb1.14' into HEAD - 2 days ago
+project kernel/asus/msm8916/
+audahadi: Revert "fs: support task's adj rbtree" - 5 days ago
+audahadi: config : enable exfat - 5 days ago
+Lianwei Wang: fs: esdfs: fix deadlock between rmdir and lookup - 6 days ago
+Lianwei Wang: fs: esdfs: fix race in esdfs unlink - 6 days ago
+Lianwei Wang: esdfs: support lower's own hash - 6 days ago
+Hong-Mei Li: esdfs: Fix race when create file on lower entry - 6 days ago
+Shengzhe Zhao: esdfs: fix ext4_releasepage panic - 6 days ago
+Shengzhe Zhao: exfat: use correct length for utf conversion - 6 days ago
+Shengzhe Zhao: exfat: avoid setting 0 over buffer uniname - 6 days ago
+Shengzhe Zhao: esdfs: checking disable access in more functions - 6 days ago
+Shengzhe Zhao: esdfs: disable access before umount - 6 days ago
+Yuanyuan Zhong: esdfs: keep a counter for mmaped file - 6 days ago
+Yuanyuan Zhong: esdfs: store lower file in vm_file for mmap - 6 days ago
+Shengzhe Zhao: esdfs: truncate inode for all 3 mount points. - 6 days ago
+William Clark: seemp: enhance support for malware detection - 6 days ago
+Hong-Mei Li: fs: support task's adj rbtree - 6 days ago
+Lianwei Wang: proc: stat: fix idle time jump - 6 days ago
+Shengzhe Zhao: fs: fat: move fat_truncate_blocks to unlink - 6 days ago
+Ray Essick: exec: reserve full virtual stack space at execve() - 6 days ago
+Russ W. Knize: esdfs: override creds for all file descriptor opertaions - 6 days ago
+Russ W. Knize: esdfs: override creds for vm operations - 6 days ago
+Yinjun Chen: esdfs: ->readdir op now ->iterate - 6 days ago
+Jiangli Yuan: Revert "(CR): esdfs: ->readdir op now ->iterate" - 6 days ago
+Russ W. Knize: esdfs: check the hash table, even when unrestricted - 6 days ago
+Russ W. Knize: Revert (CR) as this is not the correct approach - 6 days ago
+Jiangli Yuan: esdfs: set proper permisison for root inode - 6 days ago
+Ravi Vembu: fs: esdfs: Remove the optimization to skip hash lookup. - 6 days ago
+Jaegeuk Kim: - esdfs: drop shared caches to reclaim inodes - 6 days ago
+Yinjun Chen: esdfs: ->readdir op now ->iterate - 6 days ago
+Russ W. Knize: esdfs: parse the Android user ID from the correct root - 6 days ago
+Yuanyuan Zhong: esdfs: use vmalloc for big package_list_buffer - 6 days ago
+Russ W. Knize: esdfs: add support for multiple storage views - 6 days ago
+Russ W. Knize: esdfs: remove split permission support - 6 days ago
+Russ W. Knize: esdfs: improve support for SELinux - 6 days ago
+Russ W. Knize: esdfs: add support for Android/media tree - 6 days ago
+Russ W. Knize: esdfs: update wrapfs base to v3.10.53-73 - 6 days ago
+Russ W. Knize: esdfs: unified derived permissions support - 6 days ago
+Russ W. Knize: esdfs: add package-derived permission support - 6 days ago
+Russ W. Knize: esdfs: emulated SD card storage for Android - 6 days ago
+Russ W. Knize: fs: rename wrapfs to esdfs - 6 days ago
+Russ W. Knize: fs: add wrapfs base for K3.10.38-65 - 6 days ago
+Lianwei Wang: exfat: improve dentry finding speed - 6 days ago
+Jaegeuk Kim: - exfat: unlock pages under readonly status - 6 days ago
+Jaegeuk Kim: - exfat: link superblock for all the buffer head - 6 days ago
+Jaegeuk Kim: - exfat: implement errors=remount-ro - 6 days ago
+Russ W. Knize: exfat: don't lookup dos name entries for exfat - 6 days ago
+Russ W. Knize: fs: add exFAT driver - 6 days ago
+audahadi: Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.12' into HEAD - 6 days ago
+project libcore/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/apps/Bluetooth/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/apps/CMBugReport/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/CMParts/
+Gabriele M: Disable quick pulldown by default - 2 days ago
+Maxim Becker: CMParts: activate nfc trigger for system profiles - 3 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+Hendrik Hagendorn: CMParts: Restructure status bar settings - 5 days ago
+Michael W: CMParts: KeyHandler: Add User to broadcast - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Michael W: CMParts: Fix email and browser intents - 7 days ago
+project packages/apps/CMUpdater/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Calendar/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/CellBroadcastReceiver/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Contacts/
+Michael W: Contacts: Fix strings - 3 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/ContactsCommon/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Dialer/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Danny Baumann: Use TabLayout for DSDA tabs. - 6 days ago
+project packages/apps/Eleven/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Email/
+Abhisek Devkota: Automatic translation import - 6 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/apps/Gallery2/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Gello/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/HTMLViewer/
+Danny Baumann: Allow searching in HTMLViewer. - 7 days ago
+project packages/apps/LockClock/
+Abhisek Devkota: Automatic translation import - 6 days ago
+Zhao Wei Liew: Build the internal CM SDK as a static library - 7 days ago
+project packages/apps/Messaging/
+Abhisek Devkota: Automatic translation import - 6 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/apps/PhoneCommon/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Profiles/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Recorder/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Settings/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Gabriele M: Fix TTS engine label text wrapping - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/SetupWizard/
+cretin45: SetupWizard: Remove uneeded category - 2 days ago
+cretin45: SetupWizard: Fix landscape - 4 days ago
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Snap/
+Gabriele M: Focus only when tapping the preview - 4 days ago
+Gabriele M: Allow to re-open Snap from recent menu - 4 days ago
+Abhisek Devkota: Automatic translation import - 4 days ago
+codeworkx: Snap: CaptureModule: lock exposure also when precapture trigger is started - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/TV/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/apps/Tag/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/apps/Terminal/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/ThemeChooser/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/Trebuchet/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/apps/UnifiedEmail/
+Abhisek Devkota: Automatic translation import - 6 days ago
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/inputmethods/LatinIME/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/providers/BlockedNumberProvider/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/providers/CalendarProvider/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/providers/DataUsageProvider/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/providers/DownloadProvider/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/providers/ThemesProvider/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/providers/UserDictionaryProvider/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project packages/providers/WeatherProvider/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/services/CMAudioService/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/services/LiveLockScreenService/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/services/Telephony/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/services/ThemeManagerService/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project packages/services/WeatherService/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project system/bt/
+Arne Coucheron: Revert "BT: Modified logging framework for unified logging" - 5 days ago
+project system/core/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project system/security/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project system/sepolicy/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project system/tools/aidl/
+Dan Pasanen: Merge tag 'android-7.1.1_r21' into cm-14.1 - 6 days ago
+project vendor/cm/
+Gabriele M: Disable quick pulldown by default - 2 days ago
+Dan Pasanen: vendor: remove old apns symlink - 3 days ago
+Gabriele M: backuptool: Preserve the SELinux context of the files - 3 days ago
+Gabriele M: backuptool: Don't rely on the order of the elements in the list - 3 days ago
+Gabriele M: backuptool: Preserve symlinks - 4 days ago
+Tom Powell: Use releasekey instead of platform for extra recovery keys - 6 days ago
+Paul Keith: cm: Remove HexoLibre - 7 days ago
+frk: build: Pass path into grep instead of using cat - 7 days ago
+Dan Pasanen: overlay: enable productivity_device for DocumentsUI - 7 days ago
+Matt Mower: cm: Do not build CMFileManager - 7 days ago
+project vendor/cmsdk/
+Abhisek Devkota: Automatic translation import - 5 days ago
+Abhisek Devkota: Automatic translation import - 6 days ago
+Danny Baumann: CMSettingsProvider: remove per-user cursor observation - 6 days ago
+Zhao Wei Liew: cmsdk: Remove launch boost support - 7 days ago
+project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+Abhisek Devkota: Automatic translation import - 6 days ago
+project vendor/qcom/opensource/cryptfs_hw/
+AnilKumar Chimata: cryptfs_hw: Add support for is_hw_fde_enabled routine - 5 days ago
