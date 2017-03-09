@@ -1,0 +1,482 @@
+
+ ▼ Lineage OS CM-14.1 09-03-17 Changelog
+
+
+ ▼ 03/09/2017
+
+
+ ▪ project build/
+ ▪ d665640 Avoid adding an extra slash if OUT_DIR_COMMON_BASE ends in a slash
+
+ ▪ project packages/apps/Snap/
+ ▪ 379fd77 Snap/Strings: sensivity -> sensitivity
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ fc1125d Fix cut off notification sounds.
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 262a1de MediaProvider: Fix possible NPE
+
+ ▪ project vendor/cm/
+ ▪ 85cf0bb extract_utils: Fix locale issue with sort
+
+ ▼ 03/08/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 86e4adc camera: Make secondary camera package list opt out
+ ▪ 68c2f17 VolumeDialog: Fix mismerge
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ 2c744ac psb_video : remember good old moorefield
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 938e782 display: Fix ColorMetaData
+ ▪ d5d627d display-caf: msm8996: Use ColorMetaData in SDM in hwc2
+ ▪ 718be10 display-caf: 8996: Add color metadata to libgralloc1
+
+ ▪ project packages/apps/Snap/
+ ▪ 99f0e2e Revert "SnapdragonCamera: Camera switches from bayer and mono on switching to front camera"
+ ▪ 404e429 Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions
+
+ ▪ project system/core/
+ ▪ 4fdff17 rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings
+
+ ▪ project vendor/cm/
+ ▪ cf65ecf qcom: Automatically set TARGET_USES_COLOR_METADATA for msm8996/8
+
+ ▼ 03/07/2017
+
+
+ ▪ project android/
+ ▪ c6ab91b manifest: android-7.1.1_r21 -> android-7.1.1_r25
+
+ ▪ project bootable/recovery/
+ ▪ 9664707 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project build/
+ ▪ 4507564 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/boringssl/
+ ▪ 956cfef Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/libnfc-nci/
+ ▪ 9a85f1a Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/skia/
+ ▪ 4efd5f7 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/av/
+ ▪ 71a8e2f Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ 3572432 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 6a3e585 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project hardware/intel/common/libmix/
+ ▪ a8c22a8 Libmix : Add proper support for LP blobs Asus Zenfone 2 still needs the good old way of setting GrallocMod
+
+ ▪ project hardware/intel/common/omx-components/
+ ▪ 904d128 omx-ccomponents : Zenfone 2 cannot properly utilize flushmode switch to test HandleFormatchange() directly instead of testing flushmode
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 938f77d Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/Messaging/
+ ▪ 9796771 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 1c9fa2e Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ eca1813 PhoneCommon: Another round of qtistring fixes
+
+ ▪ project packages/services/Telephony/
+ ▪ 22b291e Telephony: Fix mobile network settings for CDMA without LTE
+
+ ▪ project vendor/cm/
+ ▪ 34848ea vendor_cm : update Fastweb apn
+
+ ▼ 03/06/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 2f495d4 drivers/staging/prima : update to LA.BR.1.2.9_rb1.12
+
+ ▪ project vendor/cm/
+ ▪ 17da6a3 apns: Add Perfectum
+
+ ▪ project vendor/cmsdk/
+ ▪ a7e8c17 CMSDK: Tests: AIRPLANE_MODE_ON has moved
+
+ ▼ 03/05/2017
+
+
+ ▪ project build/
+ ▪ 51aa50c build: core: Remove BUILD_TINY_ANDROID checks
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 1e33348 hal: dolby: Only set C_KEY if ACDB License is enabled.
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ daf6387 policy_hal: Fix mismerges
+ ▪ b19cd09 audio policy: fix capture indication to sound trigger service.
+ ▪ 1a7ddf2 audio policy: fix media volume after ringtone
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 14eb24c Clean code, avoid warnings
+ ▪ 5dc3774 mm-video-v4l12: update stride info for YUV420P and YUV420SP
+ ▪ f0b7ad5 mm-video-v4l2: vdec: fix fps issues in arbitrary mode
+ ▪ c8ff894 apq8084: Kill logspam
+
+ ▪ project vendor/cm/
+ ▪ 311fd6f cm: build: tasks: Remove BUILD_TINY_ANDROID check
+
+ ▼ 03/04/2017
+
+
+ ▪ project frameworks/av/
+ ▪ 93c6eb9 stagefright: allow multiple custom OMXPlugins
+
+ ▪ project frameworks/base/
+ ▪ 50ae2ff Automatic translation import
+ ▪ 9675315 base: deuglify single hand hint ui
+ ▪ 8b12769 [1/3] base: single hand for hardware keys
+ ▪ c682bdb [1/2] base: Add new feature of One-hand UI Mode
+
+ ▪ project frameworks/native/
+ ▪ 3510b6f [2/2] native: Add new feature of One-hand UI Mode
+
+ ▪ project hardware/cyanogen/
+ ▪ acd2816 livedisplay: Always use SDM if TARGET_USES_SDM is set
+ ▪ 0e74e30 livedisplay: Update board targets
+ ▪ f6954da livedisplay: Remove tabs in the makefile
+ ▪ 2de09c4 livedisplay: Include test makefile
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 37a40b7 hal: Don't try to record using 3-mic unless we mean it
+ ▪ 6ae6c52 hal: Haxed header
+ ▪ 4e134c7 audio: Fix flac offload not working
+ ▪ 933a41f hal: Fix build with HDMI disabled
+ ▪ 6fe781d audio: Fix complilation warnings under Clang
+ ▪ 7f4762c msm8996: fix werror when AUDIO_FEATURE_ENABLED_DTS_EAGLE is enabled
+ ▪ 1ab693a audio: Extend platform parser to allow device name aliasing
+ ▪ 7219c37 hal: post_proc: enabled / disable volume listener based on prop
+ ▪ 1edbe04 hal: Support the audio amplifier hook
+ ▪ 45bfdf3 hal: Allow building hardware audio encoders
+ ▪ 0c47743 audio: Use direct project pathmap
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 1272662 hwc2: Only set display_width and display_height when equal to zero
+ ▪ fd7ddeb hwc2: Handle empty lists in AcceptDisplayChanges
+ ▪ 887eec2 msm8996: hwc2: check for null layers in layer map
+ ▪ 8424508 hwc2 : Fix layer updating flag
+ ▪ 20385d1 gralloc: Return an error if the buffer was not mapped
+ ▪ 34d03c0 Revert "Revert "gralloc: Default to 601 color space""
+ ▪ a5fcbbb hwc2: Workaround use after free by surfaceflinger
+ ▪ 199abf8 hwc2: Update composition types on AcceptDisplayChanges
+ ▪ d673594 Revert "gralloc: Default to 601 color space"
+ ▪ 34897a4 gralloc: Disable UBWC for writeback buffers
+ ▪ 146dd0b hwc2: Initialize color mode to native
+ ▪ db8fa62 hwc2 : Allow only top most cursor layer
+ ▪ 947cd07 Revert "gralloc: Return an error if the buffer was not mapped"
+ ▪ 85b388b hwc2: Fix solid fill
+ ▪ f8a30bc sdm:hwc2: Store higher order mode id in case of clash
+ ▪ fe9f9d2 gralloc: Return an error if the buffer was not mapped
+ ▪ 87ce127 hwc2: Fix retire fences
+ ▪ 8d5f85e hwc2: Always store a release fence if a layer is presented
+ ▪ 9a986c9 hwc2: Use current frames retire fence only for the primary
+ ▪ d8ac9b2 8996/HWC2: Return this frame's retire fence
+ ▪ 6c0a368 hwc2: Remove default mode application at boot.
+ ▪ 6dfe748 hwc2: Support HWC2_CAPABILITY_SKIP_CLIENT_COLOR_TRANSFORM
+ ▪ c4aa085 hwc: Set ioprio for vsync thread
+ ▪ 83e0b90 sdm: Always include kernel headers
+ ▪ c2113b5 sdm: Add support for legacy extension library
+ ▪ 3b4dd74 Fix duplicate copy file rules
+ ▪ b7ed0eb display: Cleanup flags
+ ▪ 30eff2a Don't build lights module if vendor supplies it
+ ▪ 0984402 display: Use project pathmap
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 39f5c42 mm-video: venc: Correct a typo in variable name
+ ▪ 5d8cba9 mm-core: Kill logspam
+ ▪ 3d984fa mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder
+ ▪ d526b31 mm-video-v4l2: vdec: Exit if default set format failed for output port also
+ ▪ 87210e9 mm-video: vdec: hevc: Avoid crash while handling extra data
+ ▪ 14561f9 mm-video-v4l2: vidc: vdec: Update stride and scanlines
+ ▪ 7472018 mm-video-v4l2: vidc: vdec: handle codec config ETB's properly
+ ▪ e9d4e08 mm-video-v4l2: vdec: insert timestamps qeued by client in TS queue
+ ▪ 330e37f mm-video-v4l2: vdec: Always send NC VOPS to the driver
+ ▪ 004017b mm-video-v4l2: vdec: streamoff while freeing first output buffer
+ ▪ 8f0cd4d mm-video: vidc: Adjust timestamp if actual ts < previous ts
+ ▪ ee8caaa mm-video-v4l2: vidc: Amend debug log macros
+ ▪ 1ea52b2 mm-video-v4l2: vdec: skip fillbuffer in port reconfiguration
+ ▪ ed01934 mm-video: vidc: Avoid setting invalid timestamp of eos NAL
+ ▪ 839e27b mm_video: vidc: Update buffer geometry with stride and scanline
+ ▪ c0dbc19 mm-video-v4l2: vidc: Enforce non-negative timestamp deltas
+ ▪ b924473  mm-video: vdec: hevc: hybrid: Call request buffer after configure
+ ▪ 3e183ef mm-video-v4l2: vdec: fix invalid stride and scanlines issue
+ ▪ 8daba65 mm-video: vdec: Get updated resolution along with output buffers
+ ▪ 264baf9 mm-video: vdec: Correct video driver's crop parameters handling
+ ▪ 6c3734d mm-video: Release driver buffers correctly
+ ▪ 4b79ce3 mm-video-v4l2: venc: fix static code analyzer issue.
+ ▪ 4c5e961 mm-video-v4l2: venc: Add check for overriding level based on LTR count
+ ▪ 4c1ee7e apq8084: mm-video: vidc: Add missing setting of msgcode
+ ▪ bc81f39 Revert "mm-video: vdec: Set frame rate if computed fps is more than existing fps"
+ ▪ a70a451 mm-video: vidc: disable dynamic buffer mode and adaptive playback
+ ▪ 5ee4641 mm-video: vidc: Missing release of pending input buffers to client
+ ▪ f15a6f2 mm-video: vdec: fix multiple downscalar issues
+ ▪ 48e5c7b media-caf apq8084: Fix typo in video decoder error check for debug output
+ ▪ 09f054c mm-video-v4l2: vdec: Request buffer for input port after client reconfigures
+ ▪ 2b518d4 mm-video-v4l2: vdec: Remove DivxDrm Decrypt support
+ ▪ a0a4751 mm-video: Remove old video component
+ ▪ 6f63bab mm-video-v4l2: vdec: allocate secure buffer as native_handle
+ ▪ 0709eec omx_venc: Handle output buffer parameter in secure mode
+ ▪ 64ab009 libstagefrighthw: Remove padding in encoder_nativehandle_buffer_type
+ ▪ 91560c0 mm-video-v4l2: venc: update metadata-type used for HAL1 based recording
+ ▪ 833f262 DO NOT MERGE mm-video-v4l2: venc: add checks before  accessing heap pointers
+ ▪ 98fc0bf DO NOT MERGE Fix wrong nAllocLen
+ ▪ 90d68f7 mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states
+ ▪ b8fddb8 mm-video-v4l2: vdec: Avoid processing ETBs/FTBs in invalid states
+ ▪ 974b8f9 mm-video-v4l2: venc: add safety checks for freeing buffers
+ ▪ ac2d333 mm-video-v4l2: vidc: validate omx param/config data
+ ▪ e38e96b mm-video-v4l2: vdec: add safety checks for freeing buffers
+ ▪ 97efe7e Revert "mm-video-v4l2: vidc: venc: Update color conversion decision"
+ ▪ 3e6d314 mm-video-v4l2: venc: Accept Venus color format in opaque mode
+ ▪ 67dc1b7 mm-video-v4l2: vidc: venc: Update color conversion decision
+ ▪ 27b6276 mm-video-v4l2: vidc: venc: make color conversion independent of filledlen
+ ▪ 853c6e3 mm-video-vidc: change buffer index logic in EBD
+ ▪ a7757ea mm-video-vidc: Handle ETB with EOS for NV12 ENCODEABLE format
+ ▪ 5dd926c mm-video-v4l2: Check for correct error code
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ f560987 mm-video: Disable proprietary extension
+ ▪ e79c703 venc: Fix VQZip issue
+ ▪ 989b425 vidc: Fix makefiles
+ ▪ 8fa0e3a media: Avoid collision with FFMPEG plugin
+ ▪ 2ae2c3d media: Use project pathmap
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 949846c Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ f1970ae Automatic translation import
+ ▪ 3d5ba1e [2/3] CMParts: single hand for hardware keys
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 1e04c6f Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 6ec92a4 Dialer: Fix strings
+ ▪ 8630535 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 995628e Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 82c4e1c Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 052d9d9 extract-utils: Fix handling of pulling src:dest pairs from dumps
+
+ ▪ project vendor/cmsdk/
+ ▪ 2298aad Automatic translation import
+ ▪ a72790f [3/3] cmsdk: single hand for hw keys
+
+ ▼ 03/03/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ c82175b Fix "ordered comparison between pointer and zero".
+
+ ▪ project device/qcom/common/
+ ▪ e16dea2 common: remove extractors
+
+ ▪ project external/nano/
+ ▪ 6c16f4a nano: src: Don't set userdata to NULL
+ ▪ 4d6f248 nano: Make revision.h a stub
+ ▪ b881f6c nano: Update makefile for new nanorc path
+
+ ▪ project frameworks/base/
+ ▪ 833d913 Remove Cid from PrivacyGuard's notification icon
+ ▪ de252f4 Clean up CAF translations - second try
+
+ ▪ project hardware/qcom/fm/
+ ▪ d206506 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 15a3618 Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ de537b9 Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 454e112 Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 3351516 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 903f21f Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ dd44706 Automatic translation import
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 564b511 Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ 9a50679 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 17e56ce Automatic translation import
+
+ ▪ project packages/apps/DeskClock/
+ ▪ 92a9eaa Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 9dca75c Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ d39fd55 Automatic translation import
+
+ ▪ project packages/apps/ExactCalculator/
+ ▪ fe8750c Automatic translation import
+
+ ▪ project packages/apps/Exchange/
+ ▪ 2571fdd Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ bd422e3 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 03ef482 Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ 994555e Automatic translation import
+
+ ▪ project packages/apps/KeyChain/
+ ▪ 6028cc7 Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 7e84bff Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ 39d4bce Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 74222c3 Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ e2790c8 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 8cb86a7 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 6df0f52 Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 560fabf Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 60000a4 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 5a79060 Settings: Add overlay for hiding wifi region code
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ be35cfc Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ cccbfcd Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 5190806 Automatic translation import
+
+ ▪ project packages/apps/Tag/
+ ▪ c8f1f62 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ b1e9212 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 2f63e2e Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ a120fdb Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 60d1008 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ e009b45 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ cda46d3 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ a876e0f Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ 7217810 Automatic translation import
+
+ ▪ project packages/providers/CallLogProvider/
+ ▪ e8ab293 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ c591c90 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ aae8c60 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 2f32c14 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ d202ca3 Automatic translation import
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ e683619 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ f635268 Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 959822e Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 8ea6ba7 Automatic translation import
+
+ ▪ project packages/screensavers/Basic/
+ ▪ fa7caf5 Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ 8da9209 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ 9a7f56d Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ a3b52e2 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 6b1eac4 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ 6e9277d Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 57658ce Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ aa48c07 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 949058a Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 168a6c2 Automatic translation import
+
