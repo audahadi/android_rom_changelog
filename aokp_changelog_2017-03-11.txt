@@ -1,0 +1,247 @@
+
+ ▼ AOKP Nougat 2017-03-11 Changelog
+
+
+ ▼ 03/09/2017
+
+
+ ▪ project hardware/qcom/fm/
+ ▪ fbc3a7b Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 26c61aa Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 4c89dd1 Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ 5b406e5 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1602c07 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 479d293 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ c5515d2 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 44f4f1e Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ 12eb636 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 8414266 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ e37ca00 Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 536dda9 Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 8ad3da8 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ f5d35df Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 50b1a98 Automatic translation import
+ ▪ 379fd77 Snap/Strings: sensivity -> sensitivity
+
+ ▪ project packages/apps/Terminal/
+ ▪ 1114a47 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ c8c264b Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ acb1245 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 054b31c Automatic translation import
+ ▪ fc1125d Fix cut off notification sounds.
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 4648c8c Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 589b307 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 29af03a Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 7b08a35 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 262a1de MediaProvider: Fix possible NPE
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ 37fd92d Automatic translation import
+
+ ▪ project packages/providers/UserDictionaryProvider/
+ ▪ 7c49377 Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 5b6bf0d Automatic translation import
+
+ ▪ project packages/screensavers/PhotoTable/
+ ▪ e3516c5 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ de3f589 Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ bbb9d16 Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ c46bdd5 Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 5b5e889 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 546b021 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ fa13abf Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 4d3a56b Automatic translation import
+
+ ▼ 03/08/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 5b5f843 Automatic translation import
+ ▪ 761f724 Revert "Fw_base - SystemUI: auto calculate quickbar tiles amount"
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ 2c744ac psb_video : remember good old moorefield
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 938e782 display: Fix ColorMetaData
+ ▪ d5d627d display-caf: msm8996: Use ColorMetaData in SDM in hwc2
+ ▪ 718be10 display-caf: 8996: Add color metadata to libgralloc1
+
+ ▪ project packages/apps/Settings/
+ ▪ 02dbbe2 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 99f0e2e Revert "SnapdragonCamera: Camera switches from bayer and mono on switching to front camera"
+ ▪ 404e429 Snap: grant android.permission.RECEIVE_BOOT_COMPLETED permisions
+
+ ▪ project vendor/cmsdk/
+ ▪ bcd294a CMSDK: Tests: AIRPLANE_MODE_ON has moved
+ ▪ 6fe4a9f Automatic translation import
+
+ ▼ 03/07/2017
+
+
+ ▪ project build/
+ ▪ d469e3f build: [SQUASHED] Remove BUILD_TINY_ANDROID checks
+
+ ▪ project external/boringssl/
+ ▪ 956cfef Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/libnfc-nci/
+ ▪ 9a85f1a Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/skia/
+ ▪ 4efd5f7 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/av/
+ ▪ 2e474a4 stagefright: allow multiple custom OMXPlugins
+
+ ▪ project frameworks/opt/net/wifi/
+ ▪ 6a3e585 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project hardware/intel/common/libmix/
+ ▪ a8c22a8 Libmix : Add proper support for LP blobs Asus Zenfone 2 still needs the good old way of setting GrallocMod
+
+ ▪ project hardware/intel/common/omx-components/
+ ▪ 904d128 omx-ccomponents : Zenfone 2 cannot properly utilize flushmode switch to test HandleFormatchange() directly instead of testing flushmode
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 938f77d Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 1c9fa2e Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/services/Telephony/
+ ▪ d835460 Telephony: Fix mobile network settings for CDMA without LTE
+
+ ▪ project vendor/aokp/
+ ▪ b08e1c3 apns: Add Perfectum
+
+ ▼ 03/06/2017
+
+
+ ▪ project frameworks/base/
+ ▪ aa9229c Fw_base - Add a protected broadcast for Masquerade events
+ ▪ d776a80 Fw_base - Double tap to wake on doze [1/2]
+ ▪ 25cecff Fw_base - Custom ambient display settings (1/2)
+ ▪ bffc2d6 Fw_base - Add bool to enable/disable doze by default
+ ▪ e987ff5 Fw_base - Fix recents thumbnails for one hand mode
+ ▪ 56d1ec9 Fw_base - SystemUI: header pack config enhancements [1/2]
+ ▪ 256189f Fw_base - SystemUI: auto calculate quickbar tiles amount
+ ▪ f0bb412 Fw_base - Add text shadow for text in qs header
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 14eb24c Clean code, avoid warnings
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 2f495d4 drivers/staging/prima : update to LA.BR.1.2.9_rb1.12
+
+ ▪ project packages/apps/Settings/
+ ▪ 312a22c Settings - Double tap to wake on doze [2/2]
+ ▪ d505aa2e Settings - Custom ambient display settings (2/2)
+
+ ▼ 03/05/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 1e33348 hal: dolby: Only set C_KEY if ACDB License is enabled.
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ daf6387 policy_hal: Fix mismerges
+ ▪ b19cd09 audio policy: fix capture indication to sound trigger service.
+ ▪ 1a7ddf2 audio policy: fix media volume after ringtone
+
+ ▪ project hardware/qcom/media-caf/apq8084/
+ ▪ 5dc3774 mm-video-v4l12: update stride info for YUV420P and YUV420SP
+ ▪ f0b7ad5 mm-video-v4l2: vdec: fix fps issues in arbitrary mode
+ ▪ c8ff894 apq8084: Kill logspam
+
+ ▪ project packages/apps/CMParts/
+ ▪ 389a47e Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ 8390b68 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ d3fb3b1 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 05c1650 Dialer: Fix strings
+ ▪ 11831a5 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ d878b99 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 01d94cd Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ fe5949d Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 395deda Automatic translation import
+ ▪ 67ba800 CallFeatureSettings: Only show call barring option if QTI package installed
+
+ ▪ project vendor/aokp/
+ ▪ 1d851af extract-utils: Fix handling of pulling src:dest pairs from dumps
+
