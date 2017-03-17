@@ -1,0 +1,247 @@
+
+ ▼ AOKP Nougat 2017-03-17 Changelog
+
+
+ ▼ 03/16/2017
+
+
+ ▪ project hardware/qcom/fm/
+ ▪ aa10afe Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 886a58b Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 7e2fa3a Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ d7af013 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 3b9a669 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 3cdfa24 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 7017de6 Automatic translation import
+
+ ▪ project packages/apps/CertInstaller/
+ ▪ 80a7820 Automatic translation import
+
+ ▪ project packages/apps/DeskClock/
+ ▪ 729ee00 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ c0bf8fe Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ 4154e90 Automatic translation import
+
+ ▪ project packages/apps/EmergencyInfo/
+ ▪ f228c4a Automatic translation import
+
+ ▪ project packages/apps/ExactCalculator/
+ ▪ 64af117 Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ f83a5d7 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 6b1bcb3 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 649f53d Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ c34eae7 res: use selectableItemBackgroundBorderless for refresh button background
+ ▪ a0f028d Automatic translation import
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ c858db8 Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ fce8ec8 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 2e2f0b2 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 3c64f0c Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 91d6eab Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ f91e479 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 8542dd6 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ e97e772 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 4b1d8f7 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ cb0495f Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 65903e0 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ e84d41d Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 1261e19 Automatic translation import
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 04f4aad Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 558d3e5 Automatic translation import
+
+ ▪ project packages/screensavers/Basic/
+ ▪ a8e56f3 Automatic translation import
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ 8a005bf Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 3aa2136 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ d581a44 Automatic translation import
+
+ ▼ 03/14/2017
+
+
+ ▪ project device/asus/Z010D/
+ ▪ ddbfc6e do not parse build fingerprint
+
+ ▪ project frameworks/base/
+ ▪ 4f1d146 Fw_base - Pulse: allow custom opacity for solid line renderer [2/3]
+ ▪ bbf7af7 Fw_base - Pulse: Moar bars for solid line renderer [2/3]
+
+ ▪ project hardware/cyanogen/
+ ▪ 6e2dfc6 livedisplay: SDM: Fix display mode handling
+
+ ▪ project hardware/qcom/media-caf/msm8974/
+ ▪ 4ff5e65 mm-video-v4l2: vdec: Fix makefile derp introduced in d443c0d
+
+ ▪ project packages/apps/DUI/
+ ▪ 20706b8 DUI - Pulse: allow custom opacity for solid line renderer [1/3]
+ ▪ 8aa17f7 DUI - Pulse: Moar bars for solid line renderer [1/3]
+ ▪ 2ef3740 DUI - Allow to set Ripple on other buttons for Home button only pixel animation [1/2]
+ ▪ db6e255 DUI - Smartbar: allow to set pixel ani for the home button only [1/2]
+ ▪ 5e31d84 DUI - SmartBar: Pixel button animation support [2/3]
+ ▪ 580a633 DUI - Bring in initial Pixel Navbar animation resources [1/?]
+
+ ▪ project packages/apps/Settings/
+ ▪ e4af6af Settings - Pulse: allow custom opacity for solid line renderer [3/3]
+ ▪ fa87be2 Settings - Pulse: Moar bars for solid line renderer [3/3]
+ ▪ fb77ec4 Settings - Allow to set Ripple on other buttons for Home button only pixel animation [2/2]
+ ▪ 20afff3 Settings - Smartbar: allow to set pixel ani for the home button only [2/2]
+ ▪ 4c07469 Settings - SmartBar: Add Pixel to button animation settings [3/3]
+
+ ▼ 03/13/2017
+
+
+ ▪ project build/
+ ▪ 132c796 qcom: Automatically set TARGET_USES_COLOR_METADATA for msm8996/8
+ ▪ 3c8d9c2 Avoid adding an extra slash if OUT_DIR_COMMON_BASE ends in a slash
+ ▪ 8a0d8e9 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project external/DUtils/
+ ▪ 0a8b472 Separate one handed mode icons [2/2]
+
+ ▪ project frameworks/av/
+ ▪ c245bb9 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ c1afe62 Fw_base - Allow to quickly open Running Services from notification/qs panel [1/2]
+ ▪ 67a87f5 Fw_base - QS Header Icon settings [1/2]
+ ▪ a2c4efc Fw_base - AmbientDisplayConfiguration: Respect doze settings default
+ ▪ 419a018 Revert "Wifi: Introduce a config parameter for IpReachabilityMonitor"
+ ▪ 737b3cd camera: Make secondary camera package list opt out
+ ▪ 5a0c064 Camera: Expose dual camera for whitelist app
+ ▪ 3dcdf28 Automatic translation import
+ ▪ f1f7357 Merge tag 'android-7.1.1_r25' into cm-14.1
+ ▪ 2fca9fd [1/3] base: single hand for hardware keys
+
+ ▪ project frameworks/native/
+ ▪ 1580db0 Fw_native - One-hand UI Mode: add a parenthesis
+
+ ▪ project packages/apps/CMParts/
+ ▪ f47b36a Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ 176ab95 Automatic translation import
+ ▪ 75a8814 Automatic translation import
+ ▪ a618d64 Contacts: Fix strings
+ ▪ 11c25d9 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 21491c4 Automatic translation import
+
+ ▪ project packages/apps/DUI/
+ ▪ 5c791b1 DUI - Separate one handed mode icons [1/2]
+
+ ▪ project packages/apps/Dialer/
+ ▪ d626142 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 6c8d898 Automatic translation import
+ ▪ 1695667 Merge tag 'android-7.1.1_r25' into cm-14.1
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 982f147 Automatic translation import
+ ▪ 7239020 PhoneCommon: Another round of qtistring fixes
+
+ ▪ project packages/apps/ROMControl/
+ ▪ 77731e3 ROMControl - QE: QS Header icon settings (2/2)
+ ▪ 2fcd5b5 ROMControl - string: Translation pt-br day11/03
+ ▪ 33ba0b3 ROMControl - arrays: Translation pt-br day11/03
+ ▪ 8429f3b ROMControl - single hand for hardware keys [2/3]
+
+ ▪ project packages/apps/Settings/
+ ▪ e9a3170 Settings - Allow to quickly open Running Services from notification/qs panel [2/2]
+ ▪ 1341553 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ e434e86 Automatic translation import
+
+ ▪ project platform_manifest/
+ ▪ b05c258 manifest: android-7.1.1_r21 -> android-7.1.1_r25
+
+ ▪ project system/core/
+ ▪ 24c5bce rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings
+
+ ▪ project vendor/aokp/
+ ▪ 5b7509b vendor: Add templates for proprietary extraction scripts
+ ▪ 0993062 extract_utils: Fix locale issue with sort
+ ▪ 4df4450 vendor_cm : update Fastweb apn
+
+ ▪ project vendor/cmsdk/
+ ▪ 4819dfb Automatic translation import
+ ▪ 75a10d4 [3/3] cmsdk: single hand for hw keys
+
+ ▼ 03/12/2017
+
+
+ ▪ project changelog/
+ ▪ 967a1e8 AOKP-N_2017-03-11
+
+ ▪ project device/asus/msm8916-common/
+ ▪ feec664 move audio effect into vendor
+
+ ▪ project hardware/intel/img/psb_video/
+ ▪ ce7f070 psb_video: fix video encoding on clovertrail once again
+
+ ▪ project packages/apps/Gallery2/
+ ▪ e0b91cb Gallery: Make location permission truly optional
+
+ ▪ project vendor/asus/
+ ▪ e9f4e9a move audio_effects.conf into vendor
+
