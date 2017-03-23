@@ -1,0 +1,335 @@
+
+ ▼ AOKP Nougat 2017-03-23 Changelog
+
+
+ ▼ 03/23/2017
+
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ f76431f Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 7e4ebb2 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 14c2858 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 3deda7f Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 72df1ce Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a9fa3b2 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d4703e3 Automatic translation import
+
+ ▼ 03/22/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 0456650 Automatic translation import
+ ▪ 5925f96 SystemUI: enable NFC tile
+ ▪ 2e97767 SystemUI: Add NFC tile
+
+ ▪ project frameworks/opt/telephony/
+ ▪ a66fcc0 telephony: Fix rebase mismerge breaking SIM detection when encrypted
+
+ ▪ project packages/apps/CMParts/
+ ▪ 78a1c03 Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ d7c32d2 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ b554afe Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 363a0f4 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 7288d24 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 5f4653a Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 89a1024 Fix zen mode allowed event preference summary.
+ ▪ df55bae Automatic translation import
+ ▪ 4d4124c Make Build Date and API Level unselectable
+
+ ▪ project packages/services/Telecomm/
+ ▪ 92857dd Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 5891bd6 Automatic translation import
+
+ ▪ project vendor/aokp/
+ ▪ abdaf6e apn: Updating TelkomSA from 8ta South Africa APN
+
+ ▪ project vendor/cmsdk/
+ ▪ d67b2f3 Automatic translation import
+
+ ▼ 03/21/2017
+
+
+ ▪ project hardware/qcom/fm/
+ ▪ 953af70 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ dc65a0c Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 888a04e Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ 4192efb Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1826775 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 8ee8d23 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 6950f2b Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 4f757e8 Automatic translation import
+ ▪ c934927 CustomTiles: Add heads up long press action
+ ▪ 60897d0 CustomTiles: Add USB tethering long press action
+
+ ▪ project packages/apps/DeskClock/
+ ▪ ef9fb84 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ d46453b Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ af2af0b Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ 588a2ab Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 900fb80 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 18953eb Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ eb1c5fa Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 09482ca Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 8bb1879 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 6833a11 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 110c07c Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ d458cf1 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 9ee33a5 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 3c27506 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 5937cbf Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 993da14 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ a536931 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ f58e1b2 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ c2e4f01 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ cfbd067 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ f59371a Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ 1b2cc77 Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ a1aa622 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ e93ac19 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ ae34e55 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 4d1a21f Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ a940996 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 459f3db Automatic translation import
+
+ ▼ 03/20/2017
+
+
+ ▪ project device/asus/Z00ED/
+ ▪ 2f7446f don't parse build fingerprint
+
+ ▪ project device/asus/Z00RD/
+ ▪ 90567de don't parse build fingerprint
+
+ ▪ project device/asus/msm8916-common/
+ ▪ bbabd08 ZC550KL use DUAL mic,but other's use signal mic
+
+ ▼ 03/19/2017
+
+
+ ▪ project frameworks/base/
+ ▪ a5f929e Move wakelock option for flashlight to CameraManager.
+
+ ▪ project packages/apps/ROMControl/
+ ▪ 144dcd8 ROMControl - Update italian translation
+
+ ▪ project vendor/aokp/
+ ▪ 6701097 aokp: build custom tiles app
+
+ ▼ 03/18/2017
+
+
+ ▪ project build/
+ ▪ e3f886c repopick: encode commit subjects in utf-8 for printing
+
+ ▪ project frameworks/base/
+ ▪ e198e4b SingleHandWindow: Allow locking the rotation to 180°
+ ▪ e006568 Add tile information to ACTION_QS_TILE_PREFERENCES intent
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ d3c06ce Revert "Introduced Active device for volume updates and volume update in pause state"
+ ▪ ff3d0d8 Bluetooth: AIRPLANE_MODE_ON has moved
+
+ ▪ project packages/apps/Contacts/
+ ▪ 2e57cc0 contacts: Add support for import contacts to local phone storage
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ d4118bf AccountType: use a pretty phone account icon for local storage account
+ ▪ 9ee92fc SelectAccountActivity : Support local phone account
+ ▪ 15c9d11 Add local phone account as a writable AccountTypes.
+ ▪ 3ddca4c Store all local contacts in only one account.
+ ▪ 2bf1ff1 contacts-common: Add support for import contacts to local phone storage
+
+ ▪ project packages/apps/Dialer/
+ ▪ 4488614 Dialer: AIRPLANE_MODE_ON has moved
+
+ ▪ project packages/apps/ROMControl/
+ ▪ ff8d71d ROMControl - removed duplicate line
+ ▪ 58d0057 ROMControl - string: Translation pt-br day17/03
+ ▪ c7b369d ROMControl - arrays: Translation pt-br day17/03
+
+ ▪ project packages/apps/Settings/
+ ▪ c141a78 AppOpsDetails: Check app permissions safely
+ ▪ ebdb4f9 Settings: Expose "ALL" hardcoded and @android colors
+
+ ▪ project packages/services/Telephony/
+ ▪ bc45a88 Telephony: AIRPLANE_MODE_ON has moved
+ ▪ 4a22a86 Automatic translation import
+ ▪ de3fc24 Telephony: Fix "Redirect to roaming SIM network setting(Dual SIM)"
+
+ ▪ project platform_manifest/
+ ▪ 0377edd aokp: add custom tiles project
+
+ ▼ 03/17/2017
+
+
+ ▪ project bionic/
+ ▪ 08aff0d linker: Allow devices to force shim libs
+
+ ▪ project changelog/
+ ▪ 3369277 AOKP-N_2017-03-17
+
+ ▪ project frameworks/base/
+ ▪ bfa7b6e FWB: Give power dialogs own set of volume icons for themes
+ ▪ d06d449 ThemeSafety: Introduce App Crash Intent
+ ▪ 3d12d26 Revert "Add a protected broadcast for Masquerade events"
+ ▪ 7dc1e9b base: Force authorize all calling packages by Masquerade (2/3)
+ ▪ 4a54c43 OMS: Add hide annotation to MODIFY_OVERLAYS permission
+ ▪ 8e9045f OMS7: Rootless Security Update Preparation for March 2017
+ ▪ 565e789 PackageManager: Always let UID 0 start FallbackHome
+ ▪ 1f485a7 SystemUI: Dismiss keyguard on boot if disabled by current profile
+ ▪ 352632d Automatic translation import
+ ▪ 144fc20 Fix intermittent slowness in resolver activity towards end of day.
+
+ ▪ project packages/apps/CMParts/
+ ▪ 52de28d Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ 85dce80 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 8217605 Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ d37eb8d CustomTiles: support direct boot
+ ▪ 98197a0 CustomTiles: remove compass tile
+
+ ▪ project packages/apps/Dialer/
+ ▪ d9f81c9 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 4bc0dfd Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ a63e069 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ ab0a9dd Settings: Expose and add tint mode to custom icons
+ ▪ 73bd43d Settings: Expose styles in the manifest for themes
+ ▪ 0684cd7 Settings: Guard against themes without colorAccent defined
+ ▪ 3b02bdd Development: Allow all Masquerade calling packages for debugging (3/3)
+ ▪ 7ccbefb Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ b25e072 Automatic translation import
+
+ ▪ project platform_manifest/
+ ▪ eb9f535 Track ThemeInterfacer
+
+ ▪ project system/core/
+ ▪ cb0eb9c Create "theme extras" directory
+ ▪ 15b1838 init: Don't update recovery on boot
+
+ ▪ project system/sepolicy/
+ ▪ 6aca631 Welcome to Theme Interfacer! [2/2]
+ ▪ a95634f sepolicy: Redo masquerade rules
+ ▪ 374d5ba sepolicy: Fix application of bootanimation
+ ▪ 69b6db5 sepolicy: allow masquerade to read and write theme assets
+ ▪ edb89b8 sepolicy: rename masquerade domain and allow JobService in system_server
+ ▪ cd8bae3 initial policy edits for masquerade to operate rootless
+ ▪ 7be7a91 sepolicy: fix themed sounds
+ ▪ 4fb29b1 sepolicy: fix themed boot animation
+ ▪ 47147f1 Introduce sepolicy exceptions for theme assets
+
+ ▪ project vendor/aokp/
+ ▪ 447f6a2 vendor: remove /data/system/theme(/.*)? duplicate
+ ▪ 46801d4 Add ThemeInterfacer
+ ▪ c2caf06 overlay: Disable recovery updates
+ ▪ d45b6f2 apns: Remove proxy for the "TIM WAP" APN
+
+ ▪ project vendor/cmsdk/
+ ▪ 285b166 Automatic translation import
+
