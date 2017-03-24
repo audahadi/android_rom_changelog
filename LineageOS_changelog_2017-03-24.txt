@@ -1,0 +1,280 @@
+
+ ▼ Lineage OS CM-14.1 2017-03-24 Changelog
+
+
+ ▼ 03/24/2017
+
+ ▪ project OTA/
+ ▪ cc54a93 RR-N-v5.8.2-20170322
+
+ ▪ project packages/apps/Recorder/
+ ▪ ed7a8b3 Recorder: add and fix missing copyrights
+ ▪ 779c197 Recorder: screen recorder overlay
+ ▪ 4bf3b75 Recorder: update gradle and support libraries
+
+ ▼ 03/23/2017
+
+
+ ▪ project device/asus/Z00ED/
+ ▪ 0264425 re-arrange product,call cm config last
+
+ ▪ project device/asus/Z00RD/
+ ▪ d16041d re-arrange product,call cm config last
+
+ ▪ project device/asus/Z010D/
+ ▪ 8d09a04 re-arrange product,call cm config last
+
+ ▪ project frameworks/base/
+ ▪ 0107151 Automatic translation import
+ ▪ c814ff5 Core: Make tethering notifications fully translatable
+
+ ▪ project packages/apps/CMParts/
+ ▪ 52da3c9 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ f76431f Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ fa2ba7b Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 7e4ebb2 Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 6f2b2cc Update weather data only when the screen is on
+ ▪ e039264 Register network status change listener explicity
+ ▪ 54e41b5 Save timestamp of last update
+ ▪ 069c3d1 Fix typo in method name
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ dd36017 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 14c2858 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ e4ce390 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 3deda7f Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 72df1ce Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a9fa3b2 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 84582dd apns: Update Swiss APNs
+
+ ▪ project vendor/cmsdk/
+ ▪ f0a3ce9 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d4703e3 Automatic translation import
+
+ ▼ 03/21/2017
+
+ ▪ project OTA/
+ ▪ 72e481a RR-N-v5.8.2-20170320
+
+ ▪ project frameworks/base/
+ ▪ 76eae78 Automatic translation import
+
+ ▪ project hardware/qcom/fm/
+ ▪ 953af70 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ dc65a0c Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 888a04e Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ 4192efb Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ cf97207 Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 947cc5e Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1826775 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 8ee8d23 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 6950f2b Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ e48e0f3 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 89272ca Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 4f757e8 Automatic translation import
+ ▪ c934927 CustomTiles: Add heads up long press action
+ ▪ 60897d0 CustomTiles: Add USB tethering long press action
+
+ ▪ project packages/apps/DeskClock/
+ ▪ ef9fb84 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ 4770839 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ d46453b Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ af2af0b Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ 588a2ab Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 900fb80 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 18953eb Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ eb1c5fa Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 09482ca Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ cecd56f Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 8bb1879 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 6833a11 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ a86d274 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 110c07c Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ d458cf1 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 641dd97 Fix zen mode allowed event preference summary.
+ ▪ 3bea55c Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ f834d21 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 9ee33a5 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 3c27506 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 5937cbf Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 993da14 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ a536931 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ f58e1b2 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ c2e4f01 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ cfbd067 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ f59371a Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ 1b2cc77 Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ a1aa622 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ e93ac19 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ ae34e55 Automatic translation import
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 4d1a21f Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 1d870ae Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 3e9e173 Automatic translation import
+
+ ▪ project vendor/cmsdk/
+ ▪ c0378c8 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ a940996 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 459f3db Automatic translation import
+
+ ▼ 03/20/2017
+
+
+ ▪ project device/asus/Z00ED/
+ ▪ 2f7446f don't parse build fingerprint
+
+ ▪ project device/asus/Z00RD/
+ ▪ 90567de don't parse build fingerprint
+
+ ▪ project device/asus/msm8916-common/
+ ▪ bbabd08 ZC550KL use DUAL mic,but other's use signal mic
+
+ ▪ project vendor/cm/
+ ▪ 024efe7 apn: Updating TelkomSA from 8ta South Africa APN
+
+ ▼ 03/19/2017
+
+
+ ▪ project frameworks/base/
+ ▪ ce561af SystemUI: enable NFC tile
+ ▪ 735eb59 SystemUI: Add NFC tile
+
+ ▪ project frameworks/opt/telephony/
+ ▪ c31cf84 telephony: Fix rebase mismerge breaking SIM detection when encrypted
+
+ ▪ project packages/apps/Settings/
+ ▪ d185ec4 Make Build Date and API Level unselectable
+
+ ▼ 03/18/2017
+
+
+ ▪ project changelog/
+ ▪ e166e0c LineageOS_14.1_2017-03-17
+
+ ▪ project frameworks/base/
+ ▪ 47a42bf Move wakelock option for flashlight to CameraManager.
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ d3c06ce Revert "Introduced Active device for volume updates and volume update in pause state"
+ ▪ ff3d0d8 Bluetooth: AIRPLANE_MODE_ON has moved
+
+ ▪ project packages/apps/Dialer/
+ ▪ 019704c Dialer: AIRPLANE_MODE_ON has moved
+
+ ▪ project packages/apps/Settings/
+ ▪ 95c0f7d AppOpsDetails: Check app permissions safely
+
+ ▪ project packages/services/Telephony/
+ ▪ f6c9974 Telephony: AIRPLANE_MODE_ON has moved
+
