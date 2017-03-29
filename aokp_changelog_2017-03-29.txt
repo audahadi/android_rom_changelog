@@ -1,0 +1,225 @@
+
+ ▼ AOKP Nougat 2017-03-29 Changelog
+
+
+ ▼ 03/29/2017
+
+
+ ▪ project build/
+ ▪ b1ca820 build: Fix build_image.py
+ ▪ a1a3d77 Revert "Use 'release-keys' for build tag"
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 66bd4c6 Revert "create proc file for project id"
+ ▪ b91aa55 Revert "drivers: firmware_class: Allow VOLTE for all ZC550KL/ZE500KL/ZE500KG devices"
+
+ ▪ project vendor/asus/
+ ▪ e220b31 Revert "add modem firmware (from UL-ASUS_Z010-WW-13.8.26.76-user (IN modem)"
+ ▪ 6ccf0af Revert "add missing modem files"
+
+ ▼ 03/28/2017
+
+
+ ▪ project build/
+ ▪ 2598dab aokp: build: Don't convert patchset to int if it's None
+ ▪ 2430093 aokp: build: Fix cherry picking specific patchsets
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 5b84fa3 import gps from lineageos/device_xiaomi_msm8956-common
+
+ ▪ project frameworks/base/
+ ▪ b85fa4b DocumentsUI: make shapes great again
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ b1eb79b Revert all the changes introduced with cafrebase
+ ▪ 15085dc Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 528e845 Settings: Fix AOSP WiFi AP translations
+ ▪ 7a78d7e Settings: Fix german string
+
+ ▪ project packages/services/Telecomm/
+ ▪ 9221816 Telecomm: Fix build
+
+ ▪ project system/core/
+ ▪ 1be2655 adb: Look for bu in /sbin when in recovery mode
+
+ ▪ project vendor/aokp/
+ ▪ 86e8b51 cm: remove special access to unused cmfm
+ ▪ 7834bff cm: allow apps to find profile manager service
+ ▪ 6c544fb Make a data only config
+ ▪ d2a0ad4 APN: Fix TalkTalk
+
+ ▼ 03/27/2017
+
+
+ ▪ project frameworks/native/
+ ▪ 6a6806c native: fixes to compile HWC2
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 8174213 audio: Fix flac offload not working
+ ▪ d758485 policy_hal: Line up default features with rest of HAL
+
+ ▪ project hardware/ti/omap4/
+ ▪ 71be556 Include common omap4 vendor repo if available.
+ ▪ 02837a7 libEGL_POWERVR: Replace remaining LOCAL_LDLIBS (KK compatibility)
+ ▪ 115c4a4 pvrsrvinit/libEGL_POWERVR: Actually ready needed vendor libraries
+ ▪ aff0723 pvrsrvinit/libEGL_POWERVR: Link against generic library symlinks
+ ▪ b132a61 pvrsrvinit: PVRScopeServices symlink lives in vendor/ti now
+ ▪ 3c61176 pvrsrvinit: define the libraries to link against in LOCAL_LDFLAGS
+ ▪ ca79788 symlinks: Move Gralloc's to vendor/ti (together with processing)
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ a89a338 Automatic translation import
+
+ ▪ project vendor/asus/
+ ▪ cfccdd6 add missing modem files
+
+ ▼ 03/26/2017
+
+
+ ▪ project bionic/
+ ▪ 6f130ca linker: Restore optional platform text relocations use
+
+ ▪ project build/
+ ▪ d0a53ea Use 'release-keys' for build tag
+
+ ▪ project device/asus/msm8916-common/
+ ▪ f686a54 Revert "Revert "IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting""
+ ▪ c8e8a38 Revert "Revert "prop: enable ims""
+ ▪ abda42d Revert "Revert "add missing firmware""
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ baabf8a audio: Fix msm8952-snd-card-mtp support
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 7a51df6 create proc file for project id
+ ▪ 1c8dac8 leftover aosp-build fix-continue
+ ▪ 1cb9bdb drivers: firmware_class: Allow VOLTE for all ZC550KL/ZE500KL/ZE500KG devices
+
+ ▪ project packages/apps/ROMControl/
+ ▪ 5592963 ROMControl - values-pt: Removed string error
+ ▪ 64a5341 ROMControl - pt translate not needed for arrays
+
+ ▪ project packages/services/Telecomm/
+ ▪ 9af635f Fix incall for samsung devices
+
+ ▪ project vendor/asus/
+ ▪ 15dbb48 add modem firmware (from UL-ASUS_Z010-WW-13.8.26.76-user (IN modem)
+
+ ▼ 03/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ d696c50 Fw_base - Navbar tile: one tap to enable/disable, long tap to choose nav type
+ ▪ 17dbb12 Fw_base - Night auto brightness: restore user brightness values also after reboot
+ ▪ 1db7257 Fw_base - Night Light brightness mode options [1/2]
+
+ ▪ project hardware/qcom/fm/
+ ▪ aff061a FM: Fix KHz->kHz
+
+ ▪ project kernel/asus/msm8916-gitlab/
+ ▪ 446d2d5 Merge tag 'v3.10.60' into HEAD
+ ▪ 998af29 Merge tag 'v3.10.58' into HEAD
+ ▪ 2f1be47 Merge tag 'v3.10.56' into HEAD
+ ▪ 22f4a12 core, nfqueue, openvswitch: fix compilation warning
+ ▪ 8c78e58 Merge tag 'v3.10.55' into HEAD
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 440b231 CustomTiles: rename app_name to "Extra tiles"
+
+ ▪ project packages/apps/ExactCalculator/
+ ▪ 26a0bde Themes: Expose all elevations
+ ▪ d6a3fe5 Themes: Expose hard coded background in java
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 60182f3 PackageInstaller: Add tint mode to icons
+
+ ▪ project packages/apps/Settings/
+ ▪ 8c42cfe Settings - Night Light brightness mode options [2/2]
+ ▪ 2187789 Settings - Restore doze settings device related
+
+ ▪ project platform_manifest/
+ ▪ 06f6d55 manifest - track our own ExactCalculator & PackageInstaller
+
+ ▪ project vendor/asus/
+ ▪ 0aca5fd Revert "Revert "update ims""
+ ▪ 5f0b1bf Revert "Revert "add missing firmware""
+ ▪ b1f2dbc Revert "Revert "msm8916-common: Add IMS blobs""
+
+ ▼ 03/24/2017
+
+
+ ▪ project changelog/
+ ▪ 82ac355 AOKP-N_2017-03-23
+
+ ▪ project frameworks/base/
+ ▪ f28d573 Automatic translation import
+ ▪ 6916bc7 Core: Make tethering notifications fully translatable
+
+ ▪ project kernel/asus/msm8916-gitlab/
+ ▪ 3cf8fc7 Merge tag 'v3.10.52' into HEAD
+ ▪ 874c67b Merge tag 'v3.10.50' into HEAD
+
+ ▪ project packages/apps/Contacts/
+ ▪ 407479f Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 6f2b2cc Update weather data only when the screen is on
+ ▪ e039264 Register network status change listener explicity
+ ▪ 54e41b5 Save timestamp of last update
+ ▪ 069c3d1 Fix typo in method name
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 8c60342 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ ed7a8b3 Recorder: add and fix missing copyrights
+ ▪ 779c197 Recorder: screen recorder overlay
+ ▪ 4bf3b75 Recorder: update gradle and support libraries
+
+ ▪ project packages/apps/Settings/
+ ▪ 19fd769 Automatic translation import
+
+ ▪ project vendor/aokp/
+ ▪ 3094d83 apns: Update Swiss APNs
+
+ ▪ project vendor/cmsdk/
+ ▪ 1349475 Automatic translation import
+
+ ▼ 03/23/2017
+
+
+ ▪ project device/asus/Z00ED/
+ ▪ 0264425 re-arrange product,call cm config last
+
+ ▪ project device/asus/Z00RD/
+ ▪ d16041d re-arrange product,call cm config last
+
+ ▪ project device/asus/Z010D/
+ ▪ 8d09a04 re-arrange product,call cm config last
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ f76431f Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 7e4ebb2 Automatic translation import
+
+ ▪ project packages/apps/ROMControl/
+ ▪ 2fd6328 ROMControl - Toast: fix toast test
+
+ ▪ project packages/apps/Recorder/
+ ▪ 14c2858 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 3deda7f Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 72df1ce Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a9fa3b2 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d4703e3 Automatic translation import
+
