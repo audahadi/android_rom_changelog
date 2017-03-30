@@ -1,0 +1,320 @@
+
+ ▼ Lineage OS CM-14.1 2017-03-30 Changelog
+
+
+ ▼ 03/30/2017
+
+
+ ▪ project frameworks/base/
+ ▪ d1f8936 Automatic translation import
+
+ ▪ project kernel/asus/msm8916/
+ ▪ a14fad3 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.14' into HEAD
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 2cd4a6e Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ f4196b3 Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ bc8a6c7 Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ c3b040e Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ 8812ebc Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ f02ce01 Automatic translation import
+ ▪ 90684d0 Allow to abort completing downloads
+ ▪ 30b0384 Move properties parsing logic inside Utils
+ ▪ 22fcbb5 Drop minor revision level for remote builds
+ ▪ d96d2ce Use Preference from the Android support libraries
+
+ ▪ project packages/apps/Calendar/
+ ▪ 918bd81 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ e96a1aa Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 17e633f Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ d17c717 Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 52a6643 Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 5bfa7e9 Automatic translation import
+
+ ▪ project packages/apps/DeskClock/
+ ▪ ded6afb Automatic translation import
+ ▪ 8de8bd0 AlarmService : Change stopSelf into stopSelfResult
+ ▪ 1f3d393 DeskClock: fix ringtones stored on /sdcard/Alarms
+
+ ▪ project packages/apps/Dialer/
+ ▪ 3803085 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 3f8bab8 Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ 92c2de4 Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ bd6dd73 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 980d319 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ a80d06a Automatic translation import
+
+ ▪ project packages/apps/LockClock/
+ ▪ 4afc8af Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 6e37349 Automatic translation import
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 0fc5fe1 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ eedc20a Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 2a86c63 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ b427c2f Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 210f42f Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ cd33504 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 13d43d7 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 44781da Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 39343e1 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ defe11d Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 952bf19 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 251c7bd Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 53836b2 Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 149eb22 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 4f6cf59 Automatic translation import
+
+ ▪ project packages/providers/ThemesProvider/
+ ▪ 6d5910a Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ fd0d410 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ c21ccee Automatic translation import
+
+ ▪ project vendor/asus/
+ ▪ f69e857 import gps blob from xiaom/hydrogen
+ ▪ 6a62a95 Revert "add modem firmware (from UL-ASUS_Z010-WW-13.8.26.76-user (IN modem)"
+
+ ▪ project vendor/cm/
+ ▪ fc5ab9c Fix APNs for Cyprus
+
+ ▪ project vendor/cmsdk/
+ ▪ 54996d4 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 77358cc Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 7c8a02e Automatic translation import
+
+ ▼ 03/29/2017
+
+
+ ▪ project bionic/
+ ▪ 5848aaf libc: memcpy_base: Disable opt for certain targets
+
+ ▪ project frameworks/base/
+ ▪ 263acf9 Revert "[1/2] base: support separate encryption/lockscreen passwords"
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 66bd4c6 Revert "create proc file for project id"
+ ▪ b91aa55 Revert "drivers: firmware_class: Allow VOLTE for all ZC550KL/ZE500KL/ZE500KG devices"
+
+ ▪ project packages/apps/Settings/
+ ▪ 867d97d Revert "[2/2] settings: support setting a separate encryption password"
+
+ ▪ project vendor/asus/
+ ▪ 6ccf0af Revert "add missing modem files"
+
+ ▼ 03/28/2017
+
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 5b84fa3 import gps from lineageos/device_xiaomi_msm8956-common
+
+ ▪ project system/core/
+ ▪ 1fc4f92 adb: Look for bu in /sbin when in recovery mode
+
+ ▪ project vendor/cm/
+ ▪ 7dc287f extract_utils: support extracting directly from an ota zip
+
+ ▼ 03/27/2017
+
+
+ ▪ project frameworks/base/
+ ▪ d43db80 DocumentsUI: make shapes great again
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 8174213 audio: Fix flac offload not working
+ ▪ d758485 policy_hal: Line up default features with rest of HAL
+
+ ▪ project hardware/ti/omap4/
+ ▪ 71be556 Include common omap4 vendor repo if available.
+ ▪ 02837a7 libEGL_POWERVR: Replace remaining LOCAL_LDLIBS (KK compatibility)
+ ▪ 115c4a4 pvrsrvinit/libEGL_POWERVR: Actually ready needed vendor libraries
+ ▪ aff0723 pvrsrvinit/libEGL_POWERVR: Link against generic library symlinks
+ ▪ b132a61 pvrsrvinit: PVRScopeServices symlink lives in vendor/ti now
+ ▪ 3c61176 pvrsrvinit: define the libraries to link against in LOCAL_LDFLAGS
+ ▪ ca79788 symlinks: Move Gralloc's to vendor/ti (together with processing)
+
+ ▪ project packages/apps/Settings/
+ ▪ e97413d Settings: Fix AOSP WiFi AP translations
+ ▪ 8a3d455 Settings: Fix german string
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 315b2f9 Moving a few testing classes to a separate package
+ ▪ 3c58753 Trebuchet: Remove ambient SDK leftover
+
+ ▪ project vendor/asus/
+ ▪ cfccdd6 add missing modem files
+
+ ▪ project vendor/cm/
+ ▪ 0277543 cm: remove special access to unused cmfm
+
+ ▼ 03/26/2017
+
+
+ ▪ project bionic/
+ ▪ 6f130ca linker: Restore optional platform text relocations use
+
+ ▪ project device/asus/msm8916-common/
+ ▪ f686a54 Revert "Revert "IMSEnabler: Application to toggle the Enhanced 4G LTE Mode setting""
+ ▪ c8e8a38 Revert "Revert "prop: enable ims""
+ ▪ abda42d Revert "Revert "add missing firmware""
+
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ baabf8a audio: Fix msm8952-snd-card-mtp support
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 7a51df6 create proc file for project id
+ ▪ 1c8dac8 leftover aosp-build fix-continue
+ ▪ 1cb9bdb drivers: firmware_class: Allow VOLTE for all ZC550KL/ZE500KL/ZE500KG devices
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ d99c319 Add ripple effect to list entries
+ ▪ 61bdb06 Bring back the option to delete all the downloads
+ ▪ 270c967 Delete partially copied files
+ ▪ 630a77b Make downloaded files available only if verified
+ ▪ 90490fc Get size of downloaded file from ParcelFileDescriptor
+ ▪ dd997a7 Log package verification exception
+ ▪ 57bb799 Rework file name handling
+ ▪ 446075c Remove some unused code
+ ▪ 3e3fd93 Change some variable names to follow naming conventions
+ ▪ 8a1baa1 Updater: close file channels in onHandleIntent
+
+ ▪ project vendor/asus/
+ ▪ 15dbb48 add modem firmware (from UL-ASUS_Z010-WW-13.8.26.76-user (IN modem)
+
+ ▪ project vendor/cm/
+ ▪ d5b520f cm: allow apps to find profile manager service
+
+ ▼ 03/25/2017
+
+
+ ▪ project changelog/
+ ▪ 9911d61 LineageOS_14.1_2017-03-24
+
+ ▪ project hardware/qcom/fm/
+ ▪ aff061a FM: Fix KHz->kHz
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 30a0d67 soc: qcom: pil: Clear elf region on authentication failure
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 440b231 CustomTiles: rename app_name to "Extra tiles"
+
+ ▪ project vendor/asus/
+ ▪ 0aca5fd Revert "Revert "update ims""
+ ▪ 5f0b1bf Revert "Revert "add missing firmware""
+ ▪ b1f2dbc Revert "Revert "msm8916-common: Add IMS blobs""
+
+ ▪ project vendor/cm/
+ ▪ ad5d9a0 cm: build: Don't convert patchset to int if it's None
+ ▪ 2756418 cm: build: Fix cherry picking specific patchsets
+ ▪ fc9a4c5 Make a data only config
+ ▪ 12ee459 APN: Fix TalkTalk
+
+ ▼ 03/24/2017
+
+ ▪ project OTA/
+ ▪ cc54a93 RR-N-v5.8.2-20170322
+
+ ▪ project kernel/asus/msm8916/
+ ▪ f1a55a4 msm: mdss: Fix fence installation when retire fence is skipped
+ ▪ 82ac61e Merge "msm: mdss: fix race condition in mdp debugfs" into LA.BR.1.2.9_rb1.14
+ ▪ 3ba9075 msm: mdss: fix race condition in mdp debugfs
+ ▪ bc9f02d android: fiq_debugger: restrict access to critical commands.
+ ▪ 1bac4e7 Merge "input: synaptics: put offset checks under mutex." into LA.BR.1.2.9_rb1.14
+ ▪ 8cb6c8f Merge "net: avoid signed overflows for SO_{SND|RCV}BUFFORCE" into LA.BR.1.2.9_rb1.14
+ ▪ 4aae8ad Merge "input: touchscreen: synaptics: Remove fw_update sysfs entries" into LA.BR.1.2.9_rb1.14
+ ▪ 79f0315 Merge "msm: camera: isp: fix for out of bound access array" into LA.BR.1.2.9_rb1.14
+ ▪ 24203fa Merge "usb: dwc3: Replace sscanf with kstrtou8_from_user" into LA.BR.1.2.9_rb1.14
+ ▪ b4575cc Merge "msm: IPA: add the check on intf query" into LA.BR.1.2.9_rb1.14
+ ▪ c646c53 Merge "CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free" into LA.BR.1.2.9_rb1.14
+ ▪ e93fd75 Merge "mpi: Fix NULL ptr dereference in mpi_powm() [ver #3]" into LA.BR.1.2.9_rb1.14
+ ▪ 4f81311 Merge "packet: fix race condition in packet_set_ring" into LA.BR.1.2.9_rb1.14
+ ▪ fdb68bf input: synaptics: put offset checks under mutex.
+ ▪ 411746b net: avoid signed overflows for SO_{SND|RCV}BUFFORCE
+ ▪ b597e1e input: touchscreen: synaptics: Remove fw_update sysfs entries
+ ▪ 6364ad0 msm: camera: isp: fix for out of bound access array
+ ▪ 64b4dfc usb: dwc3: Replace sscanf with kstrtou8_from_user
+ ▪ 4d1b1f1 msm: IPA: add the check on intf query
+ ▪ 211c487 CHROMIUM: usb: gadget: configfs: Fix KASAN use-after-free
+
+ ▪ project packages/apps/LockClock/
+ ▪ 6f2b2cc Update weather data only when the screen is on
+ ▪ e039264 Register network status change listener explicity
+ ▪ 54e41b5 Save timestamp of last update
+ ▪ 069c3d1 Fix typo in method name
+
+ ▪ project packages/apps/PackageInstaller/
+ ▪ 9b194dd Revert all the changes introduced with cafrebase
+
+ ▪ project packages/apps/Recorder/
+ ▪ ed7a8b3 Recorder: add and fix missing copyrights
+ ▪ 779c197 Recorder: screen recorder overlay
+ ▪ 4bf3b75 Recorder: update gradle and support libraries
+
