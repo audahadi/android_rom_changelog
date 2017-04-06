@@ -1,0 +1,284 @@
+
+ ▼ Lineage OS CM-14.1 2017-04-06 Changelog
+
+
+ ▼ 04/06/2017
+
+
+ ▪ project frameworks/av/
+ ▪ eb594c4 Revert "Revert "mediacodec: minijail: Enable exporting of policy files""
+
+ ▪ project frameworks/base/
+ ▪ 9d85a42 Fix permission description string for DE.
+
+ ▪ project lineage/jenkins/
+ ▪ c0e379b Yu can have nougat
+
+ ▪ project lineage/mirror/
+ ▪ be5da0c mirror: Add some nvidia repositories
+
+ ▪ project lineage/website/
+ ▪ 03ed1ad www: Fix typo
+ ▪ eaffeb2 www: Fix dodgy markdown in latest post
+ ▪ 6398c79 Bitcoin link
+
+ ▪ project lineage/wiki/
+ ▪ e233e39 wiki: Contributors: Hide non-official devices
+ ▪ 0da3d1c devices: Add Galaxy Note 2 LTE and Korean variants
+
+ ▼ 04/05/2017
+
+
+ ▪ project hardware/ti/omap4/
+ ▪ 86ea9e8 omap4: add more common build properties
+ ▪ 368f365 omap4: define BOARD_CANT_REALLOCATE_OMX_BUFFERS
+ ▪ cce4d95 omap4: camera: restore compatibility with older Android versions (< Android N)
+ ▪ 0254e40 omap4: define TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES
+ ▪ 7839bd6 camera: Use GBAllocator.allocate for N_MR1.
+ ▪ 3c75dc7 Revert "camera: switch to Gralloc.allocate and generate unique Id for allocation"
+ ▪ c9d954d camera: Rename version_major/minor to the new, non-deprecated names.
+ ▪ 0f2b557 camera: clean up build when various OMAP_ENHANCEMENTs are disabled
+ ▪ 9cf111b Revert "hwc: publicly define omap specific usage flags"
+ ▪ 9a75172 seccomp: allow clock_nanosleep syscall
+ ▪ 3a17e59 Fix camera video recording on N.
+ ▪ 547e464 android-api: Add N_MR1 defines.
+ ▪ c7d8882 camera: fix build for LP
+ ▪ 9843c81 android-api: Add LP_MR1 defines.
+ ▪ ef46c42 Add DOMX syscalls to seccomp filter
+ ▪ 6c31b84 domx: Remove implicit libc shared library declarations.
+ ▪ 6fc761d domx: Overhaul omx_proxy_component makefile.
+ ▪ 0efd58f domx: for ion_alloc alloc flag must be (1 << ID) and not the ID
+ ▪ 3088f9e camera: for carveout alloc we must use ID OMAP_ION_HEAP_SECURE_INPUT
+ ▪ 16aca2a android-api: add N
+ ▪ 38636fa camera: fix build for KK
+ ▪ 6c5b8a8 libcorkscrew: only build for Lollipop and newer
+ ▪ 4cd6c92 camera: Init all members of camera_module_t to fix warnings.
+ ▪ f439503 libtiutils: C++11 compat fix.
+ ▪ 97eba14 libstagefrighthw: Build with -Wall -Werror.
+ ▪ 5076f97 libI420colorconvert: Build with -Wall -Werror.
+ ▪ 2c59035 Make bltsville opt-in.
+ ▪ 072fa04 camera: Makefile overhaul.
+ ▪ 07c4577 Revert "camera: call camera CFLAGS should use CAMERAHAL_CFLAGS"
+ ▪ 06ce617 omap4: Set TARGET_FORCE_SCREENSHOT_CPU_PATH.
+ ▪ d1f876f SGX-BIN: build: android: Don't override PLATFORM_VERSION if supplied
+
+ ▪ project kernel/asus/msm8916/
+ ▪ ef33085 drivers/staging/prima : update to LA.BR.1.2.9_rb1.14
+ ▪ 72c384d power: align wakeup_sources format
+ ▪ d34395a lowmemorykiller: account for unevictable pages
+ ▪ c739296 firmware_class: Fix firmware_loading_timeout usage of jiffies
+ ▪ 6d1843a cpuidle / menu: Return (-1) if there are no suitable states
+ ▪ 1e55815 cpufreq: qcom-cpufreq: Check return of cpufreq_frequency_get_table
+ ▪ ca7ba1c kthread_work: wake up worker only when the worker is idle
+ ▪ 725077a cpufreq: governor: remove copy_prev_load from 'struct cpu_dbs_common_info'
+ ▪ a077e05 cpufreq: remove race while accessing cur_policy
+ ▪ 33361aa cpufreq: Fix timer/workqueue corruption by protecting reading governor_enabled
+ ▪ 6836a76 cpufreq: governor: Be friendly towards latency-sensitive bursty workloads
+ ▪ 2cce5df msm: kgsl: Fix direct references to HZ
+ ▪ d7b727c workqueue: make sure delayed work run in local cpu
+ ▪ deb8d2d cpufreq: Break out early when frequency equals target_freq
+ ▪ 1dbb2c3 cpufreq: cpu-boost: don't boost if input_boost_ms is <= 0
+ ▪ 07a5063 drivers: cpu-boost: cosmetic changes
+ ▪ f80cc0b cpufreq: cpu-boost: boost the input boost notifier to max prio
+ ▪ 459382c cpufreq: cpu-boost: don't boost over user set max freq
+ ▪ 17881ed cpufreq: cpu-boost: export input_boost_enable to userspace
+ ▪ 48f4b01 cpufreq: cpu-boost: don't boost big cluster on input touch unless it has at least 1 task running on any of its cores to save power
+ ▪ 6107c9a cpufreq: interactive governor drops bits in time calculation
+ ▪ d9953b6 cpufreq: interactive: remove hispeed_freq init restriction
+ ▪ 22dff1b workqueues: Introduce new flag WQ_POWER_EFFICIENT for power oriented workqueues
+ ▪ a342633 slimbus: use interruptible wait to not affect load average
+ ▪ 078b622 Makefile: add toolchain, arch, remove REAL_CC alias and add a53/a57 compilation flags
+ ▪ ad42f0e msm: mpm: disable debugging
+ ▪ 2e65d52 cpuidle: don't disable cpuidle when entering suspend
+ ▪ 7612ad3 msm: vidc: disable debug logs
+ ▪ e229be1 selinux: just shut up
+ ▪ 2a1c9fb random: entropy tweaks are all the rage nowadays
+ ▪ 26700d4 msm_rng: stfu
+ ▪ 32200f2 drivers: mmc: according to the comment left by the original author disabling a cyclic redundancy check on data blocks by yield a a performance improvement hovering ~30%
+ ▪ 07d6d0c cpufreq: cache tunables for ondemand and conservative governors
+ ▪ 35672cf msm: camera: sensor: Fix memory leaks when sensor probe fails
+ ▪ 501b262 cpufreq: stats: Fix memory leaks when updating stats table
+ ▪ 4243b83 soc: qcom: watchdog_v2: Fix memory leaks when memory_dump_v2 isn't built
+ ▪ 53650bf net: ipc_router: Fix memory leaks when releasing a remote port
+ ▪ 757fac2 SafetyNet bypass: Show androidboot.verifiedbootstate=green
+ ▪ ac57bb1 mm: compaction: compact all zones when turning off screen
+ ▪ 3d2ae74 defconfig: change CONFIG_HZ to 300 CONFIG_HZ_300=y
+ ▪ 1ab3871 ARM: Allow selection HZ values
+
+ ▪ project lineage/jenkins/
+ ▪ a2dca2c hudson: Hima family to Nougat
+
+ ▪ project lineage/website/
+ ▪ ed0fe37 Last couple of weeks at LineageOS (W/C 20th March)
+
+ ▪ project lineage/wiki/
+ ▪ ab81e01 wiki: Don't close <html> before the end
+ ▪ f232716 wiki: Switch to relative links for favicons
+
+ ▪ project packages/apps/CMParts/
+ ▪ 9198d84 CMParts: Update quick QS pull-down summary for translation
+
+ ▪ project packages/apps/Snap/
+ ▪ 673547e CaptureUI: fix crash on setOrientation
+ ▪ a8285ad Snap: Fix effect and picture program overlay buttons
+ ▪ 65aa6fd Always apply frame size reduction to panorama pictures
+ ▪ 9e8d919 Never ignore finger swipes in gallery mode
+ ▪ b9da2b0 Fix record time sometimes not seen
+
+ ▪ project vendor/asus/
+ ▪ 9d333c0 move keystore to device
+
+ ▼ 04/04/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 16c5153 Hotspot Tile: longclick should open Tethering settings
+ ▪ 91053a5 Fix Hotspot tile is shown on Guest user
+
+ ▪ project hardware/ti/omap4/
+ ▪ eb70ea8 SGX-BIN: build: android: Add fallback PLATFORM_VERSION mechanism
+ ▪ dbe532a board/init: Common PVR KM build target for reuse by devices
+ ▪ 492610c SGX-BIN: build/srvkm: Drop SGX core/version suffixes everywhere
+ ▪ 42c669c SGX-BIN: buildvars: Compile PVR KM with -fno-pic
+ ▪ 55bfee6 libpower: Avoid overwriting custom user frequencies.
+ ▪ 357aaac libpower: Initialize inited variable.
+ ▪ 5ae1155 libpower: Add optional support for API 0.3
+ ▪ c55f2bb Add OMAP PowerHAL
+
+ ▪ project lineage/website/
+ ▪ df48acf Fix broken markdown for April Fool's
+ ▪ 435e143 April Fools...brings out fools?
+
+ ▪ project lineage/wiki/
+ ▪ ad91868 wiki: delete unneeded fonts
+ ▪ 128c533 wiki: index.md grammar and style
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ e0e756f New Material icon
+
+ ▪ project packages/services/Mms/
+ ▪ de8277e Add Material icon & app label
+
+ ▪ project vendor/cm/
+ ▪ 29f3b57 roomservice: handle devices with underscores
+
+ ▼ 04/03/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 5c923f2 SettingsProvider: Update icon.
+
+ ▪ project lineage/stats/
+ ▪ 9836870 tribble-tracker: add LineageOS logo as favicon
+
+ ▪ project lineage/updater/
+ ▪ be36539 fix check_builds cli command
+ ▪ 7463fdd Fix API 500 on requestfile
+ ▪ 0f222e8 Regenerate device_deps.json
+
+ ▪ project lineage/wiki/
+ ▪ dd3cbd1 wiki: Add h8rift to Trusted Reviewers
+ ▪ f737317 wiki: Devices page: Do it properly
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ a25d845 WakelockService: Refactor
+ ▪ e4a5f65 Caffeine: Stop service if not enabled
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ 94029d1 New Material icon
+
+ ▪ project packages/providers/TelephonyProvider/
+ ▪ 059380f TelephonyProvider: Update icon to Material
+
+ ▪ project packages/wallpapers/LivePicker/
+ ▪ bf06fdf New Material icon
+
+ ▪ project vendor/cm/
+ ▪ dd4ee0c Br0Zip
+ ▪ 430f569 YOLO
+
+ ▼ 04/02/2017
+
+
+ ▪ project android/
+ ▪ cf49fbb Sync infra-related projects
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ ab780a8 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.14' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ d062bdc Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.9' into cm-14.1-caf-8994
+
+ ▪ project lineage/mirror/
+ ▪ 0cad3fb Updated to 01-Apr-17 09:30:00 UTC
+
+ ▪ project lineage/website/
+ ▪ 1d92c62 Clarify mascot's name
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ 6460e10 Fix dates of downloaded and installed builds
+
+ ▪ project packages/services/Telephony/
+ ▪ 823aaaf Revert "Add support to launch call barring"
+ ▪ 8fa8274 Revert "CallFeatureSettings: Only show call barring option if QTI package installed"
+
+ ▼ 04/01/2017
+
+
+ ▪ project lineage/jenkins/
+ ▪ 852277d hudson: Remove t6 and t6vzw
+
+ ▪ project lineage/website/
+ ▪ 82df762 Announcing our new mascot!
+
+ ▪ project lineage/wiki/
+ ▪ 51ba886 wiki: Index: Fix wrong link
+ ▪ 7227f8a wiki: Fix typos
+ ▪ 69a4ab7 wiki: Rework "Devices" page
+ ▪ 17b774b wiki: Package openssl-dev -> libssl-dev
+ ▪ 1dec8be devices: Fix griffin
+ ▪ 0c255c4 devices: Add ARK Benefit A3 (peach)
+ ▪ d5a91bb devices: Add Moto Z (griffin)
+ ▪ d54258b wiki: LineageOS, not Lineage!
+ ▪ 81e91a4 wiki: Some cleanup
+ ▪ 338d211 klte and variants: Drop stray single quotes
+ ▪ 89345a0 Remove stray semicolons (klte, kccat6, lentislte)
+ ▪ 3329a44 wiki: fix double translation proofreaders list
+ ▪ 91eece3 wiki: new main page
+
+ ▼ 03/31/2017
+
+ ▪ project OTA/
+ ▪ 20282c0 RR-N-v5.8.2-20170330
+
+ ▪ project changelog/
+ ▪ 0475d80 LineageOS_14.1_2017-03-30
+
+ ▪ project device/asus/Z00ED/
+ ▪ a5faf4a overlay:move auto brightness value to common
+
+ ▪ project device/asus/Z00RD/
+ ▪ 52a343c overlay:move auto brightness value to common
+
+ ▪ project device/asus/Z010D/
+ ▪ 3386ff2 overlay:move auto brightness value to common
+
+ ▪ project device/asus/msm8916-common/
+ ▪ d5baf4b overlay : adjust auto brightness value
+
+ ▪ project lineage/wiki/
+ ▪ 3b02115 wiki: New Material Design
+
+ ▪ project packages/apps/CMParts/
+ ▪ 4f90b17 Fix reorientation of volume buttons on portrait tablets
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ ee80e81 CaffeineTile: Use 'off' icon by default
+ ▪ 6bcbc09 AdbOverNetworkTile: Use 'off' icon by default
+ ▪ cb6961e WakelockService: Don't check if wakelock is held twice
+ ▪ 513dfbf WakelockService: reference the wakelock
+ ▪ 04e54c3 CaffeineTile: Start service connection as current user
+
+ ▪ project vendor/asus/
+ ▪ f69e857 import gps blob from xiaom/hydrogen
+
