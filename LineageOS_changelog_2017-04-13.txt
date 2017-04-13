@@ -1,0 +1,230 @@
+
+ ▼ Lineage OS CM-14.1 2017-04-13 Changelog
+
+
+ ▼ 04/13/2017
+
+
+ ▪ project frameworks/base/
+ ▪ af1582f353e systemui: Fix DE translation for navbar buttons
+
+ ▪ project lineage/jenkins/
+ ▪ cf9e05d hudson: Temporarily remove ether until it gets cleaned up
+
+ ▪ project lineage/wiki/
+ ▪ 803c0a3 devices: Add lt02ltespr
+ ▪ 7ffdf08 wiki: Underp filtering of peripherals
+ ▪ 21ed3ac wiki: contributors: Add other projects
+ ▪ 0b84053 wiki: Pimp "Contributors" page
+ ▪ b799ed7 devices: unify korean galaxy note 2
+
+ ▼ 04/12/2017
+
+
+ ▪ project frameworks/av/
+ ▪ bcfb7ac8f stagefright: Remove the HAL3 limitation from the video reference clock selection
+
+ ▪ project lineage/jenkins/
+ ▪ 82f2b72 Unify Galaxy Note 2 Korean variants
+ ▪ 00f12d0 Add lt02ltespr
+
+ ▪ project lineage/mirror/
+ ▪ 99f749e Add support for t0ltekor
+
+ ▪ project lineage/updater/
+ ▪ fb1b2fa Unify Galaxy Note 2 Korean variants
+
+ ▪ project lineage/wiki/
+ ▪ c44d7d9 wiki: Move hima family to 14.1
+ ▪ 91d3fe9 Remove CNAME, no longer using github pages
+ ▪ bb53cb4 wiki: Bump jalebi to 14.1
+ ▪ 6d26ab6 wiki: Fix wrong device information
+ ▪ 820dd11 wiki: Update "adding device" page
+ ▪ 2ebb536 wiki : Group pages in folders
+
+ ▪ project vendor/cm/
+ ▪ 90b437e7 kernel: Fix broken C_INCLUDE_PATH for Darwin
+
+ ▼ 04/11/2017
+
+
+ ▪ project device/asus/Z010D/
+ ▪ 7434865 build with qcom LLVM clang
+
+ ▪ project device/asus/msm8916-common/
+ ▪ b6589ff msm8916-common: lights: Improve code style
+ ▪ 65c11d5 msm8916-common: Build with regular LLVM Clang
+ ▪ e7de9bc fix product specific prop
+
+ ▪ project hardware/qcom/display-caf/msm8960/
+ ▪ 09cce1b07 hwcomposer: Fix regression in hwc_sync
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 86202b7e82a Revert "sound: soc: Fix headset detection"
+ ▪ bae8d840288 scripts: remove unused function in sortextable.c
+ ▪ 796cd48ec24 scripts/sortextable: suppress warning: `relocs_size' may be used uninitialized
+ ▪ 0011a99a1a1 kconfig: Fix warning "‘jump’ may be used uninitialized"
+ ▪ 5f03aa5d4d2 X.509: remove possible code fragility: enumeration values not handled
+ ▪ 82bf2b199ef kbuild: Makefile.clean: make Kbuild and Makefile optional
+ ▪ c11dad5d9a2 ASoC: Fix Kconfig warning
+ ▪ 182eb6a4fb6 misc: Fix Kconfig warnings
+ ▪ 2a776c1dde2 sound: soc: Fix headset detection
+
+ ▪ project lineage/jenkins/
+ ▪ 96e020e hudson: Kill D2
+
+ ▪ project lineage/mirror/
+ ▪ 471449d mirror: Updated to 10-Apr-17 06:30:00 UTC
+
+ ▪ project packages/apps/Snap/
+ ▪ 2ecc334e4 CameraControls: Toggle the status of disabled views
+ ▪ 7e10f005f Never remove unsupported controls
+ ▪ 30ba55822 WideAnglePanoramaUI: Correctly position the progressbar
+
+ ▼ 04/10/2017
+
+
+ ▪ project frameworks/base/
+ ▪ d234822a815 Revert "SystemUI: Add SlotId for MultiSim"
+
+ ▪ project kernel/asus/msm8916/
+ ▪ e3e33b8175f msm: kgsl: Fix direct references to HZ Make the various timeout values HZ agnostic by using the proper macros and values instead.
+ ▪ 4662dce62f5 arch/arm: dts: Add pstore DT configuration
+ ▪ 332787603be fs/pstore: Fix undefined variables
+ ▪ 8a6f143e6f9 fs/pstore: Use memcpy_fromio() to save old ramoops buffer
+ ▪ 3aad5be1c09 fs/pstore: Use memcpy_toio instead of memcpy
+ ▪ 65356883687 fs/pstore: Enable pstore/ramoops dump for kernel panics
+ ▪ 45c52fe3996 BACKPORT: posix_acl: Clear SGID bit when setting file permissions
+ ▪ 49cd3feacb6 UPSTREAM: udp: properly support MSG_PEEK with truncated buffers
+ ▪ d516ac35fdb ext4: validate s_first_meta_bg at mount time
+ ▪ 99ef76d6d9c libceph: introduce ceph_crypt() for in-place en/decryption
+ ▪ f6e0442cbc9 BACKPORT: fs: limit filesystem stacking depth
+ ▪ da4a14b0f8a sdcardfs: limit stacking depth
+ ▪ 1be034f7dc3 config : enable sdcard fs
+ ▪ 5b645381576 ANDROID: mnt: remount should propagate to slaves of slaves
+ ▪ 1b68005eed7 ANDROID: sdcardfs: Don't bother deleting freelist
+ ▪ 3c5eb239e16 ANDROID: vfs: Missed updating truncate to truncate2
+ ▪ 589be728e9b BACKPORT: smarter propagate_mnt()
+ ▪ 6c69189419a BACKPORT: don't bother with propagate_mnt() unless the target is shared
+ ▪ 09473009e90 ANDROID: sdcardfs: support direct-IO (DIO) operations
+ ▪ 3a7d94e139a ANDROID: sdcardfs: implement vm_ops->page_mkwrite
+ ▪ cb1f9940c84 ANDROID: sdcardfs: Add missing path_put
+ ▪ 16996e4752c ANDROID: sdcardfs: Fix incorrect hash
+ ▪ e27ea9b4aab ANDROID: sdcardfs: Switch strcasecmp for internal call
+ ▪ e64b9175b40 ANDROID: sdcardfs: switch to full_name_hash and qstr
+ ▪ 2699b44fcb1 ANDROID: sdcardfs: Add GID Derivation to sdcardfs
+ ▪ 2bd80bf54a7 ANDROID: sdcardfs: Remove redundant operation
+ ▪ c1000689c45 ANDROID: sdcardfs: add support for user permission isolation
+ ▪ 789e4e3fa69 ANDROID: sdcardfs: Refactor configfs interface
+ ▪ 7a56fe91ba3 ANDROID: sdcardfs: Allow non-owners to touch
+ ▪ a08d7128ff2 constify ->actor
+ ▪ 042a3a889a4 introduce ->iterate(), ctx->pos, dir_emit()
+ ▪ 81d109f9b8d introduce iterate_dir() and dir_context
+ ▪ 937d157b5d9 vfs: Add setattr2 for filesystems with per mount permissions
+ ▪ 61815c4d59a vfs: Allow filesystems to access their private mount data
+ ▪ 5e9c79f7140 mnt: Add filesystem private data to mount points
+ ▪ ccc0834a400 fuse: Add support for d_canonical_path
+ ▪ 5bc98a9fde6 ANDROID: sdcardfs: Fix locking issue with permision fix up
+ ▪ 1e9d139543d sdcardfs: Use per mount permissions
+ ▪ 9519a94f530 sdcardfs: Add gid and mask to private mount data
+ ▪ a5146051342 sdcardfs: User new permission2 functions
+ ▪ 18ea9714e5c sdcardfs: Move directory unlock before touch
+ ▪ 5b3b7c81d16 sdcardfs: fix external storage exporting incorrect uid
+ ▪ 01191bcf8a9 sdcardfs: Added top to sdcardfs_inode_info
+ ▪ 8d050bf9fac sdcardfs: Switch package list to RCU
+ ▪ 97d53b48beb sdcardfs: Fix locking for permission fix up
+ ▪ 7c86513c1ed sdcardfs: Check for other cases on path lookup
+ ▪ 2cbb29fb88e sdcardfs: override umask on mkdir and create
+ ▪ c11a792973b ANDROID: sdcardfs: fix itnull.cocci warnings
+ ▪ d102383b2f1 sdcardfs: Truncate packages_gid.list on overflow
+ ▪ 3918c23db02 vfs: Add permission2 for filesystems with per mount permissions
+ ▪ d6e36dfa343 vfs: change d_canonical_path to take two paths
+ ▪ 2e3083cb385 inotify: Fix erroneous update of bit count
+ ▪ a0f88fecf18 vfs: add d_canonical_path for stacked filesystem support
+ ▪ c05d149a03d sdcardfs: remove unneeded __init and __exit
+ ▪ 448bf13839e sdcardfs: Remove unused code
+ ▪ 35f6cb04d4d sdcardfs: remove effectless config option
+ ▪ 5c870606462 sdcardfs: Add support for d_canonicalize
+ ▪ 3f6e7999e88 sdcardfs: Bring up to date with Android M permissions:
+ ▪ ff357adbb35 sdcardfs: Changed type-cast in packagelist management
+ ▪ 92d6e5c55e3 sdcardfs: port to 3.10
+ ▪ 9db17173dc5 Initial port of sdcardfs
+
+ ▪ project lineage/jenkins/
+ ▪ 77d4492 Rebalance build targets
+
+ ▪ project lineage/stats/
+ ▪ bb7e276 Enable stats dumps to json
+
+ ▪ project lineage/wiki/
+ ▪ eada6f2 devices: lettuce and tomato now on 14.1
+
+ ▪ project packages/apps/CMParts/
+ ▪ f9c8771 PerfProfileSettings: Update slider on powersave mode change
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ a70b0a2 Show update frequency option when download list is empty
+
+ ▪ project packages/apps/Snap/
+ ▪ f262e1a30 Snap: CaptureModule: set switcher index on resume
+ ▪ 054040364 Snap: CaptureUI: fix ModuleSwitcher being invisible
+
+ ▪ project packages/services/Telephony/
+ ▪ d0f7c5fc telephony: fix crash when missing simcard
+ ▪ d9a24af8 VoicemailSettingsActivity: Fix NPE
+
+ ▪ project vendor/cm/
+ ▪ 5efa4cb3 Add email app to device idle whitelist.
+
+ ▪ project vendor/cmsdk/
+ ▪ 4b14ba4 PerformanceManager: Don't override the user preference
+ ▪ b19fe20 PerformanceManager: Don't force powersave mode with powersave profile
+
+ ▼ 04/09/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 527e2073247 PowerManager: Bring back the compatibility with AOSP
+
+ ▪ project lineage/mirror/
+ ▪ 7ae79d8 mirror: Update to 08-Apr-17 16:02:57 UTC
+
+ ▪ project lineage/website/
+ ▪ 92b99f5 Add gemfile for jenkins deployments
+
+ ▪ project lineage/wiki/
+ ▪ f28d3e9 Add costs page
+
+ ▪ project vendor/cm/
+ ▪ a07a9759 kernel: Include openssl headers and dylibs on darwin
+ ▪ 76330f76 Revert "YOLO"
+ ▪ dff9cc7d Revert "Br0Zip"
+
+ ▼ 04/08/2017
+
+
+ ▪ project frameworks/native/
+ ▪ 82c472605 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+ ▪ project lineage/cve/
+ ▪ 2e802b1 cvetracker: Add grouper to grouper kernel
+
+ ▪ project lineage/jenkins/
+ ▪ 9286a50 switch s2 to 14.1
+ ▪ 8785193 switch zl1 to 14.1
+
+ ▼ 04/07/2017
+
+
+ ▪ project lineage/wiki/
+ ▪ 44d902e wiki: Using gerrit: Improve
+
+ ▪ project packages/apps/CarrierConfig/
+ ▪ 8821cae Consider Q-TELECOM Greece as non-roaming
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 54654ae8b Fix spelling error
+
+ ▪ project vendor/cm/
+ ▪ bb6e0e26 build: Update smali and baksmali to 2.2.0
+
