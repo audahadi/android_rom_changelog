@@ -1,0 +1,118 @@
+
+ ▼ Lineage OS CM-14.1 2017-04-19 Changelog
+
+
+ ▼ 04/19/2017
+
+
+ ▪ project device/asus/msm8916-common/
+ ▪ 40f695d overlay:lower max brightness
+
+ ▪ project lineage/crowdin/
+ ▪ ce3a685 config: cm-14.1: Add plurals.xml to CMParts
+
+ ▪ project lineage/mirror/
+ ▪ c30b8cb Updated to 18-Apr-17 21:01:51 UTC
+
+ ▪ project lineage/website/
+ ▪ 20f5170 Last couple of weeks at LineageOS (W/C 3rd April)
+
+ ▪ project lineage/wiki/
+ ▪ 17aa89b Add maintainers back to d2
+ ▪ 6d08d65 wiki: Show download link based on maintainers
+ ▪ b7f0ca6 contributors: Update Wiki Editors list
+
+ ▪ project vendor/asus/
+ ▪ 4e3ea7d add msm_irqbalance blob
+
+ ▼ 04/18/2017
+
+
+ ▪ project lineage/wiki/
+ ▪ aaec324 devices: Add myself to bacon, ham, kipper
+ ▪ 9918dfa devices: some minor corrections / additions
+
+ ▪ project system/extras/
+ ▪ b5332df Update verity_verifier from master branch
+ ▪ 196ed2f verity: Include libcrypto_utils_static
+ ▪ 252fe23 Revert "Revert "Switch to BoringSSL for crypto.""
+ ▪ 442b784 Revert "Switch to BoringSSL for crypto."
+
+ ▼ 04/17/2017
+
+
+ ▪ project lineage/wiki/
+ ▪ 15a7050 devices: Add supported models for Motorola devices.
+ ▪ 5b8e8ac wiki: Remove Github Pages mention
+
+ ▼ 04/16/2017
+
+
+ ▪ project lineage/wiki/
+ ▪ 0ea8140 devices: Update info for bq devices
+ ▪ 246dc02 devices: add lg l90 (w7)
+
+ ▼ 04/15/2017
+
+
+ ▪ project frameworks/base/
+ ▪ bdf823ed22a fingerprint: notify client when cancelling succeeded
+ ▪ dbfbf86d6df Various fixes and cleanups after 7.1.2 merge
+ ▪ d597cd5a871 Zygote: Fix GL preload property evaluation
+
+ ▪ project hardware/qcom/audio/default/
+ ▪ 26276395 msm8960: define HFP_ASM_RX_TX 24
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 4496900e587 Revert "sound: soc: Fix headset detection"
+ ▪ 0b36600480b scripts: remove unused function in sortextable.c
+ ▪ b8c617776eb scripts/sortextable: suppress warning: `relocs_size' may be used uninitialized
+ ▪ 5884b598b69 kconfig: Fix warning "‘jump’ may be used uninitialized"
+ ▪ 4f0c3703248 X.509: remove possible code fragility: enumeration values not handled
+ ▪ 9404dadfc07 kbuild: Makefile.clean: make Kbuild and Makefile optional
+ ▪ a8ea7646a59 ASoC: Fix Kconfig warning
+ ▪ 0723ad14d1a misc: Fix Kconfig warnings
+ ▪ 73def97e017 sound: soc: Fix headset detection
+ ▪ 26a1ce55761 msm: kgsl: Fix direct references to HZ Make the various timeout values HZ agnostic by using the proper macros and values instead.
+ ▪ 206ee398920 arch/arm: dts: Add pstore DT configuration
+
+ ▪ project lineage/wiki/
+ ▪ dda1c6b wiki: import gts210 family, ham, i9305, n51xx
+ ▪ d42c3c6 wiki: Add essentials for making a device official
+
+ ▼ 04/14/2017
+
+
+ ▪ project frameworks/av/
+ ▪ 4a9859015 stagefright: Fix SurfaceMediaSource buffer search condition when buffer return
+
+ ▪ project frameworks/base/
+ ▪ 33e31be6d39 systemui: Fix DE translation for navbar buttons
+ ▪ b531f7e3900 Show lockscreen wallpaper when blur effect is enabled
+
+ ▪ project lineage/jenkins/
+ ▪ b67e81e hudson: bring back w7
+
+ ▪ project lineage/mirror/
+ ▪ 4d8cf8c mirror: Updated to 13-Apr-17 16:40:00 UTC
+
+ ▼ 04/13/2017
+
+
+ ▪ project changelog/
+ ▪ 6c9df34 LineageOS_14.1_2017-04-13
+
+ ▪ project lineage/jenkins/
+ ▪ cf9e05d hudson: Temporarily remove ether until it gets cleaned up
+
+ ▪ project lineage/wiki/
+ ▪ 245cbb0 wiki: Less external main-links
+ ▪ f0d0eb3 wiki: Don't break mid-word
+ ▪ 803c0a3 devices: Add lt02ltespr
+ ▪ 7ffdf08 wiki: Underp filtering of peripherals
+ ▪ 21ed3ac wiki: contributors: Add other projects
+ ▪ 0b84053 wiki: Pimp "Contributors" page
+
+ ▪ project packages/apps/Nfc/
+ ▪ 3090980 Nfc: Include android-support-v4 for the NXP stack
+
