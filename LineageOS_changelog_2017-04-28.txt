@@ -1,0 +1,162 @@
+
+ ▼ Lineage OS CM-14.1 2017-04-28 Changelog
+
+
+ ▼ 04/27/2017
+
+
+ ▪ project frameworks/base/
+ ▪ bf7e2ac6b9d Automatic translation import
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6bace74d msm8996: audio: Add l/r mic swapping when using stereo mics
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 59056b9273a Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.15' into HEAD
+
+ ▪ project packages/apps/Settings/
+ ▪ c50d9a6163 added zuk Z2 plus (#768)
+ ▪ a642167f32 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 29b0b0a29 Trebuchet: lineage launcher icon
+ ▪ c9e76546f Trebuchet: Do not crash if normalized string for sorting is empty
+
+ ▪ project packages/services/OmniJaws/
+ ▪ aaaf9d0 Automatic translation import
+
+ ▼ 04/26/2017
+
+
+ ▪ project frameworks/base/
+ ▪ b250de637b9 Fix animation duration for custom animations
+ ▪ 89aed696492 Automatic translation import
+ ▪ 4863e2520d4 Fix DUI slippery flag logic and IllegalArgumentException [2/2]
+ ▪ 1650a12b5b5 Need to resize new created stack to fullscreen after docked stack tasks has moved into it.
+ ▪ cda2cbe4719 Fix race condition when writing UidState of appops.
+ ▪ 000c5b89025 Fix PacketKeepalive.stop() crash
+ ▪ deef9431fa7 ActivityStack index OOB cause device restart
+ ▪ 07a5433bbbc Remove force weather update bits
+ ▪ 48f1315eb5f Redundant waiting time of keyguard unlocking after reboot
+ ▪ 7911e226488 Make sure that the device name is not null before returning it
+ ▪ 8c3fb3ba6fd Fix a null pointer exception in FragmentManager
+ ▪ aa5f6e69909 Keyguard: Move CAF strings to cm_strings.xml.
+ ▪ 405c66701f7 Automatic translation import
+ ▪ 94a3bb6da2e fingerprint: notify client when cancelling succeeded
+ ▪ 2e7a8386df1 Revert "base: services: add config_fingerprintRemoveClientOnCancel"
+
+ ▪ project frameworks/opt/telephony/
+ ▪ bc432281 Create cdma dummy apns.
+
+ ▪ project packages/apps/DUI/
+ ▪ 8f840c5 Fix DUI slippery flag logic and IllegalArgumentException [1/2]
+
+ ▪ project packages/apps/Dialer/
+ ▪ 5249b9ed3 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 1f0ec6ea1 Revert "Gallery2: hide navigation bar when we turn off lights"
+
+ ▪ project packages/apps/Settings/
+ ▪ 52d6890345 Settings: Custom animation duration settings [2/2]
+ ▪ 34684704a9 Automatic translation import
+ ▪ 4382afda13 Screenshot Delay:Make it faster optionally
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 9936dc3 README: Recommend Interfacer be put in the services folder
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ 99649a575 Don't show market links if market app is protected
+ ▪ 1cc5cef42 Trebuchet: use normalized strings for sorting into bucket
+
+ ▪ project packages/services/OmniJaws/
+ ▪ b983f09 Automatic translation import
+ ▪ 772c1b8 OmniJaws: remove separation between force and not force update
+ ▪ 7193cd8 OmniJaws: add fetch weather data retry loop
+
+ ▼ 04/25/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 483008b9f00 Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ fac35909f Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 3582594995 Automatic translation import
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 97eceaf JobService: Transition to the Binder Interprocess Communication System
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 598974e Automatic translation import
+
+ ▼ 04/24/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 6c1934d052f Automatic translation import
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ fc1c0d9f Add special case for stereo camcorder
+ ▪ 97baada3 hal: Featureize APE/VORBIS/WMA offload support
+
+ ▪ project packages/apps/OmniSwitch/
+ ▪ e6a68a9 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ ad6b021631 Automatic translation import
+ ▪ e27dd961fa Add Galaxy S7/edge maintainer (#761)
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 342da5a Automatic translation import
+
+ ▼ 04/23/2017
+
+
+ ▪ project external/stagefright-plugins/
+ ▪ 3846013 Revert "codecs: Disable AC3/EAC3"
+
+ ▪ project frameworks/base/
+ ▪ 4bbc37b55f7 Automatic translation import
+ ▪ 5dc497d1eb0 Revert "Fix exploit where can hide the fact that a location was mocked"
+
+ ▪ project packages/apps/Dialer/
+ ▪ 30ec2b60d Automatic translation import
+
+ ▪ project packages/apps/ResurrectionOTA/
+ ▪ 6779a69 Automatic translation import
+
+ ▪ project packages/apps/ResurrectionStats/
+ ▪ 20c446d Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ a27c59e489 Automatic translation import
+ ▪ d40aee26bb Update Moto G4 Plus Maintainer (#760)
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 288eeda Automatic translation import
+
+ ▼ 04/22/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 62992142f16 Automatic translation import
+
+ ▪ project hardware/qcom/fm/
+ ▪ 51e71fd libfm_jni: Fix strchr implicit char* typecast in ConfFileParser
+ ▪ 56dd18a libjm_jni: Missing liblog dependency and jni core headers
+
+ ▪ project packages/apps/Dialer/
+ ▪ a4ce9ad2a Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 22974ab37a Fix screenshots delay default value
+ ▪ c166531de4 Automatic translation import
+ ▪ 71280d1db3 Add me as Sirius maintainer (#758)
+ ▪ 304dc7702b Fix the build up !
+
+ ▪ project packages/services/OmniJaws/
+ ▪ ccb0711 Automatic translation import
+
