@@ -1,0 +1,306 @@
+
+ ▼ Lineage OS CM-14.1 2017-05-04 Changelog
+
+
+ ▼ 05/04/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ 616bf9a recovery: Fix event system
+
+ ▪ project frameworks/av/
+ ▪ faa8b85e0 seccomp: Fix policy for ffmpeg
+
+ ▪ project lineage/website/
+ ▪ 786aa23 www: Minor corrections
+
+ ▪ project lineage/wiki/
+ ▪ 47ffb8b wiki: Build: Some corrections
+ ▪ 28704f5 devices: Update Z00A/Z008 maintainers
+ ▪ e3dd26e devices: asus: Add recovery install instructions
+
+ ▼ 05/03/2017
+
+
+ ▪ project art/
+ ▪ 8b0b7302c runtime: arch: support kryo for 32 bit
+
+ ▪ project bionic/
+ ▪ 22d6b5b57 libc: ARM: Add 32-bit Kryo memcpy
+ ▪ 45a39871e libc: use Cortex-A7/A53 memset on Kryo
+ ▪ ba97f82ba Add kryo support.
+
+ ▪ project bootable/recovery/
+ ▪ 8011e66 recovery: Fix UI freezing
+
+ ▪ project lineage/jenkins/
+ ▪ 2567151 Disable mako builds
+ ▪ e8b98ef Ship natrium
+
+ ▪ project lineage/updater/
+ ▪ ca277fa Add natrium to devices list
+ ▪ 9b97267 Add missing V20 devices and fix ha3g/lt02ltespr
+
+ ▪ project lineage/website/
+ ▪ 517c3ea Changelog #8 - May ASB, Jelly, Donations and More Servers (W/C 18th April)
+
+ ▪ project lineage/wiki/
+ ▪ d5a2665 us996: typo fixed from us995
+ ▪ d1a713f devices: Add HTC One A9 (hiaeul and hiauhl variants)
+ ▪ 8149598 Correct device kernels
+ ▪ d93cd8d Add Mi 5s Plus device page
+ ▪ 24b9b43 w7: update maintainers
+
+ ▼ 05/02/2017
+
+
+ ▪ project android/
+ ▪ fc78b86 manifest: android-7.1.2_r2 -> android-7.1.2_r8
+ ▪ 9182986 android: nuke browser, welcome jelly
+ ▪ 8f9085b Sync contributors cloud generator and random scripts
+
+ ▪ project build/
+ ▪ a73f68a38 Merge tag 'android-7.1.2_r8' into cm-14.1
+ ▪ dd1d7caa6 Revert "We want Browser"
+
+ ▪ project external/boringssl/
+ ▪ 8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project frameworks/av/
+ ▪ 16dcaaaca Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ abe50aacbd7 Merge tag 'android-7.1.2_r8' into cm-14.1
+ ▪ c3b68eef558 Automatic translation import
+
+ ▪ project frameworks/native/
+ ▪ b8fb318de Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project lineage/contributors-cloud-generator/
+ ▪ 0f4818f Cleanup copyrights and naming
+
+ ▪ project lineage/crowdin/
+ ▪ e7d8cf6 config: cm-14.1: add Jelly, remove Browser
+
+ ▪ project lineage/cve/
+ ▪ 11ae5e9 cve_tracker: Fix header and style
+ ▪ 44ffe83 cve_tracker: Fix back-links
+ ▪ 490caa6 cve_tracker: Add CVE-Status
+
+ ▪ project lineage/mirror/
+ ▪ fc60f8a mirror: Updated to 01-May-17 16:52 UTC
+
+ ▪ project lineage/scripts/
+ ▪ ceb8610 Add maintainers.sh script
+ ▪ 01a4ebe Initial empty repository
+
+ ▪ project lineage/updater/
+ ▪ 7cfcd77 Fix some LG devices out of order
+ ▪ 718b37b Add Samsung Galaxy Tab 3 7.0 (Sprint)
+ ▪ 82f3f5c Add exynos Samsung Galaxy Note 3 (ha3g)
+
+ ▪ project lineage/wiki/
+ ▪ e9287a3 wiki: add LG V20 pages
+ ▪ 6edc3bd Add install method to a few devices
+
+ ▪ project packages/apps/Jelly/
+ ▪ 2f41ee6 Jelly: expose toolbar elevation
+ ▪ 74270cc Jelly: history: swipe to delete
+ ▪ 244fab9 Jelly: use custom dialog for home page selection
+
+ ▪ project system/bt/
+ ▪ 85d4e422 Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project system/core/
+ ▪ d7cbf4b4c Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project vendor/cm/
+ ▪ 177ab036 cm: nuke browser, welcome jelly
+
+ ▼ 05/01/2017
+
+
+ ▪ project frameworks/base/
+ ▪ ac8641d9e4c base: don't show reboot options for safe mode
+ ▪ d1fecb13e0f SystemUI: Use already existing overlay to show QS auto brightness
+ ▪ f3faf1fffc1 SystemUI: use vector drawables for brightness icons
+ ▪ 39738c7ffc9 fix anr when concurrent request provider
+ ▪ 94d8c279b3b Ensure that the decor view is attached to window.
+ ▪ 07ece0caf97 Bad token of activity when do the launch work at the app process side.
+ ▪ aac81bb3205 Query geo description in worker thread to prevent ANR
+ ▪ 45bff3775d9 remove duplicated incorrectly code in ProcessRecord
+ ▪ bdb9183230f fix foreground process will be mistakenly killed when it uses content provider.
+ ▪ 400822e62c2 Fix PacketKeepalive.stop() crash
+ ▪ 217b8fcd22c FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+ ▪ 525f760c0be Restart persistent process if start timeout.
+ ▪ 105067d0bcf fix system_server crash issue caused by fd leak.
+ ▪ eefd167d308 base: LocationTile detail
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 3c3d9a3b1c6 Android: sdcardfs: Don't complain in fixup_lower_ownership
+ ▪ 7b6a4221f51 ANDROID: sdcardfs: ->iget fixes
+ ▪ 7a61908251b Android: sdcardfs: Change cache GID value
+ ▪ 8888c87b941 ANDROID: sdcardfs: Directly pass lower file for mmap
+ ▪ 1e006c7e0c0 ANDROID: sdcardfs: update module info
+ ▪ 427f72f5bb3 ANDROID: sdcardfs: use d_splice_alias
+ ▪ af1e0157417 ANDROID: sdcardfs: fix ->llseek to update upper and lower offset
+ ▪ 72d679d1bea ANDROID: sdcardfs: copy lower inode attributes in ->ioctl
+ ▪ e022bc7f6b3 ANDROID: sdcardfs: remove unnecessary call to do_munmap
+ ▪ 4888328fb4a ANDROID: sdcardfs: Fix style issues in macros
+ ▪ e7ed7185f69 ANDROID: sdcardfs: Use seq_puts over seq_printf
+ ▪ 5dcfa5b753d ANDROID: sdcardfs: Use to kstrout
+ ▪ 6d11cdcc297 ANDROID: sdcardfs: Use pr_[...] instead of printk
+ ▪ bf24da45cd2 ANDROID: sdcardfs: remove unneeded null check
+ ▪ 59988300fd7 ANDROID: sdcardfs: Fix style issues with comments
+ ▪ 24cd1481d7f ANDROID: sdcardfs: Fix formatting
+ ▪ 0e17cd929c4 ANDROID: sdcardfs: correct order of descriptors
+ ▪ 37e2d134d3c ANDROID: sdcardfs: Fix gid issue
+ ▪ 38c66b504cc ANDROID: sdcardfs: Use tabs instead of spaces in multiuser.h
+ ▪ cd79d88ebd2 ANDROID: sdcardfs: Remove uninformative prints
+ ▪ 24dce6eabb4 ANDROID: sdcardfs: move path_put outside of spinlock
+ ▪ 191f0ea2e13 ANDROID: sdcardfs: Use case insensitive hash function
+ ▪ 349923681f5 ANDROID: sdcardfs: declare MODULE_ALIAS_FS
+ ▪ b27c9a8e9f5 ANDROID: sdcardfs: Get the blocksize from the lower fs
+ ▪ dfcc65e5c6f ANDROID: sdcardfs: Use d_invalidate instead of drop_recurisve
+ ▪ 34d8183590c ANDROID: sdcardfs: Switch to internal case insensitive compare
+ ▪ ac45679732e ANDROID: sdcardfs: Use spin_lock_nested
+ ▪ 3983edfd717 ANDROID: sdcardfs: Replace get/put with d_lock
+ ▪ 9f8308275f8 ANDROID: sdcardfs: rate limit warning print
+ ▪ ff2bab90565 ANDROID: sdcardfs: Fix case insensitive lookup
+
+ ▪ project lineage/cve/
+ ▪ 6ac1e8f cve_tracker: Minor code fixes
+
+ ▪ project lineage/mirror/
+ ▪ 892f549 mirror: Fix heading and script name
+ ▪ a438997 mirror: Add mirror-regen script
+
+ ▪ project lineage/website/
+ ▪ 08b1330 www: add PayPal link to footer
+
+ ▪ project packages/apps/Jelly/
+ ▪ 17755b3 Jelly: add option to clear cookies
+
+ ▪ project system/extras/su/
+ ▪ 7344440 su: Don't start daemon for adb only mode
+
+ ▼ 04/30/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ 5d701cc recovery: Complete project pathmap usage
+
+ ▪ project lineage/ansible/
+ ▪ 423429e add maven to build slaves
+
+ ▪ project packages/apps/Jelly/
+ ▪ 13c1311 Jelly: Fix typo
+
+ ▪ project vendor/cm/
+ ▪ ca8cd53b cm: Remove obsolete and unused overlays and configs
+
+ ▼ 04/29/2017
+
+
+ ▪ project bootable/recovery/
+ ▪ 39ce741 Revert "recovery:updater: Changes to support 32->64 bit upgrades"
+
+ ▪ project build/
+ ▪ 7a517a0e3 Revert "build: releasetools: ota: Add support for 32-64 bit upgrades"
+
+ ▪ project device/qcom/common/
+ ▪ 0dc3673 recovery: Use project pathmap for recovery
+
+ ▪ project hardware/libhardware_legacy/
+ ▪ ec33ac3 wifi: add firmware loader support for the non-LKM case
+
+ ▪ project hardware/qcom/fm/
+ ▪ d17952e Automatic translation import
+
+ ▪ project lineage/jenkins/
+ ▪ 1f17253 hudson: Remove nicki (Sony Xperia M)
+
+ ▪ project lineage/updater/
+ ▪ 334b331 Add Galaxy S4 Mini Dual SIM (serranodsdd)
+
+ ▪ project lineage/wiki/
+ ▪ 010a69a wiki: Remove nicki maintainers (Sony Xperia M)
+ ▪ 1bd39c3 wiki: costs: Update permalink
+
+ ▪ project packages/apps/CMParts/
+ ▪ 1e3c0b4 Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ dc6bdeb Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ b7d1a8b Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ ecc144ce7 Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 7c2b32d Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ d5d1e6947 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ ed6763f13 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ be5e9c9 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 9b9c5c9 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 3ad29ebbb1 Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 8518aa3 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 1d0e136c0 Automatic translation import
+
+ ▪ project system/core/
+ ▪ 3efb4eca7 fs_mgr: Use project pathmap for recovery
+ ▪ 783cb54ee healthd: Use project pathmap for recovery
+
+ ▪ project system/extras/
+ ▪ f30ae7f Use project pathmap for recovery
+
+ ▪ project vendor/cm/
+ ▪ d67ef782 addonsu: Add Lineage version to zip name
+
+ ▪ project vendor/cmsdk/
+ ▪ e2c64b8 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 5de40fe Automatic translation import
+
+ ▼ 04/28/2017
+
+
+ ▪ project changelog/
+ ▪ 8361694 LineageOS_14.1_2017-04-28
+
+ ▪ project frameworks/base/
+ ▪ 3de2807241d SystemUI: Use AOSP AutoBrightness implementation
+ ▪ fe901354f87 Revert "SystemUI: [RJIL new function] AutoBrightness"
+ ▪ 81cc243b415 Revert "SystemUI: Fix QSTileHost exception"
+
+ ▪ project lineage/jenkins/
+ ▪ e28728a hudson: Add more V20 variants
+
+ ▪ project lineage/mirror/
+ ▪ 2d24faf mirror: Updated to 27-Apr-17 14:40 UTC
+
+ ▪ project lineage/wiki/
+ ▪ 51769d8 Update costs, add paypal
+ ▪ c235912 devices: Add ha3g
+
+ ▪ project packages/apps/Settings/
+ ▪ df80559148 Revert "Settings: Lost cached BT devices in found devices list"
+ ▪ 9663c3179f Settings[Wifi]: fix the input invalid length for WEP encryption.
+
