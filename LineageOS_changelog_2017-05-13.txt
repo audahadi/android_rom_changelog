@@ -1,0 +1,144 @@
+
+ ▼ Lineage OS CM-14.1 2017-05-13 Changelog
+
+
+ ▼ 05/13/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 23be04d0 msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▪ project lineage/cve/
+ ▪ 1e3f1bc cve_tracker: Add the rest of Xiaomi msm8996 devices
+
+ ▼ 05/12/2017
+
+
+ ▪ project lineage/cve/
+ ▪ 88d6626 cve_tracker: Fix progress-bar value when patching
+ ▪ d1207a0 app: support for disabling auth
+
+ ▼ 05/11/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 12f09031d6a SystemUI: Add tunable for auto brightness icon
+ ▪ 4bb74af81a2 Validate handler of wakelock option for flashlight.
+
+ ▪ project hardware/qcom/display/
+ ▪ 03afd1014 hwc2: Only set display_width and display_height when equal to zero
+
+ ▪ project lineage/cve/
+ ▪ cf9dd13 cve_tracker: Add vs985 to G3 devices
+ ▪ 4f7a9ef run script: pass all args to flask
+
+ ▪ project packages/apps/CMParts/
+ ▪ 58e24bd CMParts: add brightness slider tunables
+
+ ▪ project vendor/cmsdk/
+ ▪ 2b1cf2b cmsdk: Add CMSettings option for QS auto brightness
+
+ ▼ 05/10/2017
+
+
+ ▪ project lineage/cve/
+ ▪ c2d546a index: fix alignment of footer links
+ ▪ d0062ed app: compute version on startup
+ ▪ af355a5 cve: hook up authentication to front-end
+ ▪ fce8368 app: add support for unauthenticated viewing
+
+ ▪ project lineage/jenkins/
+ ▪ e2b5abf Revert "Disable v521"
+
+ ▪ project lineage/wiki/
+ ▪ 0a13aa5 wiki: correct v521 info
+ ▪ 10e03c2 wiki: Add V521
+
+ ▼ 05/09/2017
+
+
+ ▪ project kernel/asus/msm8916/
+ ▪ 55ea1e764f4 drivers/staging/prima : update to LA.BR.1.2.9_rb1.16
+ ▪ e614e5ba656 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.16' into HEAD
+
+ ▪ project lineage/ansible/
+ ▪ 0c21a53 update inventory/site.yml for new boxes
+ ▪ 01dc2fe stats setup
+ ▪ 47f1804 JIRA setup
+ ▪ 05ceb99 become root for build slaves
+ ▪ 431529f rsync whitelist: ad super.net.sg new IP
+
+ ▪ project lineage/stats/
+ ▪ 1df69f4 Add COLLECT_ONLY config option, as there are far too many items to actually display right now
+
+ ▪ project lineage/updater/
+ ▪ 23033e5 Missing quotes in check_builds
+
+ ▪ project lineage/wiki/
+ ▪ 2f0f9e5 costs: stats needed a larger instance
+ ▪ d97ee6b Add sendgrid to costs
+
+ ▪ project packages/apps/DeskClock/
+ ▪ 3f87ce61 DeskClock: Use accelerometer instead of orientation sensor
+ ▪ 0adea055 DeskClock: Move default action for flip and shake to overlay
+ ▪ 8ca73f73 DeskClock: Fix "GoogleNow cancel alarms crash"
+
+ ▪ project system/core/
+ ▪ 28cbdd146 Revert "init.rc: set initial cpuset to all cores"
+
+ ▼ 05/08/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 3f98df2a15e telecom: Fix order of arguments when creating Details object
+
+ ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ b7a301067 display: Add color metadata definition
+
+ ▪ project lineage/wiki/
+ ▪ 0b70c76 wiki: Fix link visibility on 'alert' sections
+ ▪ dba1c23 wiki: Tweak GitHub link
+
+ ▪ project packages/apps/Snap/
+ ▪ 31499ecf2 Snap: Fix crash switching from back to front cam in video mode
+
+ ▪ project system/core/
+ ▪ ada295f88 init.rc: set initial cpuset to all cores
+
+ ▼ 05/07/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 99617f93 Configs: remove audio sink buffer size property
+ ▪ a9f2c000 hal: fix kw issue in hal
+ ▪ 61918047 hal: remove redundant logs from utils.c
+ ▪ 905d1d8f audiod: Skip enumerating non-ADSP sound cards
+
+ ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ 26cd5045c display: Add color metadata definition
+ ▪ eb495123a sdm: Use ColorMetadata in SDM
+ ▪ 37d5aff1b display: Add support for Rec.2020
+ ▪ b6a2bfbd5 sdm: Use safe mode on External display on low end device
+ ▪ 9c6421096 HWC: Set skip to layers with Non Integral Source Crop
+ ▪ 93afadf42 sdm: skip null commit on command mode panels
+ ▪ 2428bc491 libmemtrack: Fix integer overflow in kgsl function
+
+ ▪ project hardware/qcom/media-caf/msm8937/
+ ▪ de0c52ed5 media: libOmxSw encoders require prop headers :(
+ ▪ fcd1cfd90 mm-video-v4l2: serialize FTB's for dropped frames
+ ▪ 057d1c7bf mm-video-v4l2: vidc: venc: Free buffer FDs and handles
+ ▪ a5da2d3e6 mm-video-v4l2: vdec: Support for HEVCMain10HDR10 profile
+ ▪ 76dd49f77 mm-video-v4l2: Update max level for h264 decoder to 5.1
+ ▪ 46aa731c9 mm-video-v4l2: venc: Disable Pframes incase of resolution 5k/6k
+ ▪ 5dc8e7ec4 mm-video-v4l2: Reset drv_ctx o/p buffer requirements in loaded state
+ ▪ 0a4ad7e00 mm-video-v4l2: vdec: Convert maximum display luminance in cd/m2
+ ▪ 9e702ea45 mm-video-v4l2: vdec:Metadata for HDR and ColorAspects
+ ▪ 6076eb611 mm-video-v4l2: vdec: Support for HDR Info extension
+
+ ▪ project lineage/cve/
+ ▪ 642e2a0 cve_tracker: seed: prevent double entries
+
+ ▪ project lineage/jenkins/
+ ▪ ceb3679 Disable v521
+ ▪ 109948c Readd ether
+
