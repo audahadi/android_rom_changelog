@@ -1,0 +1,169 @@
+
+ ▼ Lineage OS CM-14.1 2017-05-18 Changelog
+
+
+ ▼ 05/18/2017
+
+
+ ▪ project build/
+ ▪ a47d7ee70 Revert "Revert "ota: Remove cruft we don't care about""
+
+ ▪ project frameworks/native/
+ ▪ c68520a0a sensorservice: Fix orientation sensor for HAL's missing rotation vector sensor
+
+ ▪ project lineage/cve/
+ ▪ bda2138 kernel: use a jquery context menu for selecting status
+ ▪ 59f4946 Fix up a couple of kernel->device mappings
+ ▪ 8e938e5 cve_tracker: Don't display deprecated kernels
+ ▪ 12afec2 cve: add enpoint for querying kernel/cve pair status
+ ▪ f91e0fe cve_tracker: Status: Remove non-required stuff
+ ▪ f540eec fix rendering in kernel template
+
+ ▪ project lineage/mirror/
+ ▪ a2adc03 Updated to 17-May-2017 06:38:41 UTC
+
+ ▪ project lineage/updater/
+ ▪ b114a0f Remove common repos with no dependencies from JSON
+ ▪ b431dcb Add exceptions to the rule for kernel->device mappings
+
+ ▼ 05/17/2017
+
+
+ ▪ project build/
+ ▪ 724e05e2e apicheck_msg_current: Don't do this in LineageOS
+
+ ▪ project lineage/ansible/
+ ▪ 5a17835 update cve tracker config
+ ▪ 81c0559 cve_tracker init
+
+ ▪ project lineage/cve/
+ ▪ e3f01fb Revert "Cache public functions for public requests"
+ ▪ f2c8690 utils: fix kernel progress calculation
+ ▪ 207d710 include flask-caching
+ ▪ 355cf82 Reduce number of monogo queries made during device/cve patch page rendering
+ ▪ d64173b Use progress everywhere, only recalc on changes
+ ▪ 2b91ce7 Enable flask_debugtoolbar
+ ▪ d6d7d2d Cache public functions for public requests
+ ▪ 7ef3d85 Migrate from flask_oauth to GitHub-Flask
+ ▪ addc701 PEP8 cleanup: use 4 spaces, do not mix spacing
+ ▪ 7e746ef include python3 virtualenv files in .gitignore
+ ▪ e51e66f cve_tracker: Calculate progress on update
+ ▪ 2afe6da cve_tracker: Determine patch status before rendering
+
+ ▼ 05/16/2017
+
+
+ ▪ project lineage/ansible/
+ ▪ 20bbda8 re-enable stats UI
+
+ ▪ project lineage/cve/
+ ▪ 459050f Revert "cve_tracker: use len() instead of .count()"
+
+ ▪ project lineage/updater/
+ ▪ 81f8c68 updater: HTTP-ise and correct links
+
+ ▪ project lineage/website/
+ ▪ 1c566de CVE tracker isn't ready for spotlight
+ ▪ ef30b29 Fix links to "kernel su-hide" reference changes
+ ▪ 197f8fc Changelog #9 - Gello, Jelly and a security advisory (W/C 2nd May)
+
+ ▪ project system/keymaster/
+ ▪ a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+
+ ▼ 05/15/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6e8e9c54 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 332f57a2b Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 87965a028 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project lineage/cve/
+ ▪ 7a503a3 cve_tracker: use len() instead of .count()
+ ▪ 038f9a2 cve_tracker: Display vendors on each row
+ ▪ 19adb90 cve_tracker: Display numerical progress
+ ▪ cc32996 cve_tracker: Also redeploy templates when they were changed
+ ▪ 92fcb58 cve_tracker: Also count "does not apply" as progress
+ ▪ b9f3a98 Update kernel to device mappings
+
+ ▪ project lineage/mirror/
+ ▪ c7a6b1c Updated to 14-May-2017 18:51:13 UTC
+ ▪ 3b07946 mirror: Sort repos
+ ▪ fe0ca78 Updated to 14-May-2017 18:11:04 UTC
+ ▪ 609748d New Python mirror-regen script
+ ▪ 0e2aa06 Updated to 14-May-17 14:24:00 UTC
+
+ ▪ project lineage/scripts/
+ ▪ e0f5ea8 Add capability for checking CVE json
+
+ ▪ project lineage/stats/
+ ▪ 1c89d61 migration: no_cache is required due to memory overhead
+ ▪ 7cbabe1 New agggregate table.
+
+ ▪ project lineage/updater/
+ ▪ 57e3e4a Sort repos in kernels.json
+ ▪ aa571cf Sort kernels.json alphabetically
+ ▪ 37f2557 Add final step to device deps generator
+ ▪ ebbc791 Add device_deps.json regeneration scripts
+
+ ▪ project packages/apps/AudioFX/
+ ▪ e696bf0 AudioFX: Fix choppy preset transitions
+
+ ▪ project packages/apps/Jelly/
+ ▪ eab04da Jelly: lint cleanup
+ ▪ a8dcb76 Jelly: Don't sign the app with a system certificate
+ ▪ 5e5fb97 Jelly: Fix storage permission check
+ ▪ c315497 Jelly: add Desktop mode toggle
+ ▪ 5859bc6 Jelly: Actually disable cookies
+ ▪ fd7418e Jelly: Flush cookies when calling onStop()
+ ▪ eb6375d Jelly: Don't make app persistent
+ ▪ 2d4853b Jelly: Add proguard rules
+ ▪ d583aad Jelly: Improve URL/search query handling
+ ▪ 21c6894 Jelly: strings: Various pedantics
+
+ ▼ 05/14/2017
+
+
+ ▪ project changelog/
+ ▪ b667be5 LineageOS_14.1_2017-05-13
+
+ ▪ project external/chromium-webview/
+ ▪ b544e48 Update README
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 23be04d0 msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▼ 05/13/2017
+
+
+ ▪ project lineage/cve/
+ ▪ 1e3f1bc cve_tracker: Add the rest of Xiaomi msm8996 devices
+ ▪ 88d6626 cve_tracker: Fix progress-bar value when patching
+
+ ▼ 05/12/2017
+
+
+ ▪ project android/
+ ▪ f9ffaa1 cm: Remove Gello
+
+ ▪ project frameworks/base/
+ ▪ 12f09031d6a SystemUI: Add tunable for auto brightness icon
+ ▪ 4bb74af81a2 Validate handler of wakelock option for flashlight.
+
+ ▪ project lineage/cve/
+ ▪ d1207a0 app: support for disabling auth
+ ▪ cf9dd13 cve_tracker: Add vs985 to G3 devices
+
+ ▪ project packages/apps/CMParts/
+ ▪ 58e24bd CMParts: add brightness slider tunables
+
+ ▪ project vendor/cm/
+ ▪ fbaeadb8 cm: Remove Gello
+
+ ▪ project vendor/cmsdk/
+ ▪ 2b1cf2b cmsdk: Add CMSettings option for QS auto brightness
+
